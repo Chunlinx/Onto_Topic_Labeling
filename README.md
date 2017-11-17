@@ -25,7 +25,7 @@ This is the demo source code for the paper submission to **[Statistical Analysis
   <img width="auto" height="auto" src="https://preview.ibb.co/cXbmYR/2017_11_17_17_40_19.png">
 </p>
 
-**Note**: this source code only contains the training data and extracted concepts of 18 ACM's topics, includes: *artificial_intelligence, bioinformatics, computer_architecture, computer_network, computer_security, computer_vision, data_mining, database, embedded_system, hardware, information_retrieval, machine_learning, mathematical_optimization, natural_language_processing, operating_system, parallel_computing, programming_language, real-time_computing*
+**Note**: this source code only contains the training data and extracted concepts of 9 ACM's topics, includes: *artificial_intelligence, bioinformatics, computer_architecture, computer_security, computer_vision, database, embedded_system, machine_learning, mathematical_optimization, programming_language*
 
 # Methodology
 
