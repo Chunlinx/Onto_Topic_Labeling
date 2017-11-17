@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="organized_[VBN]" label="organized_[VBN]" />
+      <node id="Workshop_[NN]" label="Workshop_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="first_[JJ]" label="first_[JJ]" />
+      <node id="Health_[NNP]" label="Health_[NNP]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="Engendering_[NNP]" label="Engendering_[NNP]" />
+      <node id="Systems_[NNPS]" label="Systems_[NNPS]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="Recommender_[NNP]" label="Recommender_[NNP]" />
+      <node id="was_[VBD]" label="was_[VBD]" />
+      <node id="conjunction_[NN]" label="conjunction_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="RecSys_[NNP]" label="RecSys_[NNP]" />
+      <node id="ACM_[NNP]" label="ACM_[NNP]" />
+      <node id="2016_[CD]" label="2016_[CD]" />
+      <node id="bringing_[VBG]" label="bringing_[VBG]" />
+      <node id="focus_[NN]" label="focus_[NN]" />
+      <node id="workshop_[NN]" label="workshop_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="together_[RP]" label="together_[RP]" />
+      <node id="researchers_[NNS]" label="researchers_[NNS]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="practitioners_[NNS]" label="practitioners_[NNS]" />
+      <node id="areas_[NNS]" label="areas_[NNS]" />
+      <node id="from_[IN]" label="from_[IN]" />
+      <node id="diverse_[JJ]" label="diverse_[JJ]" />
+      <node id="health_[NN]" label="health_[NN]" />
+      <node id="well-being_[NN]" label="well-being_[NN]" />
+      <node id="support_[NN]" label="support_[NN]" />
+      <node id="decision_[NN]" label="decision_[NN]" />
+      <node id="change_[NN]" label="change_[NN]" />
+      <node id="behavioral_[JJ]" label="behavioral_[JJ]" />
+      <node id="topic_[NN]" label="topic_[NN]" />
+      <node id="issues_[NNS]" label="issues_[NNS]" />
+      <node id="Health-related_[JJ]" label="Health-related_[JJ]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="recommender_[NN]" label="recommender_[NN]" />
+      <node id="have_[VBP]" label="have_[VBP]" />
+      <node id="been_[VBN]" label="been_[VBN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="growing_[VBG]" label="growing_[VBG]" />
+      <node id="research_[NN]" label="research_[NN]" />
+      <node id="years_[NNS]" label="years_[NNS]" />
+      <node id="recent_[JJ]" label="recent_[JJ]" />
+      <node id="attempt_[NN]" label="attempt_[NN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="initial_[JJ]" label="initial_[JJ]" />
+      <node id="at_[IN]" label="at_[IN]" />
+      <node id="academics_[NNS]" label="academics_[NNS]" />
+      <node id="share_[VB]" label="share_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="experiences_[NNS]" label="experiences_[NNS]" />
+      <node id="their_[PRP$]" label="their_[PRP$]" />
+      <node id="working_[VBG]" label="working_[VBG]" />
+      <node id="related_[JJ]" label="related_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="organized_[VBN]" target="Workshop_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="organized_[VBN]" target="was_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="organized_[VBN]" target="conjunction_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="organized_[VBN]" target="RecSys_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Workshop_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Workshop_[NN]" target="first_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Workshop_[NN]" target="Health_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Health_[NNP]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Health_[NNP]" target="Engendering_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Health_[NNP]" target="Systems_[NNPS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Systems_[NNPS]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Systems_[NNPS]" target="Recommender_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="conjunction_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="RecSys_[NNP]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="RecSys_[NNP]" target="ACM_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="RecSys_[NNP]" target="2016_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="bringing_[VBG]" target="focus_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="bringing_[VBG]" target="was_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="bringing_[VBG]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="bringing_[VBG]" target="together_[RP]">
+        <attvalues>
+          <attvalue for="0" value="compound:prt" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="bringing_[VBG]" target="researchers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="bringing_[VBG]" target="areas_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="bringing_[VBG]" target="at_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="bringing_[VBG]" target="academics_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="bringing_[VBG]" target="share_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="focus_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="focus_[NN]" target="workshop_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="workshop_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="workshop_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="researchers_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="researchers_[NNS]" target="practitioners_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="areas_[NNS]" target="from_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="areas_[NNS]" target="diverse_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="areas_[NNS]" target="health_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="health_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="health_[NN]" target="well-being_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="health_[NN]" target="support_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="health_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="health_[NN]" target="change_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="support_[NN]" target="decision_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="change_[NN]" target="behavioral_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="topic_[NN]" target="issues_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="topic_[NN]" target="have_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="topic_[NN]" target="been_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="topic_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="topic_[NN]" target="growing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="topic_[NN]" target="research_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="topic_[NN]" target="years_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="topic_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="topic_[NN]" target="attempt_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="issues_[NNS]" target="Health-related_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="issues_[NNS]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="issues_[NNS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="issues_[NNS]" target="related_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="systems_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="systems_[NNS]" target="recommender_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="years_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="years_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="years_[NNS]" target="recent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="attempt_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="attempt_[NN]" target="was_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="attempt_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="attempt_[NN]" target="initial_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="attempt_[NN]" target="bringing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="academics_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="academics_[NNS]" target="practitioners_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="share_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="share_[VB]" target="experiences_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="share_[VB]" target="working_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="experiences_[NNS]" target="their_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="working_[VBG]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="working_[VBG]" target="issues_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

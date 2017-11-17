@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="open_[JJ]" label="open_[JJ]" />
+      <node id="known_[VBN]" label="known_[VBN]" />
+      <node id="Although_[IN]" label="Although_[IN]" />
+      <node id="protocol_[NN]" label="protocol_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="finite_[JJ]" label="finite_[JJ]" />
+      <node id="envy-free_[JJ]" label="envy-free_[JJ]" />
+      <node id="cake-cutting_[JJ]" label="cake-cutting_[JJ]" />
+      <node id="has_[VBZ]" label="has_[VBZ]" />
+      <node id="been_[VBN]" label="been_[VBN]" />
+      <node id="years_[NNS]" label="years_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="twenty_[CD]" label="twenty_[CD]" />
+      <node id="more_[JJR]" label="more_[JJR]" />
+      <node id="than_[IN]" label="than_[IN]" />
+      <node id="it_[PRP]" label="it_[PRP]" />
+      <node id="had_[VBD]" label="had_[VBD]" />
+      <node id="exists_[VBZ]" label="exists_[VBZ]" />
+      <node id="whether_[IN]" label="whether_[IN]" />
+      <node id="bounded_[VBN]" label="bounded_[VBN]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="number_[NN]" label="number_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="steps_[NNS]" label="steps_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="taken_[VBN]" label="taken_[VBN]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="function_[NN]" label="function_[NN]" />
+      <node id="agents_[NNS]" label="agents_[NNS]" />
+      <node id="report_[VBP]" label="report_[VBP]" />
+      <node id="letter_[NN]" label="letter_[NN]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="results_[NNS]" label="results_[NNS]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="our_[PRP$]" label="our_[PRP$]" />
+      <node id="recent_[JJ]" label="recent_[JJ]" />
+      <node id="protocols_[NNS]" label="protocols_[NNS]" />
+      <node id="discrete_[JJ]" label="discrete_[JJ]" />
+      <node id="bounded_[JJ]" label="bounded_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="open_[JJ]" target="known_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="open_[JJ]" target="it_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="open_[JJ]" target="had_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="open_[JJ]" target="been_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="open_[JJ]" target="exists_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="known_[VBN]" target="Although_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="known_[VBN]" target="protocol_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="known_[VBN]" target="has_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="known_[VBN]" target="been_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="known_[VBN]" target="years_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="protocol_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="protocol_[NN]" target="finite_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="protocol_[NN]" target="envy-free_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="protocol_[NN]" target="cake-cutting_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="protocol_[NN]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="protocol_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="years_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="years_[NNS]" target="twenty_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="twenty_[CD]" target="more_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="more_[JJR]" target="than_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mwe" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="exists_[VBZ]" target="whether_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="exists_[VBZ]" target="protocol_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="exists_[VBZ]" target="bounded_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="bounded_[VBN]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="bounded_[VBN]" target="number_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="bounded_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="bounded_[VBN]" target="function_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="which_[WDT]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="number_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="number_[NN]" target="steps_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="number_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="number_[NN]" target="agents_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="steps_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="steps_[NNS]" target="taken_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="taken_[VBN]" target="protocol_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="function_[NN]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="function_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="function_[NN]" target="number_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="agents_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="report_[VBP]" target="letter_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="report_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="report_[VBP]" target="results_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="report_[VBP]" target="protocols_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="letter_[NN]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="letter_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="results_[NNS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="results_[NNS]" target="our_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="results_[NNS]" target="recent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="protocols_[NNS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="protocols_[NNS]" target="discrete_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="protocols_[NNS]" target="bounded_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="protocols_[NNS]" target="cake-cutting_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="bounded_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="bounded_[JJ]" target="envy-free_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

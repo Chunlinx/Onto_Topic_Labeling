@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="pushing_[VBG]" label="pushing_[VBG]" />
+      <node id="intersection_[NN]" label="intersection_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="science_[NN]" label="science_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="biology_[NN]" label="biology_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="computer_[NN]" label="computer_[NN]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="computation_[NN]" label="computation_[NN]" />
+      <node id="limits_[NNS]" label="limits_[NNS]" />
+      <node id="beyond_[IN]" label="beyond_[IN]" />
+      <node id="its_[PRP$]" label="its_[PRP$]" />
+      <node id="traditional_[JJ]" label="traditional_[JJ]" />
+      <node id="think_[VBP]" label="think_[VBP]" />
+      <node id="algorithms_[NNS]" label="algorithms_[NNS]" />
+      <node id="forget_[JJ]" label="forget_[JJ]" />
+      <node id="evolution_[NN]" label="evolution_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="pushing_[VBG]" target="intersection_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="pushing_[VBG]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="pushing_[VBG]" target="computation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="pushing_[VBG]" target="limits_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="pushing_[VBG]" target="think_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="parataxis" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="intersection_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="intersection_[NN]" target="science_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="science_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="science_[NN]" target="biology_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="biology_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="biology_[NN]" target="computer_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="limits_[NNS]" target="beyond_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="limits_[NNS]" target="its_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="limits_[NNS]" target="traditional_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="think_[VBP]" target="algorithms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="think_[VBP]" target="evolution_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="algorithms_[NNS]" target="forget_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

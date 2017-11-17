@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>07/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="help_[VB]" label="help_[VB]" />
+      <node id="types_[NNS]" label="types_[NNS]" />
+      <node id="Integrity_[JJ]" label="Integrity_[JJ]" />
+      <node id="can_[MD]" label="can_[MD]" />
+      <node id="detect_[VB]" label="detect_[VB]" />
+      <node id="vulnerabilities_[NNS]" label="vulnerabilities_[NNS]" />
+      <node id="information_[NN]" label="information_[NN]" />
+      <node id="flow_[NN]" label="flow_[NN]" />
+      <node id="applications_[NNS]" label="applications_[NNS]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="web_[NN]" label="web_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="apps_[NNS]" label="apps_[NNS]" />
+      <node id="Android_[NN]" label="Android_[NN]" />
+      <node id="study_[VBP]" label="study_[VBP]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="DFlow_[NNP]" label="DFlow_[NNP]" />
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="context-sensitive_[JJ]" label="context-sensitive_[JJ]" />
+      <node id="integrity_[NN]" label="integrity_[NN]" />
+      <node id="type_[NN]" label="type_[NN]" />
+      <node id="give_[VBP]" label="give_[VBP]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="interpretation_[NN]" label="interpretation_[NN]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="terms_[NNS]" label="terms_[NNS]" />
+      <node id="CFL-reachability_[NNP]" label="CFL-reachability_[NNP]" />
+      <node id="propose_[VBP]" label="propose_[VBP]" />
+      <node id="DFlowCFL_[NNP]" label="DFlowCFL_[NNP]" />
+      <node id="new_[JJ]" label="new_[JJ]" />
+      <node id="precise_[JJ]" label="precise_[JJ]" />
+      <node id="more_[RBR]" label="more_[RBR]" />
+      <node id="DFlowCFL-Infer_[NNP]" label="DFlowCFL-Infer_[NNP]" />
+      <node id="analysis_[NN]" label="analysis_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="corresponding_[JJ]" label="corresponding_[JJ]" />
+      <node id="inference_[NN]" label="inference_[NN]" />
+      <node id="equivalent_[JJ]" label="equivalent_[JJ]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="effective_[JJ]" label="effective_[JJ]" />
+      <node id="taint_[NN]" label="taint_[NN]" />
+      <node id="Android_[NNP]" label="Android_[NNP]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="scales_[VBD]" label="scales_[VBD]" />
+      <node id="It_[PRP]" label="It_[PRP]" />
+      <node id="well_[RB]" label="well_[RB]" />
+      <node id="detects_[VBZ]" label="detects_[VBZ]" />
+      <node id="leaks_[NNS]" label="leaks_[NNS]" />
+      <node id="numerous_[JJ]" label="numerous_[JJ]" />
+      <node id="privacy_[NN]" label="privacy_[NN]" />
+      <node id="popular_[JJ]" label="popular_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="help_[VB]" target="types_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="help_[VB]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="help_[VB]" target="detect_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="types_[NNS]" target="Integrity_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="detect_[VB]" target="vulnerabilities_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="detect_[VB]" target="applications_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="vulnerabilities_[NNS]" target="information_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="vulnerabilities_[NNS]" target="flow_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="applications_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="applications_[NNS]" target="web_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="applications_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="applications_[NNS]" target="apps_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="apps_[NNS]" target="Android_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="apps_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="apps_[NNS]" target="popular_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="apps_[NNS]" target="Android_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="study_[VBP]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="study_[VBP]" target="DFlow_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="study_[VBP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="study_[VBP]" target="give_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="DFlow_[NNP]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="DFlow_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="system_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="system_[NN]" target="context-sensitive_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="system_[NN]" target="integrity_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="system_[NN]" target="type_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="system_[NN]" target="new_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="system_[NN]" target="precise_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="give_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="give_[VBP]" target="interpretation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="give_[VBP]" target="terms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="interpretation_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="interpretation_[NN]" target="DFlow_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="terms_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="terms_[NNS]" target="CFL-reachability_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="CFL-reachability_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="CFL-reachability_[NNP]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="propose_[VBP]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="propose_[VBP]" target="DFlowCFL_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="DFlowCFL_[NNP]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="DFlowCFL_[NNP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="DFlowCFL_[NNP]" target="DFlowCFL-Infer_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="precise_[JJ]" target="more_[RBR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="DFlowCFL-Infer_[NNP]" target="analysis_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="DFlowCFL-Infer_[NNP]" target="equivalent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="analysis_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="analysis_[NN]" target="corresponding_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="analysis_[NN]" target="type_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="analysis_[NN]" target="inference_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="analysis_[NN]" target="DFlowCFL-Infer_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="analysis_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="analysis_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="analysis_[NN]" target="effective_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="analysis_[NN]" target="taint_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="analysis_[NN]" target="Android_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="equivalent_[JJ]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="equivalent_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="equivalent_[JJ]" target="CFL-reachability_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="Android_[NNP]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="scales_[VBD]" target="It_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="scales_[VBD]" target="well_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="scales_[VBD]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="scales_[VBD]" target="detects_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="detects_[VBZ]" target="leaks_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="detects_[VBZ]" target="apps_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="leaks_[NNS]" target="numerous_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="leaks_[NNS]" target="privacy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

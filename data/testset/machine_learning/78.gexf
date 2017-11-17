@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="implement_[VB]" label="implement_[VB]" />
+      <node id="play_[VB]" label="play_[VB]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="order_[NN]" label="order_[NN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="role_[NN]" label="role_[NN]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="influential_[JJ]" label="influential_[JJ]" />
+      <node id="research_[NN]" label="research_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="practice_[NN]" label="practice_[NN]" />
+      <node id="communities_[NNS]" label="communities_[NNS]" />
+      <node id="UCD_[NNP]" label="UCD_[NNP]" />
+      <node id="should_[MD]" label="should_[MD]" />
+      <node id="methods_[NNS]" label="methods_[NNS]" />
+      <node id="new_[JJ]" label="new_[JJ]" />
+      <node id="tools_[NNS]" label="tools_[NNS]" />
+      <node id="practices_[NNS]" label="practices_[NNS]" />
+      <node id="into_[IN]" label="into_[IN]" />
+      <node id="current_[JJ]" label="current_[JJ]" />
+      <node id="advance_[VB]" label="advance_[VB]" />
+      <node id="boundaries_[NNS]" label="boundaries_[NNS]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="field_[NN]" label="field_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="implement_[VB]" target="play_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="implement_[VB]" target="communities_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="implement_[VB]" target="should_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="implement_[VB]" target="methods_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="implement_[VB]" target="practices_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="implement_[VB]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="implement_[VB]" target="advance_[VB]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="play_[VB]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="play_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="play_[VB]" target="role_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="play_[VB]" target="research_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="In_[IN]" target="order_[NN]">
+        <attvalues>
+          <attvalue for="0" value="mwe" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="role_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="role_[NN]" target="influential_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="research_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="research_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="research_[NN]" target="practice_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="communities_[NNS]" target="UCD_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="methods_[NNS]" target="new_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="methods_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="methods_[NNS]" target="tools_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="practices_[NNS]" target="into_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="practices_[NNS]" target="current_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="advance_[VB]" target="boundaries_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="boundaries_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="boundaries_[NNS]" target="field_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="field_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="field_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

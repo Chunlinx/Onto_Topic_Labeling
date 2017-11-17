@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="encapsulated_[VBN]" label="encapsulated_[VBN]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="existing_[VBG]" label="existing_[VBG]" />
+      <node id="automatic_[JJ]" label="automatic_[JJ]" />
+      <node id="text_[NN]" label="text_[NN]" />
+      <node id="summarization_[NN]" label="summarization_[NN]" />
+      <node id="show_[VBP]" label="show_[VBP]" />
+      <node id="whenever_[WRB]" label="whenever_[WRB]" />
+      <node id="applied_[VBN]" label="applied_[VBN]" />
+      <node id="web-pages_[NNS]" label="web-pages_[NNS]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="articles_[NNS]" label="articles_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="news_[NN]" label="news_[NN]" />
+      <node id="performance_[NN]" label="performance_[NN]" />
+      <node id="poor_[JJ]" label="poor_[JJ]" />
+      <node id="as_[IN]" label="as_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="page_[NN]" label="page_[NN]" />
+      <node id="within_[IN]" label="within_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="HTML_[NNP]" label="HTML_[NNP]" />
+      <node id="takes_[VBZ]" label="takes_[VBZ]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="advantage_[NN]" label="advantage_[NN]" />
+      <node id="identification_[NN]" label="identification_[NN]" />
+      <node id="link_[NN]" label="link_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="techniques_[NNS]" label="techniques_[NNS]" />
+      <node id="content_[NN]" label="content_[NN]" />
+      <node id="extraction_[NN]" label="extraction_[NN]" />
+      <node id="results_[NNS]" label="results_[NNS]" />
+      <node id="validity_[NN]" label="validity_[NN]" />
+      <node id="strategy_[NN]" label="strategy_[NN]" />
+      <node id="such_[PDT]" label="such_[PDT]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="encapsulated_[VBN]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="encapsulated_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="encapsulated_[VBN]" target="page_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="systems_[NNS]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="systems_[NNS]" target="existing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="systems_[NNS]" target="automatic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="systems_[NNS]" target="text_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="systems_[NNS]" target="summarization_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="systems_[NNS]" target="show_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="text_[NN]" target="as_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="text_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="show_[VBP]" target="whenever_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="show_[VBP]" target="applied_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="csubj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="show_[VBP]" target="performance_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="show_[VBP]" target="text_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="show_[VBP]" target="results_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="show_[VBP]" target="validity_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="applied_[VBN]" target="web-pages_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="web-pages_[NNS]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="web-pages_[NNS]" target="articles_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="articles_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="articles_[NNS]" target="news_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="performance_[NN]" target="poor_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="page_[NN]" target="within_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="page_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="page_[NN]" target="HTML_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="takes_[VBZ]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="takes_[VBZ]" target="advantage_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="paper_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="advantage_[NN]" target="identification_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="identification_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="identification_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="identification_[NN]" target="link_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="identification_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="identification_[NN]" target="techniques_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="techniques_[NNS]" target="content_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="techniques_[NNS]" target="extraction_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="results_[NNS]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="validity_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="validity_[NN]" target="strategy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="strategy_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="strategy_[NN]" target="such_[PDT]">
+        <attvalues>
+          <attvalue for="0" value="det:predet" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="strategy_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

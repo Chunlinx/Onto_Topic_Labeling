@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>04/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="held_[VBD]" label="held_[VBD]" />
+      <node id="summarizes_[VBZ]" label="summarizes_[VBZ]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="RecProfile_[NNP]" label="RecProfile_[NNP]" />
+      <node id="'_[POS]" label="'_[POS]" />
+      <node id="16_[CD]" label="16_[CD]" />
+      <node id="workshop_[NN]" label="workshop_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="first_[JJ]" label="first_[JJ]" />
+      <node id="profiling_[VBG]" label="profiling_[VBG]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="preferences_[NNS]" label="preferences_[NNS]" />
+      <node id="user_[NN]" label="user_[NN]" />
+      <node id="dynamic_[JJ]" label="dynamic_[JJ]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="online_[JJ]" label="online_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="recommendations_[NNS]" label="recommendations_[NNS]" />
+      <node id="real-time_[JJ]" label="real-time_[JJ]" />
+      <node id="conjunction_[NN]" label="conjunction_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="RecSys_[NNP]" label="RecSys_[NNP]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="conference_[NN]" label="conference_[NN]" />
+      <node id="10th_[JJ]" label="10th_[JJ]" />
+      <node id="ACM_[NNP]" label="ACM_[NNP]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="recommender_[NN]" label="recommender_[NN]" />
+      <node id="describe_[VBP]" label="describe_[VBP]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="themes_[NNS]" label="themes_[NNS]" />
+      <node id="main_[JJ]" label="main_[JJ]" />
+      <node id="arising_[VBG]" label="arising_[VBG]" />
+      <node id="papers_[NNS]" label="papers_[NNS]" />
+      <node id="'s_[POS]" label="'s_[POS]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="held_[VBD]" target="summarizes_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="held_[VBD]" target="conjunction_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="held_[VBD]" target="RecSys_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="held_[VBD]" target="16_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="summarizes_[VBZ]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="summarizes_[VBZ]" target="RecProfile_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="paper_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="RecProfile_[NNP]" target="'_[POS]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="RecProfile_[NNP]" target="16_[CD]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="RecProfile_[NNP]" target="workshop_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="16_[CD]" target="conference_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="workshop_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="workshop_[NN]" target="first_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="workshop_[NN]" target="profiling_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="workshop_[NN]" target="'s_[POS]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="profiling_[VBG]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="profiling_[VBG]" target="preferences_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="profiling_[VBG]" target="dynamic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="preferences_[NNS]" target="user_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="dynamic_[JJ]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="dynamic_[JJ]" target="online_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="dynamic_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="dynamic_[JJ]" target="recommendations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="recommendations_[NNS]" target="real-time_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="conjunction_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="RecSys_[NNP]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="RecSys_[NNP]" target="'_[POS]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="conference_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="conference_[NN]" target="10th_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="conference_[NN]" target="ACM_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="conference_[NN]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="systems_[NNS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="systems_[NNS]" target="recommender_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="describe_[VBP]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="describe_[VBP]" target="themes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="themes_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="themes_[NNS]" target="main_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="themes_[NNS]" target="arising_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="arising_[VBG]" target="papers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="papers_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="papers_[NNS]" target="workshop_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="present_[VBP]" label="present_[VBP]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="method_[NN]" label="method_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="detection_[NN]" label="detection_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="automatic_[JJ]" label="automatic_[JJ]" />
+      <node id="F-formations_[NNP]" label="F-formations_[NNP]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="telepresence_[NN]" label="telepresence_[NN]" />
+      <node id="mobile_[JJ]" label="mobile_[JJ]" />
+      <node id="robot_[NN]" label="robot_[NN]" />
+      <node id="MRP_[NNP]" label="MRP_[NNP]" />
+      <node id="consists_[VBZ]" label="consists_[VBZ]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="orientation_[NN]" label="orientation_[NN]" />
+      <node id="phases_[NNS]" label="phases_[NNS]" />
+      <node id="two_[CD]" label="two_[CD]" />
+      <node id="a_[LS]" label="a_[LS]" />
+      <node id="estimating_[NN]" label="estimating_[NN]" />
+      <node id="face_[NN]" label="face_[NN]" />
+      <node id="frames_[NNS]" label="frames_[NNS]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="video_[JJ]" label="video_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="b_[SYM]" label="b_[SYM]" />
+      <node id="estimating_[VBG]" label="estimating_[VBG]" />
+      <node id="F-formation_[NN]" label="F-formation_[NN]" />
+      <node id="faces_[NNS]" label="faces_[NNS]" />
+      <node id="based_[VBN]" label="based_[VBN]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="detected_[JJ]" label="detected_[JJ]" />
+      <node id="works_[VBZ]" label="works_[VBZ]" />
+      <node id="time_[NN]" label="time_[NN]" />
+      <node id="real_[JJ]" label="real_[JJ]" />
+      <node id="tailored_[VBN]" label="tailored_[VBN]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="images_[NNS]" label="images_[NNS]" />
+      <node id="resolution_[NN]" label="resolution_[NN]" />
+      <node id="lower_[JJR]" label="lower_[JJR]" />
+      <node id="collected_[VBN]" label="collected_[VBN]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="typically_[RB]" label="typically_[RB]" />
+      <node id="units_[NNS]" label="units_[NNS]" />
+      <node id="from_[IN]" label="from_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="present_[VBP]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="present_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="present_[VBP]" target="method_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="paper_[NN]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="paper_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="method_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="method_[NN]" target="detection_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="method_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="detection_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="detection_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="detection_[NN]" target="automatic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="detection_[NN]" target="F-formations_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="F-formations_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="F-formations_[NNP]" target="telepresence_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="telepresence_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="telepresence_[NN]" target="mobile_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="telepresence_[NN]" target="robot_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="telepresence_[NN]" target="MRP_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="consists_[VBZ]" target="method_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="consists_[VBZ]" target="orientation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="consists_[VBZ]" target="estimating_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="orientation_[NN]" target="phases_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="orientation_[NN]" target="a_[LS]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="orientation_[NN]" target="estimating_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="orientation_[NN]" target="face_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="orientation_[NN]" target="frames_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="phases_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="phases_[NNS]" target="two_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="frames_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="frames_[NNS]" target="video_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="frames_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="frames_[NNS]" target="b_[SYM]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="estimating_[VBG]" target="F-formation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="estimating_[VBG]" target="faces_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="F-formation_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="faces_[NNS]" target="based_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="faces_[NNS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="faces_[NNS]" target="detected_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="works_[VBZ]" target="method_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="works_[VBZ]" target="time_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="works_[VBZ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="works_[VBZ]" target="tailored_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="time_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="time_[NN]" target="real_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="tailored_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="tailored_[VBN]" target="images_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="images_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="images_[NNS]" target="resolution_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="resolution_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="resolution_[NN]" target="lower_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="resolution_[NN]" target="collected_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="collected_[VBN]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="collected_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="collected_[VBN]" target="typically_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="collected_[VBN]" target="units_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="units_[NNS]" target="from_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="units_[NNS]" target="MRP_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="demonstrated_[VBN]" label="demonstrated_[VBN]" />
+      <node id="Energy_[NNP]" label="Energy_[NNP]" />
+      <node id="harvesting_[VBG]" label="harvesting_[VBG]" />
+      <node id="nodes_[NNS]" label="nodes_[NNS]" />
+      <node id="sensor_[NN]" label="sensor_[NN]" />
+      <node id="processors_[NNS]" label="processors_[NNS]" />
+      <node id="based_[VBN]" label="based_[VBN]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="real_[JJ]" label="real_[JJ]" />
+      <node id="nonvolatile_[NN]" label="nonvolatile_[NN]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="show_[VB]" label="show_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="characteristics_[NNS]" label="characteristics_[NNS]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="desirable_[JJ]" label="desirable_[JJ]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="those_[DT]" label="those_[DT]" />
+      <node id="battery_[NN]" label="battery_[NN]" />
+      <node id="such_[JJ]" label="such_[JJ]" />
+      <node id="as_[IN]" label="as_[IN]" />
+      <node id="no_[DT]" label="no_[DT]" />
+      <node id="power_[NN]" label="power_[NN]" />
+      <node id="zero_[CD]" label="zero_[CD]" />
+      <node id="stand-by_[JJ]" label="stand-by_[JJ]" />
+      <node id="sleep_[NN]" label="sleep_[NN]" />
+      <node id="microsecond-scale_[JJ]" label="microsecond-scale_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="time_[NN]" label="time_[NN]" />
+      <node id="wake-up_[JJ]" label="wake-up_[JJ]" />
+      <node id="resilience_[NN]" label="resilience_[NN]" />
+      <node id="high_[JJ]" label="high_[JJ]" />
+      <node id="failures_[NNS]" label="failures_[NNS]" />
+      <node id="random_[JJ]" label="random_[JJ]" />
+      <node id="management_[NN]" label="management_[NN]" />
+      <node id="fine-grained_[JJ]" label="fine-grained_[JJ]" />
+      <node id="show_[VBP]" label="show_[VBP]" />
+      <node id="Furthermore_[RB]" label="Furthermore_[RB]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="applications_[NNS]" label="applications_[NNS]" />
+      <node id="its_[PRP$]" label="its_[PRP$]" />
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="distributed_[VBN]" label="distributed_[VBN]" />
+      <node id="moving_[NN]" label="moving_[NN]" />
+      <node id="object_[NN]" label="object_[NN]" />
+      <node id="detection_[NN]" label="detection_[NN]" />
+      <node id="one_[CD]" label="one_[CD]" />
+      <node id="novel_[NN]" label="novel_[NN]" />
+      <node id="computing_[VBG]" label="computing_[VBG]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="demonstrated_[VBN]" target="Energy_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="demonstrated_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="demonstrated_[VBN]" target="show_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="Energy_[NNP]" target="harvesting_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="harvesting_[VBG]" target="nodes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="harvesting_[VBG]" target="processors_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="nodes_[NNS]" target="sensor_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="processors_[NNS]" target="based_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="processors_[NNS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="processors_[NNS]" target="real_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="processors_[NNS]" target="nonvolatile_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="show_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="show_[VB]" target="characteristics_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="characteristics_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="characteristics_[NNS]" target="desirable_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="characteristics_[NNS]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="characteristics_[NNS]" target="battery_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="characteristics_[NNS]" target="resilience_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="characteristics_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="characteristics_[NNS]" target="management_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="systems_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="systems_[NNS]" target="those_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="systems_[NNS]" target="novel_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="systems_[NNS]" target="nonvolatile_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="systems_[NNS]" target="computing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="battery_[NN]" target="such_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="battery_[NN]" target="no_[DT]">
+        <attvalues>
+          <attvalue for="0" value="neg" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="battery_[NN]" target="power_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="battery_[NN]" target="sleep_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="battery_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="battery_[NN]" target="time_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="such_[JJ]" target="as_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mwe" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="power_[NN]" target="zero_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="power_[NN]" target="stand-by_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="sleep_[NN]" target="microsecond-scale_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="time_[NN]" target="wake-up_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="resilience_[NN]" target="high_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="resilience_[NN]" target="failures_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="failures_[NNS]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="failures_[NNS]" target="random_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="failures_[NNS]" target="power_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="management_[NN]" target="fine-grained_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="management_[NN]" target="power_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="show_[VBP]" target="Furthermore_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="show_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="show_[VBP]" target="applications_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="show_[VBP]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="applications_[NNS]" target="its_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="system_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="system_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="system_[NN]" target="distributed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="system_[NN]" target="moving_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="system_[NN]" target="object_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="system_[NN]" target="detection_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="system_[NN]" target="one_[CD]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="one_[CD]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>07/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="There_[EX]" label="There_[EX]" />
+      <node id="challenges_[NNS]" label="challenges_[NNS]" />
+      <node id="several_[JJ]" label="several_[JJ]" />
+      <node id="applying_[VBG]" label="applying_[VBG]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="robots_[NNS]" label="robots_[NNS]" />
+      <node id="conversational_[JJ]" label="conversational_[JJ]" />
+      <node id="social_[JJ]" label="social_[JJ]" />
+      <node id="Learning_[NNP]" label="Learning_[NNP]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="Technology_[NNP]" label="Technology_[NNP]" />
+      <node id="Enhanced_[NNP]" label="Enhanced_[NNP]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="Gaming_[NN]" label="Gaming_[NN]" />
+      <node id="Serious_[JJ]" label="Serious_[JJ]" />
+      <node id="focus_[VBP]" label="focus_[VBP]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="issues_[NNS]" label="issues_[NNS]" />
+      <node id="particular_[JJ]" label="particular_[JJ]" />
+      <node id="dialogue_[NN]" label="dialogue_[NN]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="management_[NN]" label="management_[NN]" />
+      <node id="building_[VBG]" label="building_[VBG]" />
+      <node id="tutor_[NN]" label="tutor_[NN]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="empathic_[JJ]" label="empathic_[JJ]" />
+      <node id="robotic_[JJ]" label="robotic_[JJ]" />
+      <node id="plays_[VBZ]" label="plays_[VBZ]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="game_[NN]" label="game_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="multi-person_[JJ]" label="multi-person_[JJ]" />
+      <node id="serious_[JJ]" label="serious_[JJ]" />
+      <node id="students_[NNS]" label="students_[NNS]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="help_[VB]" label="help_[VB]" />
+      <node id="learn_[VB]" label="learn_[VB]" />
+      <node id="them_[PRP]" label="them_[PRP]" />
+      <node id="understand_[VB]" label="understand_[VB]" />
+      <node id="concepts_[NNS]" label="concepts_[NNS]" />
+      <node id="underlying_[JJ]" label="underlying_[JJ]" />
+      <node id="educational_[JJ]" label="educational_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="are_[VBP]" target="There_[EX]">
+        <attvalues>
+          <attvalue for="0" value="expl" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="are_[VBP]" target="challenges_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="challenges_[NNS]" target="several_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="challenges_[NNS]" target="applying_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="applying_[VBG]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="applying_[VBG]" target="robots_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="applying_[VBG]" target="Learning_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="robots_[NNS]" target="conversational_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="robots_[NNS]" target="social_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Learning_[NNP]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Learning_[NNP]" target="Technology_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Learning_[NNP]" target="Enhanced_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Learning_[NNP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Learning_[NNP]" target="Gaming_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Gaming_[NN]" target="Serious_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="focus_[VBP]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="focus_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="focus_[VBP]" target="issues_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="focus_[VBP]" target="building_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="paper_[NN]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="paper_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="issues_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="issues_[NNS]" target="particular_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="issues_[NNS]" target="management_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="particular_[JJ]" target="dialogue_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="dialogue_[NN]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="dialogue_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="building_[VBG]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="building_[VBG]" target="tutor_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="tutor_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="tutor_[NN]" target="empathic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="tutor_[NN]" target="robotic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="tutor_[NN]" target="plays_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="plays_[VBZ]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="plays_[VBZ]" target="game_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="plays_[VBZ]" target="students_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="plays_[VBZ]" target="help_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="game_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="game_[NN]" target="multi-person_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="game_[NN]" target="serious_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="students_[NNS]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="help_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="help_[VB]" target="learn_[VB]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="learn_[VB]" target="them_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="learn_[VB]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="learn_[VB]" target="understand_[VB]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="learn_[VB]" target="concepts_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="concepts_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="concepts_[NNS]" target="underlying_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="concepts_[NNS]" target="educational_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

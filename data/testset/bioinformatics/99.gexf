@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="diseases_[NNS]" label="diseases_[NNS]" />
+      <node id="HIV_[NNP]" label="HIV_[NNP]" />
+      <node id="tuberculosis_[NNP]" label="tuberculosis_[NNP]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="histoplasmosis_[NNS]" label="histoplasmosis_[NNS]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="infectious_[JJ]" label="infectious_[JJ]" />
+      <node id="affect_[VBP]" label="affect_[VBP]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="millions_[NNS]" label="millions_[NNS]" />
+      <node id="people_[NNS]" label="people_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="world-wide_[RB]" label="world-wide_[RB]" />
+      <node id="describe_[VBP]" label="describe_[VBP]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="efforts_[NNS]" label="efforts_[NNS]" />
+      <node id="our_[PRP$]" label="our_[PRP$]" />
+      <node id="find_[VB]" label="find_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="cures_[NNS]" label="cures_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="these_[DT]" label="these_[DT]" />
+      <node id="using_[VBG]" label="using_[VBG]" />
+      <node id="technique_[NN]" label="technique_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="screening_[NN]" label="screening_[NN]" />
+      <node id="virtual_[JJ]" label="virtual_[JJ]" />
+      <node id="identify_[VB]" label="identify_[VB]" />
+      <node id="inhibitors_[NNS]" label="inhibitors_[NNS]" />
+      <node id="possible_[JJ]" label="possible_[JJ]" />
+      <node id="proteins_[NNS]" label="proteins_[NNS]" />
+      <node id="essential_[JJ]" label="essential_[JJ]" />
+      <node id="organisms_[NNS]" label="organisms_[NNS]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="one_[CD]" label="one_[CD]" />
+      <node id="supercomputers_[NNS]" label="supercomputers_[NNS]" />
+      <node id="XSEDE_[JJ]" label="XSEDE_[JJ]" />
+      <node id="completed_[VBN]" label="completed_[VBN]" />
+      <node id="have_[VBP]" label="have_[VBP]" />
+      <node id="screens_[NNS]" label="screens_[NNS]" />
+      <node id="found_[VBN]" label="found_[VBN]" />
+      <node id="compounds_[NNS]" label="compounds_[NNS]" />
+      <node id="promising_[JJ]" label="promising_[JJ]" />
+      <node id="disease_[NN]" label="disease_[NN]" />
+      <node id="each_[DT]" label="each_[DT]" />
+      <node id="supported_[VBN]" label="supported_[VBN]" />
+      <node id="experiments_[NNS]" label="experiments_[NNS]" />
+      <node id="Cell_[JJ]" label="Cell_[JJ]" />
+      <node id="culture_[NN]" label="culture_[NN]" />
+      <node id="likelihood_[NN]" label="likelihood_[NN]" />
+      <node id="number_[NN]" label="number_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="effective_[JJ]" label="effective_[JJ]" />
+      <node id="being_[VBG]" label="being_[VBG]" />
+      <node id="treating_[VBG]" label="treating_[VBG]" />
+      <node id="both_[DT]" label="both_[DT]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="diseases_[NNS]" target="HIV_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="diseases_[NNS]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="diseases_[NNS]" target="infectious_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="diseases_[NNS]" target="affect_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="diseases_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="diseases_[NNS]" target="these_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="diseases_[NNS]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="HIV_[NNP]" target="tuberculosis_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="HIV_[NNP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="HIV_[NNP]" target="histoplasmosis_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="histoplasmosis_[NNS]" target="both_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="histoplasmosis_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="histoplasmosis_[NNS]" target="tuberculosis_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="affect_[VBP]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="affect_[VBP]" target="millions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="affect_[VBP]" target="world-wide_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="millions_[NNS]" target="people_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="people_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="describe_[VBP]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="describe_[VBP]" target="efforts_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="describe_[VBP]" target="find_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="efforts_[NNS]" target="our_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="find_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="find_[VB]" target="cures_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="find_[VB]" target="diseases_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="using_[VBG]" target="technique_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="using_[VBG]" target="identify_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="using_[VBG]" target="one_[CD]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="technique_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="technique_[NN]" target="screening_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="screening_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="screening_[NN]" target="virtual_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="identify_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="identify_[VB]" target="inhibitors_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="identify_[VB]" target="organisms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="inhibitors_[NNS]" target="possible_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="inhibitors_[NNS]" target="proteins_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="proteins_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="proteins_[NNS]" target="essential_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="organisms_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="organisms_[NNS]" target="these_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="organisms_[NNS]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="one_[CD]" target="supercomputers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="supercomputers_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="supercomputers_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="supercomputers_[NNS]" target="XSEDE_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="completed_[VBN]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="completed_[VBN]" target="have_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="completed_[VBN]" target="screens_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="completed_[VBN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="completed_[VBN]" target="found_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="screens_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="screens_[NNS]" target="virtual_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="found_[VBN]" target="have_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="found_[VBN]" target="compounds_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="compounds_[NNS]" target="promising_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="compounds_[NNS]" target="disease_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="compounds_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="compounds_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="disease_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="disease_[NN]" target="each_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="supported_[VBN]" target="experiments_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="supported_[VBN]" target="have_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="supported_[VBN]" target="likelihood_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="supported_[VBN]" target="effective_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="experiments_[NNS]" target="Cell_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="experiments_[NNS]" target="culture_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="likelihood_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="likelihood_[NN]" target="number_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="number_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="number_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="number_[NN]" target="compounds_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="effective_[JJ]" target="being_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="effective_[JJ]" target="treating_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="treating_[VBG]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="treating_[VBG]" target="histoplasmosis_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

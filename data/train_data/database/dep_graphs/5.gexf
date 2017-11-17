@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="introduction_[NN]" label="introduction_[NN]" />
+      <node id="An_[DT]" label="An_[DT]" />
+      <node id="designing_[VBG]" label="designing_[VBG]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="algorithms_[NNS]" label="algorithms_[NNS]" />
+      <node id="framework_[NN]" label="framework_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="MapReduce_[NNP]" label="MapReduce_[NNP]" />
+      <node id="processing_[NN]" label="processing_[NN]" />
+      <node id="parallel_[JJ]" label="parallel_[JJ]" />
+      <node id="data_[NNS]" label="data_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="big_[JJ]" label="big_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="introduction_[NN]" target="An_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="introduction_[NN]" target="designing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="designing_[VBG]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="designing_[VBG]" target="algorithms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="designing_[VBG]" target="processing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="algorithms_[NNS]" target="framework_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="framework_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="framework_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="framework_[NN]" target="MapReduce_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="processing_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="processing_[NN]" target="parallel_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="processing_[NN]" target="data_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="data_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="data_[NNS]" target="big_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

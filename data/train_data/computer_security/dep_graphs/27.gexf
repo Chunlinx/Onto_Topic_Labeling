@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="embarked_[VBN]" label="embarked_[VBN]" />
+      <node id="years_[NNS]" label="years_[NNS]" />
+      <node id="For_[IN]" label="For_[IN]" />
+      <node id="30_[CD]" label="30_[CD]" />
+      <node id="more_[JJR]" label="more_[JJR]" />
+      <node id="than_[IN]" label="than_[IN]" />
+      <node id="cryptographers_[NNS]" label="cryptographers_[NNS]" />
+      <node id="have_[VBP]" label="have_[VBP]" />
+      <node id="quest_[NN]" label="quest_[NN]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="construct_[VB]" label="construct_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="scheme_[NN]" label="scheme_[NN]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="encryption_[NN]" label="encryption_[NN]" />
+      <node id="enable_[VB]" label="enable_[VB]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="would_[MD]" label="would_[MD]" />
+      <node id="computation_[NN]" label="computation_[NN]" />
+      <node id="arbitrary_[JJ]" label="arbitrary_[JJ]" />
+      <node id="data_[NNS]" label="data_[NNS]" />
+      <node id="encrypted_[JJ]" label="encrypted_[JJ]" />
+      <node id="opens_[VBZ]" label="opens_[VBZ]" />
+      <node id="Conceptually_[VB]" label="Conceptually_[VB]" />
+      <node id="simple_[JJ]" label="simple_[JJ]" />
+      <node id="yet_[CC]" label="yet_[CC]" />
+      <node id="difficult_[JJ]" label="difficult_[JJ]" />
+      <node id="notoriously_[RB]" label="notoriously_[RB]" />
+      <node id="achieve_[VB]" label="achieve_[VB]" />
+      <node id="grail_[NN]" label="grail_[NN]" />
+      <node id="cryptography_[NNP]" label="cryptography_[NNP]" />
+      <node id="'s_[POS]" label="'s_[POS]" />
+      <node id="holy_[JJ]" label="holy_[JJ]" />
+      <node id="door_[NN]" label="door_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="capabilities_[NNS]" label="capabilities_[NNS]" />
+      <node id="many_[JJ]" label="many_[JJ]" />
+      <node id="new_[JJ]" label="new_[JJ]" />
+      <node id="world_[NN]" label="world_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="our_[PRP$]" label="our_[PRP$]" />
+      <node id="cloud-centric_[JJ]" label="cloud-centric_[JJ]" />
+      <node id="data-driven_[JJ]" label="data-driven_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="embarked_[VBN]" target="years_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="embarked_[VBN]" target="cryptographers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="embarked_[VBN]" target="have_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="embarked_[VBN]" target="quest_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="embarked_[VBN]" target="construct_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="years_[NNS]" target="For_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="years_[NNS]" target="30_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="30_[CD]" target="more_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="more_[JJR]" target="than_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mwe" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="quest_[NN]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="quest_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="construct_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="construct_[VB]" target="scheme_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="scheme_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="scheme_[NN]" target="encryption_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="scheme_[NN]" target="enable_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="enable_[VB]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="enable_[VB]" target="would_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="enable_[VB]" target="computation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="enable_[VB]" target="data_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="computation_[NN]" target="arbitrary_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="data_[NNS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="data_[NNS]" target="encrypted_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="opens_[VBZ]" target="Conceptually_[VB]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="opens_[VBZ]" target="grail_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="opens_[VBZ]" target="door_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="opens_[VBZ]" target="capabilities_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="Conceptually_[VB]" target="simple_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="simple_[JJ]" target="yet_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="simple_[JJ]" target="difficult_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="difficult_[JJ]" target="notoriously_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="difficult_[JJ]" target="achieve_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="achieve_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="grail_[NN]" target="cryptography_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="grail_[NN]" target="holy_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="cryptography_[NNP]" target="'s_[POS]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="door_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="capabilities_[NNS]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="capabilities_[NNS]" target="many_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="capabilities_[NNS]" target="new_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="capabilities_[NNS]" target="world_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="world_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="world_[NN]" target="our_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="world_[NN]" target="cloud-centric_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="world_[NN]" target="data-driven_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

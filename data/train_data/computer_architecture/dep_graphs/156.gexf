@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="part_[NN]" label="part_[NN]" />
+      <node id="article_[NN]" label="article_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="series_[NN]" label="series_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="continuing_[VBG]" label="continuing_[VBG]" />
+      <node id="discuss_[VB]" label="discuss_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="activities_[NNS]" label="activities_[NNS]" />
+      <node id="ongoing_[JJ]" label="ongoing_[JJ]" />
+      <node id="networking_[NN]" label="networking_[NN]" />
+      <node id="within_[IN]" label="within_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="mobile_[JJ]" label="mobile_[JJ]" />
+      <node id="ad_[FW]" label="ad_[FW]" />
+      <node id="hoc_[FW]" label="hoc_[FW]" />
+      <node id="manet_[NN]" label="manet_[NN]" />
+      <node id="working_[VBG]" label="working_[VBG]" />
+      <node id="group_[NN]" label="group_[NN]" />
+      <node id="WG_[NNP]" label="WG_[NNP]" />
+      <node id="IETF_[NNP]" label="IETF_[NNP]" />
+      <node id="provides_[VBZ]" label="provides_[VBZ]" />
+      <node id="overview_[NN]" label="overview_[NN]" />
+      <node id="brief_[JJ]" label="brief_[JJ]" />
+      <node id="events_[NNS]" label="events_[NNS]" />
+      <node id="recent_[JJ]" label="recent_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="part_[NN]" target="article_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="part_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="part_[NN]" target="series_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="article_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="series_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="series_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="series_[NN]" target="continuing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="series_[NN]" target="discuss_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="discuss_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="discuss_[VB]" target="activities_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="discuss_[VB]" target="networking_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="discuss_[VB]" target="working_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="activities_[NNS]" target="ongoing_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="networking_[NN]" target="within_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="networking_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="networking_[NN]" target="mobile_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="networking_[NN]" target="ad_[FW]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="networking_[NN]" target="manet_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="ad_[FW]" target="hoc_[FW]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="working_[VBG]" target="group_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="group_[NN]" target="WG_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="group_[NN]" target="IETF_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="IETF_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="IETF_[NNP]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="provides_[VBZ]" target="article_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="provides_[VBZ]" target="overview_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="overview_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="overview_[NN]" target="brief_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="overview_[NN]" target="events_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="events_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="events_[NNS]" target="recent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

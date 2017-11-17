@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="yield_[VB]" label="yield_[VB]" />
+      <node id="work_[NN]" label="work_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="lab_[NN]" label="lab_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="genomic_[JJ]" label="genomic_[JJ]" />
+      <node id="multidisciplinary_[RB]" label="multidisciplinary_[RB]" />
+      <node id="research_[NN]" label="research_[NN]" />
+      <node id="Berkeley_[NNP]" label="Berkeley_[NNP]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="may_[MD]" label="may_[MD]" />
+      <node id="changes_[NNS]" label="changes_[NNS]" />
+      <node id="big_[JJ]" label="big_[JJ]" />
+      <node id="therapy_[NN]" label="therapy_[NN]" />
+      <node id="drug_[NN]" label="drug_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="medicine_[NN]" label="medicine_[NN]" />
+      <node id="Director_[NNP]" label="Director_[NNP]" />
+      <node id="Brent_[NNP]" label="Brent_[NNP]" />
+      <node id="Roger_[NNP]" label="Roger_[NNP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="President_[NNP]" label="President_[NNP]" />
+      <node id="Research_[NNP]" label="Research_[NNP]" />
+      <node id="Institute_[NNP]" label="Institute_[NNP]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="Molecular_[NNP]" label="Molecular_[NNP]" />
+      <node id="Sciences_[NNPS]" label="Sciences_[NNPS]" />
+      <node id="laboratory_[NN]" label="laboratory_[NN]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="independent_[JJ]" label="independent_[JJ]" />
+      <node id="nonprofit_[JJ]" label="nonprofit_[JJ]" />
+      <node id="CA_[NNP]" label="CA_[NNP]" />
+      <node id="combines_[VBZ]" label="combines_[VBZ]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="experimentation_[NN]" label="experimentation_[NN]" />
+      <node id="modeling_[NN]" label="modeling_[NN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="computer_[NN]" label="computer_[NN]" />
+      <node id="mission_[NN]" label="mission_[NN]" />
+      <node id="MSI_[NNP]" label="MSI_[NNP]" />
+      <node id="predict_[VB]" label="predict_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="behavior_[NN]" label="behavior_[NN]" />
+      <node id="cells_[NNS]" label="cells_[NNS]" />
+      <node id="organisms_[NNS]" label="organisms_[NNS]" />
+      <node id="response_[NN]" label="response_[NN]" />
+      <node id="defined_[VB]" label="defined_[VB]" />
+      <node id="genetic_[JJ]" label="genetic_[JJ]" />
+      <node id="environmental_[JJ]" label="environmental_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="yield_[VB]" target="work_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="yield_[VB]" target="may_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="yield_[VB]" target="changes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="yield_[VB]" target="therapy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="work_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="work_[NN]" target="lab_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="lab_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="lab_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="lab_[NN]" target="genomic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="lab_[NN]" target="research_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="lab_[NN]" target="Berkeley_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="genomic_[JJ]" target="multidisciplinary_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Berkeley_[NNP]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="changes_[NNS]" target="big_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="changes_[NNS]" target="genetic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="therapy_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="therapy_[NN]" target="drug_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="therapy_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="therapy_[NN]" target="medicine_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="Director_[NNP]" target="Brent_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="Director_[NNP]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="Director_[NNP]" target="President_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="Director_[NNP]" target="Institute_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="Brent_[NNP]" target="Roger_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="is_[VBZ]" target="mission_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="is_[VBZ]" target="predict_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="President_[NNP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="President_[NNP]" target="Research_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="Institute_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="Institute_[NNP]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="Institute_[NNP]" target="Molecular_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="Institute_[NNP]" target="Sciences_[NNPS]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="Institute_[NNP]" target="laboratory_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="Institute_[NNP]" target="combines_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="laboratory_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="laboratory_[NN]" target="independent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="laboratory_[NN]" target="nonprofit_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="laboratory_[NN]" target="research_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="laboratory_[NN]" target="CA_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="CA_[NNP]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="CA_[NNP]" target="Berkeley_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="combines_[VBZ]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="combines_[VBZ]" target="experimentation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="combines_[VBZ]" target="modeling_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="experimentation_[NN]" target="genomic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="modeling_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="modeling_[NN]" target="computer_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="mission_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="mission_[NN]" target="MSI_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="MSI_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="MSI_[NNP]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="predict_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="predict_[VB]" target="behavior_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="predict_[VB]" target="response_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="predict_[VB]" target="defined_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="behavior_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="behavior_[NN]" target="cells_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="cells_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="cells_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="cells_[NNS]" target="organisms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="response_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="defined_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="defined_[VB]" target="changes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="genetic_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="genetic_[JJ]" target="environmental_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="develops_[VBZ]" label="develops_[VBZ]" />
+      <node id="As_[IN]" label="As_[IN]" />
+      <node id="study_[NN]" label="study_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="specific_[NN]" label="specific_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="privacy_[NN]" label="privacy_[NN]" />
+      <node id="Interaction_[NNP]" label="Interaction_[NNP]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="Human-Robot_[NNP]" label="Human-Robot_[NNP]" />
+      <node id="HRI_[NNP]" label="HRI_[NNP]" />
+      <node id="there_[EX]" label="there_[EX]" />
+      <node id="need_[NN]" label="need_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="work_[NN]" label="work_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="empirical_[JJ]" label="empirical_[JJ]" />
+      <node id="background_[NN]" label="background_[NN]" />
+      <node id="outside_[RB]" label="outside_[RB]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="echo-chamber_[NN]" label="echo-chamber_[NN]" />
+      <node id="academic_[JJ]" label="academic_[JJ]" />
+      <node id="aims_[VBZ]" label="aims_[VBZ]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="create_[VB]" label="create_[VB]" />
+      <node id="discussion_[NN]" label="discussion_[NN]" />
+      <node id="participatory_[JJ]" label="participatory_[JJ]" />
+      <node id="about_[IN]" label="about_[IN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="addressed_[VBN]" label="addressed_[VBN]" />
+      <node id="how_[WRB]" label="how_[WRB]" />
+      <node id="it_[PRP]" label="it_[PRP]" />
+      <node id="should_[MD]" label="should_[MD]" />
+      <node id="be_[VB]" label="be_[VB]" />
+      <node id="future_[NN]" label="future_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="robots_[NNS]" label="robots_[NNS]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="telepresence_[JJ]" label="telepresence_[JJ]" />
+      <node id="deliver_[VB]" label="deliver_[VB]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="short_[JJ]" label="short_[JJ]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="some_[DT]" label="some_[DT]" />
+      <node id="topics_[NNS]" label="topics_[NNS]" />
+      <node id="scientifically_[JJ]" label="scientifically_[JJ]" />
+      <node id="interesting_[JJ]" label="interesting_[JJ]" />
+      <node id="discussed_[VBD]" label="discussed_[VBD]" />
+      <node id="groups_[NNS]" label="groups_[NNS]" />
+      <node id="our_[PRP$]" label="our_[PRP$]" />
+      <node id="focus_[NN]" label="focus_[NN]" />
+      <node id="provide_[VB]" label="provide_[VB]" />
+      <node id="understanding_[NN]" label="understanding_[NN]" />
+      <node id="basic_[JJ]" label="basic_[JJ]" />
+      <node id="viewed_[VBN]" label="viewed_[VBN]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="non-researchers_[NNS]" label="non-researchers_[NNS]" />
+      <node id="by_[IN]" label="by_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="is_[VBZ]" target="develops_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="is_[VBZ]" target="there_[EX]">
+        <attvalues>
+          <attvalue for="0" value="expl" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="is_[VBZ]" target="need_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="develops_[VBZ]" target="As_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="develops_[VBZ]" target="study_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="study_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="study_[NN]" target="specific_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="study_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="specific_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="specific_[NN]" target="privacy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="specific_[NN]" target="Interaction_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="privacy_[NN]" target="about_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Interaction_[NNP]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Interaction_[NNP]" target="Human-Robot_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Interaction_[NNP]" target="HRI_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="need_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="need_[NN]" target="work_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="work_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="work_[NN]" target="empirical_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="work_[NN]" target="background_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="work_[NN]" target="outside_[RB]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="outside_[RB]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="outside_[RB]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="outside_[RB]" target="echo-chamber_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="echo-chamber_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="echo-chamber_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="echo-chamber_[NN]" target="academic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="aims_[VBZ]" target="study_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="aims_[VBZ]" target="create_[VB]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="create_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="create_[VB]" target="discussion_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="create_[VB]" target="privacy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="create_[VB]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="create_[VB]" target="addressed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="discussion_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="discussion_[NN]" target="participatory_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="addressed_[VBN]" target="how_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="addressed_[VBN]" target="it_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="addressed_[VBN]" target="should_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="addressed_[VBN]" target="be_[VB]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="addressed_[VBN]" target="future_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="future_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="future_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="future_[NN]" target="robots_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="robots_[NNS]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="robots_[NNS]" target="telepresence_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="deliver_[VB]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="deliver_[VB]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="deliver_[VB]" target="some_[DT]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="deliver_[VB]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="deliver_[VB]" target="provide_[VB]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="paper_[NN]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="paper_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="paper_[NN]" target="short_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="some_[DT]" target="topics_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="some_[DT]" target="discussed_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="topics_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="topics_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="topics_[NNS]" target="scientifically_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="topics_[NNS]" target="interesting_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="discussed_[VBD]" target="groups_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="groups_[NNS]" target="our_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="groups_[NNS]" target="focus_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="provide_[VB]" target="understanding_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="understanding_[NN]" target="basic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="understanding_[NN]" target="viewed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="viewed_[VBN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="viewed_[VBN]" target="how_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="viewed_[VBN]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="viewed_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="viewed_[VBN]" target="non-researchers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="systems_[NNS]" target="telepresence_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="non-researchers_[NNS]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

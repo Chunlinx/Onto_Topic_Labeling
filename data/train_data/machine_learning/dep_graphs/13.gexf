@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>04/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="speaks_[VBZ]" label="speaks_[VBZ]" />
+      <node id="D'Andrea_[NNP]" label="D'Andrea_[NNP]" />
+      <node id="Dr._[NNP]" label="Dr._[NNP]" />
+      <node id="Raffaello_[NNP]" label="Raffaello_[NNP]" />
+      <node id="length_[NN]" label="length_[NN]" />
+      <node id="at_[IN]" label="at_[IN]" />
+      <node id="takes_[VBZ]" label="takes_[VBZ]" />
+      <node id="about_[IN]" label="about_[IN]" />
+      <node id="what_[WP]" label="what_[WP]" />
+      <node id="it_[PRP]" label="it_[PRP]" />
+      <node id="build_[VB]" label="build_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="viable_[JJ]" label="viable_[JJ]" />
+      <node id="commercially_[RB]" label="commercially_[RB]" />
+      <node id="robotic_[JJ]" label="robotic_[JJ]" />
+      <node id="play_[VB]" label="play_[VB]" />
+      <node id="future_[NN]" label="future_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="humans_[NNS]" label="humans_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="autonomous_[JJ]" label="autonomous_[JJ]" />
+      <node id="machines_[NNS]" label="machines_[NNS]" />
+      <node id="role_[NN]" label="role_[NN]" />
+      <node id="will_[MD]" label="will_[MD]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="prepare_[VB]" label="prepare_[VB]" />
+      <node id="how_[WRB]" label="how_[WRB]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="can_[MD]" label="can_[MD]" />
+      <node id="best_[RBS]" label="best_[RBS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="speaks_[VBZ]" target="D'Andrea_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="speaks_[VBZ]" target="length_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="D'Andrea_[NNP]" target="Dr._[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="D'Andrea_[NNP]" target="Raffaello_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="length_[NN]" target="at_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="length_[NN]" target="takes_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="takes_[VBZ]" target="about_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="takes_[VBZ]" target="what_[WP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="takes_[VBZ]" target="it_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="takes_[VBZ]" target="build_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="takes_[VBZ]" target="play_[VB]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="it_[PRP]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="build_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="build_[VB]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="systems_[NNS]" target="viable_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="systems_[NNS]" target="robotic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="viable_[JJ]" target="commercially_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="play_[VB]" target="future_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="play_[VB]" target="will_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="play_[VB]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="play_[VB]" target="prepare_[VB]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="future_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="future_[NN]" target="humans_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="future_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="future_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="humans_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="humans_[NNS]" target="autonomous_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="autonomous_[JJ]" target="machines_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="machines_[NNS]" target="role_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="role_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="prepare_[VB]" target="how_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="prepare_[VB]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="prepare_[VB]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="prepare_[VB]" target="best_[RBS]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="prepare_[VB]" target="it_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

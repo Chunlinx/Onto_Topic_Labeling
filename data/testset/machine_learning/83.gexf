@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="raises_[VBZ]" label="raises_[VBZ]" />
+      <node id="use_[NN]" label="use_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="unlimited_[JJ]" label="unlimited_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="pervasive_[JJ]" label="pervasive_[JJ]" />
+      <node id="Internet_[NN]" label="Internet_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="people_[NNS]" label="people_[NNS]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="young_[JJ]" label="young_[JJ]" />
+      <node id="concerns_[NNS]" label="concerns_[NNS]" />
+      <node id="many_[JJ]" label="many_[JJ]" />
+      <node id="safety_[NN]" label="safety_[NN]" />
+      <node id="about_[IN]" label="about_[IN]" />
+      <node id="child_[NN]" label="child_[NN]" />
+      <node id="available_[JJ]" label="available_[JJ]" />
+      <node id="What_[WP]" label="What_[WP]" />
+      <node id="solutions_[NNS]" label="solutions_[NNS]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="they_[PRP]" label="they_[PRP]" />
+      <node id="why_[WRB]" label="why_[WRB]" />
+      <node id="n't_[RB]" label="n't_[RB]" />
+      <node id="used_[VBN]" label="used_[VBN]" />
+      <node id="being_[VBG]" label="being_[VBG]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="raises_[VBZ]" target="use_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="raises_[VBZ]" target="concerns_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="use_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="use_[NN]" target="unlimited_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="use_[NN]" target="Internet_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="unlimited_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="unlimited_[JJ]" target="pervasive_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Internet_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Internet_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Internet_[NN]" target="people_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="people_[NNS]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="people_[NNS]" target="young_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="concerns_[NNS]" target="many_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="concerns_[NNS]" target="safety_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="safety_[NN]" target="about_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="safety_[NN]" target="child_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="available_[JJ]" target="What_[WP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="available_[JJ]" target="solutions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="available_[JJ]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="available_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="available_[JJ]" target="they_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="available_[JJ]" target="used_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="they_[PRP]" target="why_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="they_[PRP]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="they_[PRP]" target="n't_[RB]">
+        <attvalues>
+          <attvalue for="0" value="neg" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="used_[VBN]" target="being_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

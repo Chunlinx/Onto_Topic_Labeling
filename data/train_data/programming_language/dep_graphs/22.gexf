@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="share_[VBP]" label="share_[VBP]" />
+      <node id="roundtable_[NN]" label="roundtable_[NN]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="professors_[NNS]" label="professors_[NNS]" />
+      <node id="three_[CD]" label="three_[CD]" />
+      <node id="programming_[NN]" label="programming_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="parallel_[JJ]" label="parallel_[JJ]" />
+      <node id="perspective_[NN]" label="perspective_[NN]" />
+      <node id="their_[PRP$]" label="their_[PRP$]" />
+      <node id="teaching_[VBG]" label="teaching_[VBG]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="learning_[VBG]" label="learning_[VBG]" />
+      <node id="technique_[NN]" label="technique_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="computing_[NN]" label="computing_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="share_[VBP]" target="roundtable_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="share_[VBP]" target="professors_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="share_[VBP]" target="perspective_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="share_[VBP]" target="teaching_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="roundtable_[NN]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="roundtable_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="professors_[NNS]" target="three_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="professors_[NNS]" target="programming_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="programming_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="programming_[NN]" target="parallel_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="perspective_[NN]" target="their_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="teaching_[VBG]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="teaching_[VBG]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="teaching_[VBG]" target="learning_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="teaching_[VBG]" target="technique_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="technique_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="technique_[NN]" target="computing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="collection_[NN]" label="collection_[NN]" />
+      <node id="FM_[NNP]" label="FM_[NNP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="routines_[NNS]" label="routines_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="FORTRAN-77_[NN]" label="FORTRAN-77_[NN]" />
+      <node id="performs_[VBZ]" label="performs_[VBZ]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="arithmetic_[NN]" label="arithmetic_[NN]" />
+      <node id="floating-point_[JJ]" label="floating-point_[JJ]" />
+      <node id="multiple-precision_[JJ]" label="multiple-precision_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="functions_[NNS]" label="functions_[NNS]" />
+      <node id="elementary_[JJ]" label="elementary_[JJ]" />
+      <node id="rounded_[VBN]" label="rounded_[VBN]" />
+      <node id="Results_[NNS]" label="Results_[NNS]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="always_[RB]" label="always_[RB]" />
+      <node id="almost_[RB]" label="almost_[RB]" />
+      <node id="correctly_[RB]" label="correctly_[RB]" />
+      <node id="obtained_[VBN]" label="obtained_[VBN]" />
+      <node id="algorithms_[NNS]" label="algorithms_[NNS]" />
+      <node id="due_[JJ]" label="due_[JJ]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="improved_[VBN]" label="improved_[VBN]" />
+      <node id="used_[VBN]" label="used_[VBN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="efficiency_[NN]" label="efficiency_[NN]" />
+      <node id="reasonable_[JJ]" label="reasonable_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="collection_[NN]" target="FM_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="collection_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="collection_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="collection_[NN]" target="routines_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="collection_[NN]" target="performs_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="routines_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="routines_[NNS]" target="FORTRAN-77_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="performs_[VBZ]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="performs_[VBZ]" target="arithmetic_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="arithmetic_[NN]" target="floating-point_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="arithmetic_[NN]" target="multiple-precision_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="arithmetic_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="arithmetic_[NN]" target="functions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="functions_[NNS]" target="elementary_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="functions_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="rounded_[VBN]" target="Results_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="rounded_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="rounded_[VBN]" target="always_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="rounded_[VBN]" target="correctly_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="rounded_[VBN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="rounded_[VBN]" target="obtained_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="always_[RB]" target="almost_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="obtained_[VBN]" target="algorithms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="obtained_[VBN]" target="efficiency_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="obtained_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="algorithms_[NNS]" target="due_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="algorithms_[NNS]" target="improved_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="algorithms_[NNS]" target="used_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="due_[JJ]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mwe" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="used_[VBN]" target="functions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="efficiency_[NN]" target="reasonable_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

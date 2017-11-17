@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>04/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="weighs_[VBZ]" label="weighs_[VBZ]" />
+      <node id="Director_[NNP]" label="Director_[NNP]" />
+      <node id="Babbel_[NNP]" label="Babbel_[NNP]" />
+      <node id="'s_[POS]" label="'s_[POS]" />
+      <node id="Didactics_[NNP]" label="Didactics_[NNP]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="Plieninger_[NNP]" label="Plieninger_[NNP]" />
+      <node id="Miriam_[NNP]" label="Miriam_[NNP]" />
+      <node id="in_[RP]" label="in_[RP]" />
+      <node id="changing_[VBG]" label="changing_[VBG]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="how_[WRB]" label="how_[WRB]" />
+      <node id="apps_[NNS]" label="apps_[NNS]" />
+      <node id="mobile_[JJ]" label="mobile_[JJ]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="rapidly_[RB]" label="rapidly_[RB]" />
+      <node id="way_[NN]" label="way_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="approach_[VBP]" label="approach_[VBP]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="learning_[NN]" label="learning_[NN]" />
+      <node id="language_[NN]" label="language_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="weighs_[VBZ]" target="Director_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="weighs_[VBZ]" target="in_[RP]">
+        <attvalues>
+          <attvalue for="0" value="compound:prt" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="weighs_[VBZ]" target="changing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="Director_[NNP]" target="Babbel_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Director_[NNP]" target="Didactics_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Director_[NNP]" target="Plieninger_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Babbel_[NNP]" target="'s_[POS]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Didactics_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Plieninger_[NNP]" target="Miriam_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="changing_[VBG]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="changing_[VBG]" target="how_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="changing_[VBG]" target="apps_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="changing_[VBG]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="changing_[VBG]" target="rapidly_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="changing_[VBG]" target="way_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="apps_[NNS]" target="mobile_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="way_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="way_[NN]" target="approach_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="approach_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="approach_[VBP]" target="learning_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="learning_[NN]" target="language_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

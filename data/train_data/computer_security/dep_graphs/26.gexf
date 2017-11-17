@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="produced_[VBN]" label="produced_[VBN]" />
+      <node id="need_[NN]" label="need_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="embed_[VB]" label="embed_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="functionality_[NN]" label="functionality_[NN]" />
+      <node id="search_[NN]" label="search_[NN]" />
+      <node id="aspect_[NN]" label="aspect_[NN]" />
+      <node id="into_[IN]" label="into_[IN]" />
+      <node id="every_[DT]" label="every_[DT]" />
+      <node id="technology_[NN]" label="technology_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="has_[VBZ]" label="has_[VBZ]" />
+      <node id="abundance_[NN]" label="abundance_[NN]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="information_[NN]" label="information_[NN]" />
+      <node id="difficult_[JJ]" label="difficult_[JJ]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="secure_[VB]" label="secure_[VB]" />
+      <node id="resolve_[VB]" label="resolve_[VB]" />
+      <node id="Can_[MD]" label="Can_[MD]" />
+      <node id="advances_[NNS]" label="advances_[NNS]" />
+      <node id="cryptography_[NN]" label="cryptography_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="conflicts_[NNS]" label="conflicts_[NNS]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="inherent_[JJ]" label="inherent_[JJ]" />
+      <node id="data_[NNS]" label="data_[NNS]" />
+      <node id="big_[JJ]" label="big_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="produced_[VBN]" target="need_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="produced_[VBN]" target="has_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="produced_[VBN]" target="abundance_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="need_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="need_[NN]" target="embed_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="embed_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="embed_[VB]" target="functionality_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="embed_[VB]" target="aspect_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="functionality_[NN]" target="search_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="aspect_[NN]" target="into_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="aspect_[NN]" target="every_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="aspect_[NN]" target="technology_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="technology_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="abundance_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="abundance_[NN]" target="information_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="abundance_[NN]" target="difficult_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="information_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="difficult_[JJ]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="difficult_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="difficult_[JJ]" target="secure_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="secure_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="resolve_[VB]" target="Can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="resolve_[VB]" target="advances_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="resolve_[VB]" target="conflicts_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="advances_[NNS]" target="cryptography_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="cryptography_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="conflicts_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="conflicts_[NNS]" target="inherent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="conflicts_[NNS]" target="data_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="data_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="data_[NNS]" target="big_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,840 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>07/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="Traffic_[NNP]" label="Traffic_[NNP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="social_[JJ]" label="social_[JJ]" />
+      <node id="have_[VB]" label="have_[VB]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="users_[NNS]" label="users_[NNS]" />
+      <node id="road_[NN]" label="road_[NN]" />
+      <node id="personality_[NN]" label="personality_[NN]" />
+      <node id="their_[PRP$]" label="their_[PRP$]" />
+      <node id="own_[JJ]" label="own_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="steer_[VB]" label="steer_[VB]" />
+      <node id="cars_[NNS]" label="cars_[NNS]" />
+      <node id="learned_[VBG]" label="learned_[VBG]" />
+      <node id="based_[VBN]" label="based_[VBN]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="behavior_[NN]" label="behavior_[NN]" />
+      <node id="experience_[NN]" label="experience_[NN]" />
+      <node id="familiarity_[NN]" label="familiarity_[NN]" />
+      <node id="situations_[NNS]" label="situations_[NNS]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="or_[CC]" label="or_[CC]" />
+      <node id="sections_[NNS]" label="sections_[NNS]" />
+      <node id="street_[NN]" label="street_[NN]" />
+      <node id="assumption_[NN]" label="assumption_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="work_[NN]" label="work_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="enhanced_[VBN]" label="enhanced_[VBN]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="efficiency_[NN]" label="efficiency_[NN]" />
+      <node id="traffic_[NN]" label="traffic_[NN]" />
+      <node id="safety_[NN]" label="safety_[NN]" />
+      <node id="could_[MD]" label="could_[MD]" />
+      <node id="be_[VB]" label="be_[VB]" />
+      <node id="support_[VBP]" label="support_[VBP]" />
+      <node id="when_[WRB]" label="when_[WRB]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="competent_[JJ]" label="competent_[JJ]" />
+      <node id="more_[RBR]" label="more_[RBR]" />
+      <node id="ones_[NNS]" label="ones_[NNS]" />
+      <node id="less_[RBR]" label="less_[RBR]" />
+      <node id="sharing_[VBG]" label="sharing_[VBG]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="data_[NNS]" label="data_[NNS]" />
+      <node id="characteristics_[NNS]" label="characteristics_[NNS]" />
+      <node id="about_[IN]" label="about_[IN]" />
+      <node id="specific_[JJ]" label="specific_[JJ]" />
+      <node id="providing_[VBG]" label="providing_[VBG]" />
+      <node id="recommendations_[NNS]" label="recommendations_[NNS]" />
+      <node id="steering_[NN]" label="steering_[NN]" />
+      <node id="help_[VB]" label="help_[VB]" />
+      <node id="information_[NN]" label="information_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="should_[MD]" label="should_[MD]" />
+      <node id="latter_[NN]" label="latter_[NN]" />
+      <node id="move_[VB]" label="move_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="vehicle_[NN]" label="vehicle_[NN]" />
+      <node id="its_[PRP$]" label="its_[PRP$]" />
+      <node id="way_[NN]" label="way_[NN]" />
+      <node id="efficient_[JJ]" label="efficient_[JJ]" />
+      <node id="safe_[JJ]" label="safe_[JJ]" />
+      <node id="designed_[VBD]" label="designed_[VBD]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="thus_[RB]" label="thus_[RB]" />
+      <node id="prototyped_[VBD]" label="prototyped_[VBD]" />
+      <node id="tested_[VBD]" label="tested_[VBD]" />
+      <node id="app_[NN]" label="app_[NN]" />
+      <node id="Social_[NN]" label="Social_[NN]" />
+      <node id="driving_[NN]" label="driving_[NN]" />
+      <node id="allows_[VBZ]" label="allows_[VBZ]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="drivers_[NNS]" label="drivers_[NNS]" />
+      <node id="experienced_[JJ]" label="experienced_[JJ]" />
+      <node id="collect_[VB]" label="collect_[VB]" />
+      <node id="data_[NN]" label="data_[NN]" />
+      <node id="share_[NN]" label="share_[NN]" />
+      <node id="driving_[VBG]" label="driving_[VBG]" />
+      <node id="speed_[NN]" label="speed_[NN]" />
+      <node id="gear_[NN]" label="gear_[NN]" />
+      <node id="force_[NN]" label="force_[NN]" />
+      <node id="brake_[JJ]" label="brake_[JJ]" />
+      <node id="etc._[FW]" label="etc._[FW]" />
+      <node id="generates_[VBZ]" label="generates_[VBZ]" />
+      <node id="that_[DT]" label="that_[DT]" />
+      <node id="profiles_[NNS]" label="profiles_[NNS]" />
+      <node id="aggregated_[JJ]" label="aggregated_[JJ]" />
+      <node id="experts_[NNS]" label="experts_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="lay_[JJ]" label="lay_[JJ]" />
+      <node id="examined_[VBD]" label="examined_[VBD]" />
+      <node id="introducing_[VBG]" label="introducing_[VBG]" />
+      <node id="By_[IN]" label="By_[IN]" />
+      <node id="ranking_[JJ]" label="ranking_[JJ]" />
+      <node id="motivate_[VB]" label="motivate_[VB]" />
+      <node id="individual_[JJ]" label="individual_[JJ]" />
+      <node id="follow_[VB]" label="follow_[VB]" />
+      <node id="instructions_[NNS]" label="instructions_[NNS]" />
+      <node id="from_[IN]" label="from_[IN]" />
+      <node id="project_[NN]" label="project_[NN]" />
+      <node id="further_[RB]" label="further_[RB]" />
+      <node id="influence_[NN]" label="influence_[NN]" />
+      <node id="pressure_[NN]" label="pressure_[NN]" />
+      <node id="performance_[NN]" label="performance_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="system_[NN]" target="Traffic_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="system_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="system_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="system_[NN]" target="social_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="system_[NN]" target="have_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="system_[NN]" target="ranking_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="system_[NN]" target="from_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="system_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="is_[VBZ]" target="assumption_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="is_[VBZ]" target="enhanced_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="have_[VB]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="have_[VB]" target="users_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="have_[VB]" target="personality_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="have_[VB]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="have_[VB]" target="steer_[VB]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="which_[WDT]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="users_[NNS]" target="road_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="users_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="users_[NNS]" target="competent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="personality_[NN]" target="their_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="personality_[NN]" target="own_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="steer_[VB]" target="cars_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="steer_[VB]" target="learned_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="cars_[NNS]" target="their_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="learned_[VBG]" target="based_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="learned_[VBG]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="learned_[VBG]" target="behavior_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="learned_[VBG]" target="situations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="behavior_[NN]" target="experience_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="behavior_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="behavior_[NN]" target="familiarity_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="situations_[NNS]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="situations_[NNS]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="situations_[NNS]" target="sections_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="sections_[NNS]" target="street_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="assumption_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="assumption_[NN]" target="work_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="work_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="work_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="enhanced_[VBN]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="enhanced_[VBN]" target="efficiency_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="enhanced_[VBN]" target="could_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="enhanced_[VBN]" target="be_[VB]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="enhanced_[VBN]" target="support_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="efficiency_[NN]" target="traffic_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="efficiency_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="efficiency_[NN]" target="safety_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="support_[VBP]" target="when_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="support_[VBP]" target="users_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="support_[VBP]" target="ones_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="support_[VBP]" target="sharing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="competent_[JJ]" target="more_[RBR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="competent_[JJ]" target="less_[RBR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="ones_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="ones_[NNS]" target="competent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="sharing_[VBG]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="sharing_[VBG]" target="data_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="sharing_[VBG]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="sharing_[VBG]" target="providing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="data_[NNS]" target="characteristics_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="characteristics_[NNS]" target="about_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="characteristics_[NNS]" target="specific_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="characteristics_[NNS]" target="road_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="providing_[VBG]" target="recommendations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="recommendations_[NNS]" target="steering_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="recommendations_[NNS]" target="drivers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="help_[VB]" target="information_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="help_[VB]" target="should_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="help_[VB]" target="latter_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="information_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="latter_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="latter_[NN]" target="move_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="move_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="move_[VB]" target="vehicle_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="move_[VB]" target="way_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="vehicle_[NN]" target="its_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="way_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="way_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="way_[NN]" target="efficient_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="efficient_[JJ]" target="more_[RBR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="efficient_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="efficient_[JJ]" target="safe_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="designed_[VBD]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="designed_[VBD]" target="thus_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="designed_[VBD]" target="prototyped_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="designed_[VBD]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="designed_[VBD]" target="tested_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="tested_[VBD]" target="app_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="app_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="app_[NN]" target="Social_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="app_[NN]" target="driving_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="app_[NN]" target="allows_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="app_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="app_[NN]" target="data_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="allows_[VBZ]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="allows_[VBZ]" target="drivers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="allows_[VBZ]" target="collect_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="drivers_[NNS]" target="experienced_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="drivers_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="drivers_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="drivers_[NNS]" target="lay_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="drivers_[NNS]" target="individual_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="collect_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="data_[NN]" target="share_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="data_[NN]" target="driving_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="data_[NN]" target="speed_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="driving_[VBG]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="driving_[VBG]" target="performance_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="speed_[NN]" target="gear_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="speed_[NN]" target="force_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="speed_[NN]" target="etc._[FW]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="force_[NN]" target="brake_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="generates_[VBZ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="generates_[VBZ]" target="that_[DT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="generates_[VBZ]" target="profiles_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="profiles_[NNS]" target="based_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="profiles_[NNS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="profiles_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="profiles_[NNS]" target="aggregated_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="profiles_[NNS]" target="driving_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="profiles_[NNS]" target="experts_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="experts_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="experts_[NNS]" target="recommendations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="examined_[VBD]" target="introducing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="examined_[VBD]" target="project_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="examined_[VBD]" target="further_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="examined_[VBD]" target="influence_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="examined_[VBD]" target="driving_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="introducing_[VBG]" target="By_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="introducing_[VBG]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="introducing_[VBG]" target="motivate_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="motivate_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="motivate_[VB]" target="drivers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="motivate_[VB]" target="follow_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="follow_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="follow_[VB]" target="instructions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="follow_[VB]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="instructions_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="project_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="influence_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="influence_[NN]" target="pressure_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="pressure_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="pressure_[NN]" target="social_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

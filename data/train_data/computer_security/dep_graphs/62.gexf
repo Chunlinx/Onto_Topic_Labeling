@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="prevent_[VB]" label="prevent_[VB]" />
+      <node id="database_[NN]" label="database_[NN]" />
+      <node id="A_[DT]" label="A_[DT]" />
+      <node id="national_[JJ]" label="national_[JJ]" />
+      <node id="biometric_[JJ]" label="biometric_[JJ]" />
+      <node id="place_[NN]" label="place_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="our_[PRP$]" label="our_[PRP$]" />
+      <node id="current_[JJ]" label="current_[JJ]" />
+      <node id="flawed_[JJ]" label="flawed_[JJ]" />
+      <node id="identification_[NN]" label="identification_[NN]" />
+      <node id="could_[MD]" label="could_[MD]" />
+      <node id="loss_[NN]" label="loss_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="liberty_[NN]" label="liberty_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="autonomy_[NN]" label="autonomy_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="prevent_[VB]" target="database_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="prevent_[VB]" target="could_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="prevent_[VB]" target="loss_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="database_[NN]" target="A_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="database_[NN]" target="national_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="database_[NN]" target="biometric_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="database_[NN]" target="place_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="place_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="place_[NN]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="systems_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="systems_[NNS]" target="our_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="systems_[NNS]" target="current_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="systems_[NNS]" target="flawed_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="systems_[NNS]" target="identification_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="loss_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="loss_[NN]" target="liberty_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="liberty_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="liberty_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="liberty_[NN]" target="autonomy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

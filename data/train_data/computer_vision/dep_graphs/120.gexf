@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="analyzes_[VBZ]" label="analyzes_[VBZ]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="concept_[NN]" label="concept_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="robot_[NN]" label="robot_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="mimicking_[VBG]" label="mimicking_[VBG]" />
+      <node id="field_[NN]" label="field_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="Interaction_[NNP]" label="Interaction_[NNP]" />
+      <node id="Human-Machine_[NNP]" label="Human-Machine_[NNP]" />
+      <node id="HMI_[NNP]" label="HMI_[NNP]" />
+      <node id="investigated_[VBN]" label="investigated_[VBN]" />
+      <node id="Gestures_[NNS]" label="Gestures_[NNS]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="applications_[NNS]" label="applications_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="done_[VBN]" label="done_[VBN]" />
+      <node id="Detection_[NNP]" label="Detection_[NNP]" />
+      <node id="arm_[NN]" label="arm_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="moving_[VBG]" label="moving_[VBG]" />
+      <node id="human_[JJ]" label="human_[JJ]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="image_[NN]" label="image_[NN]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="video_[JJ]" label="video_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="calculating_[VBG]" label="calculating_[VBG]" />
+      <node id="orientation_[NN]" label="orientation_[NN]" />
+      <node id="found_[VBD]" label="found_[VBD]" />
+      <node id="angle_[NN]" label="angle_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="passed_[VBN]" label="passed_[VBN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="orient_[VB]" label="orient_[VB]" />
+      <node id="order_[NN]" label="order_[NN]" />
+      <node id="show_[VBP]" label="show_[VBP]" />
+      <node id="simulations_[NNS]" label="simulations_[NNS]" />
+      <node id="possible_[JJ]" label="possible_[JJ]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="it_[PRP]" label="it_[PRP]" />
+      <node id="determine_[VB]" label="determine_[VB]" />
+      <node id="information_[NN]" label="information_[NN]" />
+      <node id="initial_[JJ]" label="initial_[JJ]" />
+      <node id="background_[NN]" label="background_[NN]" />
+      <node id="or_[CC]" label="or_[CC]" />
+      <node id="tracking_[NN]" label="tracking_[NN]" />
+      <node id="features_[NNS]" label="features_[NNS]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="analyzes_[VBZ]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="analyzes_[VBZ]" target="concept_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="paper_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="concept_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="concept_[NN]" target="robot_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="robot_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="robot_[NN]" target="mimicking_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="mimicking_[VBG]" target="field_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="field_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="field_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="field_[NN]" target="Interaction_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="in_[IN]" target="order_[NN]">
+        <attvalues>
+          <attvalue for="0" value="mwe" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Interaction_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Interaction_[NNP]" target="Human-Machine_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Interaction_[NNP]" target="HMI_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="investigated_[VBN]" target="Gestures_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="investigated_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="investigated_[VBN]" target="applications_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="applications_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="applications_[NNS]" target="HMI_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="done_[VBN]" target="Detection_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="done_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="done_[VBN]" target="image_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="done_[VBN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="done_[VBN]" target="calculating_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="Detection_[NNP]" target="arm_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="arm_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="arm_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="arm_[NN]" target="moving_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="arm_[NN]" target="human_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="arm_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="arm_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="arm_[NN]" target="robot_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="image_[NN]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="image_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="image_[NN]" target="video_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="calculating_[VBG]" target="orientation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="orientation_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="orientation_[NN]" target="arm_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="orientation_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="orientation_[NN]" target="human_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="found_[VBD]" target="angle_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="found_[VBD]" target="passed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="angle_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="angle_[NN]" target="orientation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="passed_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="passed_[VBN]" target="arm_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="passed_[VBN]" target="orient_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="orient_[VB]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="orient_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="orient_[VB]" target="arm_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="show_[VBP]" target="simulations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="show_[VBP]" target="possible_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="simulations_[NNS]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="possible_[JJ]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="possible_[JJ]" target="it_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="possible_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="possible_[JJ]" target="determine_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="determine_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="determine_[VB]" target="orientation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="determine_[VB]" target="information_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="information_[NN]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="information_[NN]" target="initial_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="information_[NN]" target="background_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="information_[NN]" target="image_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="information_[NN]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="information_[NN]" target="tracking_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="information_[NN]" target="features_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="features_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

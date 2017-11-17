@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="provides_[VBZ]" label="provides_[VBZ]" />
+      <node id="imagery_[NN]" label="imagery_[NN]" />
+      <node id="Hyperspectral_[JJ]" label="Hyperspectral_[JJ]" />
+      <node id="information_[NN]" label="information_[NN]" />
+      <node id="richer_[JJR]" label="richer_[JJR]" />
+      <node id="materials_[NNS]" label="materials_[NNS]" />
+      <node id="about_[IN]" label="about_[IN]" />
+      <node id="than_[IN]" label="than_[IN]" />
+      <node id="multispectral_[JJ]" label="multispectral_[JJ]" />
+      <node id="present_[VBP]" label="present_[VBP]" />
+      <node id="volumes_[NNS]" label="volumes_[NNS]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="new_[JJ]" label="new_[JJ]" />
+      <node id="larger_[JJR]" label="larger_[JJR]" />
+      <node id="data_[NN]" label="data_[NN]" />
+      <node id="sensors_[NNS]" label="sensors_[NNS]" />
+      <node id="from_[IN]" label="from_[IN]" />
+      <node id="hyperspectral_[JJ]" label="hyperspectral_[JJ]" />
+      <node id="challenge_[NN]" label="challenge_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="techniques_[NNS]" label="techniques_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="traditional_[JJ]" label="traditional_[JJ]" />
+      <node id="processing_[NN]" label="processing_[NN]" />
+      <node id="technique_[NN]" label="technique_[NN]" />
+      <node id="analysis_[NN]" label="analysis_[NN]" />
+      <node id="Principal_[NN]" label="Principal_[NN]" />
+      <node id="component_[NN]" label="component_[NN]" />
+      <node id="PCA_[NNP]" label="PCA_[NNP]" />
+      <node id="has_[VBZ]" label="has_[VBZ]" />
+      <node id="been_[VBN]" label="been_[VBN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="choice_[NN]" label="choice_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="reduction_[NN]" label="reduction_[NN]" />
+      <node id="dimension_[NN]" label="dimension_[NN]" />
+      <node id="considered_[VBN]" label="considered_[VBN]" />
+      <node id="Spectral_[JJ]" label="Spectral_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="estimation_[NN]" label="estimation_[NN]" />
+      <node id="using_[VBG]" label="using_[VBG]" />
+      <node id="bank_[NN]" label="bank_[NN]" />
+      <node id="wavelet_[JJ]" label="wavelet_[JJ]" />
+      <node id="filter_[NN]" label="filter_[NN]" />
+      <node id="reconstruction_[NN]" label="reconstruction_[NN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="perfect_[JJ]" label="perfect_[JJ]" />
+      <node id="can_[MD]" label="can_[MD]" />
+      <node id="be_[VB]" label="be_[VB]" />
+      <node id="results_[NNS]" label="results_[NNS]" />
+      <node id="better_[JJR]" label="better_[JJR]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="provides_[VBZ]" target="imagery_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="provides_[VBZ]" target="information_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="provides_[VBZ]" target="materials_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="imagery_[NN]" target="Hyperspectral_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="imagery_[NN]" target="than_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="imagery_[NN]" target="multispectral_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="information_[NN]" target="richer_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="materials_[NNS]" target="about_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="materials_[NNS]" target="imagery_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="present_[VBP]" target="volumes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="present_[VBP]" target="challenge_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="volumes_[NNS]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="volumes_[NNS]" target="new_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="volumes_[NNS]" target="data_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="volumes_[NNS]" target="sensors_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="new_[JJ]" target="larger_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="sensors_[NNS]" target="from_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="sensors_[NNS]" target="hyperspectral_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="challenge_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="challenge_[NN]" target="techniques_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="techniques_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="techniques_[NNS]" target="traditional_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="techniques_[NNS]" target="processing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="technique_[NN]" target="analysis_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="technique_[NN]" target="has_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="technique_[NN]" target="been_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="technique_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="technique_[NN]" target="choice_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="technique_[NN]" target="reduction_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="analysis_[NN]" target="Principal_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="analysis_[NN]" target="component_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="analysis_[NN]" target="PCA_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="choice_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="reduction_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="reduction_[NN]" target="dimension_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="reduction_[NN]" target="Spectral_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="reduction_[NN]" target="data_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="reduction_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="reduction_[NN]" target="estimation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="reduction_[NN]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="considered_[VBN]" target="reduction_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="considered_[VBN]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="considered_[VBN]" target="be_[VB]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="considered_[VBN]" target="results_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="using_[VBG]" target="bank_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="using_[VBG]" target="reconstruction_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="bank_[NN]" target="wavelet_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="bank_[NN]" target="filter_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="reconstruction_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="reconstruction_[NN]" target="perfect_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="results_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="results_[NNS]" target="better_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

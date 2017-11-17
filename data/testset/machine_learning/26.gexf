@@ -1,0 +1,659 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="problem_[NN]" label="problem_[NN]" />
+      <node id="Allocation_[NNP]" label="Allocation_[NNP]" />
+      <node id="jobs_[NNS]" label="jobs_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="independent_[JJ]" label="independent_[JJ]" />
+      <node id="resources_[NNS]" label="resources_[NNS]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="available_[JJ]" label="available_[JJ]" />
+      <node id="environment_[NN]" label="environment_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="computational_[JJ]" label="computational_[JJ]" />
+      <node id="grid_[NN]" label="grid_[NN]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="combinatorial_[JJ]" label="combinatorial_[JJ]" />
+      <node id="optimization_[NN]" label="optimization_[NN]" />
+      <node id="comes_[VBZ]" label="comes_[VBZ]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="category_[NN]" label="category_[NN]" />
+      <node id="under_[IN]" label="under_[IN]" />
+      <node id="problems_[NNS]" label="problems_[NNS]" />
+      <node id="NP_[NNP]" label="NP_[NNP]" />
+      <node id="hard_[JJ]" label="hard_[JJ]" />
+      <node id="NP_[JJ]" label="NP_[JJ]" />
+      <node id="complete_[JJ]" label="complete_[JJ]" />
+      <node id="objective_[NN]" label="objective_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="main_[JJ]" label="main_[JJ]" />
+      <node id="study_[NN]" label="study_[NN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="maximize_[VB]" label="maximize_[VB]" />
+      <node id="utilization_[NN]" label="utilization_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="resource_[NN]" label="resource_[NN]" />
+      <node id="satisfaction_[NN]" label="satisfaction_[NN]" />
+      <node id="second_[JJ]" label="second_[JJ]" />
+      <node id="user_[NN]" label="user_[NN]" />
+      <node id="minimizing_[VBG]" label="minimizing_[VBG]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="time_[NN]" label="time_[NN]" />
+      <node id="job_[NN]" label="job_[NN]" />
+      <node id="completion_[NN]" label="completion_[NN]" />
+      <node id="presents_[VBZ]" label="presents_[VBZ]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="algorithm_[NN]" label="algorithm_[NN]" />
+      <node id="genetic_[JJ]" label="genetic_[JJ]" />
+      <node id="populations_[NNS]" label="populations_[NNS]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="overlapping_[VBG]" label="overlapping_[VBG]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="parallel_[JJ]" label="parallel_[JJ]" />
+      <node id="solution_[NN]" label="solution_[NN]" />
+      <node id="scheduling_[NN]" label="scheduling_[NN]" />
+      <node id="constraints_[NNS]" label="constraints_[NNS]" />
+      <node id="timing_[NN]" label="timing_[NN]" />
+      <node id="tackled_[VBN]" label="tackled_[VBN]" />
+      <node id="mode_[NN]" label="mode_[NN]" />
+      <node id="preemptive_[JJ]" label="preemptive_[JJ]" />
+      <node id="non-preemptive_[JJ]" label="non-preemptive_[JJ]" />
+      <node id="proposed_[VBN]" label="proposed_[VBN]" />
+      <node id="representation_[NN]" label="representation_[NN]" />
+      <node id="Two_[CD]" label="Two_[CD]" />
+      <node id="dimensional_[JJ]" label="dimensional_[JJ]" />
+      <node id="chromosome_[NN]" label="chromosome_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="assignment_[NN]" label="assignment_[NN]" />
+      <node id="reduces_[VBZ]" label="reduces_[VBZ]" />
+      <node id="calculation_[NN]" label="calculation_[NN]" />
+      <node id="evaluations_[NNS]" label="evaluations_[NNS]" />
+      <node id="fitness_[NN]" label="fitness_[NN]" />
+      <node id="applied_[VBN]" label="applied_[VBN]" />
+      <node id="algorithms_[NNS]" label="algorithms_[NNS]" />
+      <node id="Proposed_[NNP]" label="Proposed_[NNP]" />
+      <node id="Genetic_[NNP]" label="Genetic_[NNP]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="instances_[NNS]" label="instances_[NNS]" />
+      <node id="three_[CD]" label="three_[CD]" />
+      <node id="obtained_[VBD]" label="obtained_[VBD]" />
+      <node id="results_[NNS]" label="results_[NNS]" />
+      <node id="compared_[VBN]" label="compared_[VBN]" />
+      <node id="literature_[NN]" label="literature_[NN]" />
+      <node id="from_[IN]" label="from_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="problem_[NN]" target="Allocation_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="problem_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="problem_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="problem_[NN]" target="combinatorial_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="problem_[NN]" target="optimization_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="problem_[NN]" target="comes_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="problem_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="problem_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="problem_[NN]" target="scheduling_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="problem_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="problem_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="problem_[NN]" target="job_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="problem_[NN]" target="assignment_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="problem_[NN]" target="reduces_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Allocation_[NNP]" target="jobs_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="jobs_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="jobs_[NNS]" target="independent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="jobs_[NNS]" target="resources_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="resources_[NNS]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="resources_[NNS]" target="available_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="resources_[NNS]" target="environment_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="environment_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="environment_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="environment_[NN]" target="computational_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="environment_[NN]" target="grid_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="is_[VBZ]" target="objective_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="is_[VBZ]" target="maximize_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="comes_[VBZ]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="comes_[VBZ]" target="category_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="category_[NN]" target="under_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="category_[NN]" target="problems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="problems_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="problems_[NNS]" target="NP_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="problems_[NNS]" target="hard_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="problems_[NNS]" target="NP_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="problems_[NNS]" target="complete_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="objective_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="objective_[NN]" target="main_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="objective_[NN]" target="study_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="objective_[NN]" target="second_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="study_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="study_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="maximize_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="maximize_[VB]" target="utilization_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="maximize_[VB]" target="environment_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="utilization_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="utilization_[NN]" target="resource_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="resource_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="resource_[NN]" target="timing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="satisfaction_[NN]" target="objective_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="satisfaction_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="satisfaction_[NN]" target="user_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="satisfaction_[NN]" target="minimizing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="minimizing_[VBG]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="minimizing_[VBG]" target="time_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="time_[NN]" target="job_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="time_[NN]" target="completion_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="presents_[VBZ]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="presents_[VBZ]" target="algorithm_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="presents_[VBZ]" target="populations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="paper_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="algorithm_[NN]" target="genetic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="algorithm_[NN]" target="parallel_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="algorithm_[NN]" target="solution_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="populations_[NNS]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="populations_[NNS]" target="overlapping_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="populations_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="populations_[NNS]" target="algorithm_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="solution_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="solution_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="solution_[NN]" target="problem_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="scheduling_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="scheduling_[NN]" target="job_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="scheduling_[NN]" target="constraints_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="constraints_[NNS]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="constraints_[NNS]" target="resource_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="tackled_[VBN]" target="problem_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="tackled_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="tackled_[VBN]" target="mode_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="mode_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="mode_[NN]" target="preemptive_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="preemptive_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="preemptive_[JJ]" target="non-preemptive_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="proposed_[VBN]" target="representation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="proposed_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="proposed_[VBN]" target="problem_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="representation_[NN]" target="Two_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="representation_[NN]" target="dimensional_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="representation_[NN]" target="chromosome_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="reduces_[VBZ]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="reduces_[VBZ]" target="calculation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="calculation_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="calculation_[NN]" target="evaluations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="evaluations_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="evaluations_[NNS]" target="fitness_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="applied_[VBN]" target="algorithms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="applied_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="applied_[VBN]" target="instances_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="applied_[VBN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="applied_[VBN]" target="obtained_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="algorithms_[NNS]" target="Proposed_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="algorithms_[NNS]" target="Genetic_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="instances_[NNS]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="instances_[NNS]" target="three_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="instances_[NNS]" target="problem_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="obtained_[VBD]" target="results_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="results_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="results_[NNS]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="results_[NNS]" target="compared_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="results_[NNS]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="results_[NNS]" target="literature_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="literature_[NN]" target="from_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

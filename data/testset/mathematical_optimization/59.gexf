@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="looking_[VBG]" label="looking_[VBG]" />
+      <node id="Are_[VBP]" label="Are_[VBP]" />
+      <node id="you_[PRP]" label="you_[PRP]" />
+      <node id="ideas_[NNS]" label="ideas_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="new_[JJ]" label="new_[JJ]" />
+      <node id="leverage_[VB]" label="leverage_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="IT_[NN]" label="IT_[NN]" />
+      <node id="your_[PRP$]" label="your_[PRP$]" />
+      <node id="allow_[VB]" label="allow_[VB]" />
+      <node id="workforce_[NN]" label="workforce_[NN]" />
+      <node id="efficient_[JJ]" label="efficient_[JJ]" />
+      <node id="collectively_[RB]" label="collectively_[RB]" />
+      <node id="be_[VB]" label="be_[VB]" />
+      <node id="more_[RBR]" label="more_[RBR]" />
+      <node id="solving_[VBG]" label="solving_[VBG]" />
+      <node id="at_[IN]" label="at_[IN]" />
+      <node id="problems_[NNS]" label="problems_[NNS]" />
+      <node id="complex_[JJ]" label="complex_[JJ]" />
+      <node id="Want_[VB]" label="Want_[VB]" />
+      <node id="transform_[VB]" label="transform_[VB]" />
+      <node id="corporation_[NN]" label="corporation_[NN]" />
+      <node id="reach_[VB]" label="reach_[VB]" />
+      <node id="so_[RB]" label="so_[RB]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="it_[PRP]" label="it_[PRP]" />
+      <node id="can_[MD]" label="can_[MD]" />
+      <node id="heights_[NNS]" label="heights_[NNS]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="looking_[VBG]" target="Are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="looking_[VBG]" target="you_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="looking_[VBG]" target="ideas_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="looking_[VBG]" target="leverage_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="ideas_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="ideas_[NNS]" target="new_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="leverage_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="leverage_[VB]" target="IT_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="IT_[NN]" target="your_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="IT_[NN]" target="allow_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="allow_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="allow_[VB]" target="workforce_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="workforce_[NN]" target="your_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="workforce_[NN]" target="efficient_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="efficient_[JJ]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="efficient_[JJ]" target="collectively_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="efficient_[JJ]" target="be_[VB]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="efficient_[JJ]" target="more_[RBR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="efficient_[JJ]" target="solving_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="solving_[VBG]" target="at_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="solving_[VBG]" target="problems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="problems_[NNS]" target="complex_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="Want_[VB]" target="transform_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="transform_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="transform_[VB]" target="corporation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="transform_[VB]" target="reach_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="corporation_[NN]" target="your_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="reach_[VB]" target="so_[RB]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="reach_[VB]" target="it_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="reach_[VB]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="reach_[VB]" target="heights_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="so_[RB]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mwe" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="heights_[NNS]" target="new_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

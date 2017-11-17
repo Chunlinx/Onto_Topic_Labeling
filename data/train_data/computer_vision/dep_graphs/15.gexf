@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="describes_[VBZ]" label="describes_[VBZ]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="protocol_[NN]" label="protocol_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="authentication_[NN]" label="authentication_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="efficient_[JJ]" label="efficient_[JJ]" />
+      <node id="mutual_[JJ]" label="mutual_[JJ]" />
+      <node id="party_[NN]" label="party_[NN]" />
+      <node id="via_[IN]" label="via_[IN]" />
+      <node id="trusted_[VBN]" label="trusted_[VBN]" />
+      <node id="mutually_[RB]" label="mutually_[RB]" />
+      <node id="third_[JJ]" label="third_[JJ]" />
+      <node id="assures_[VBZ]" label="assures_[VBZ]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="parties_[NNS]" label="parties_[NNS]" />
+      <node id="both_[DT]" label="both_[DT]" />
+      <node id="principal_[JJ]" label="principal_[JJ]" />
+      <node id="timeliness_[NNS]" label="timeliness_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="interaction_[NN]" label="interaction_[NN]" />
+      <node id="use_[NN]" label="use_[NN]" />
+      <node id="without_[IN]" label="without_[IN]" />
+      <node id="clocks_[NNS]" label="clocks_[NNS]" />
+      <node id="or_[CC]" label="or_[CC]" />
+      <node id="encipherment_[NN]" label="encipherment_[NN]" />
+      <node id="double_[JJ]" label="double_[JJ]" />
+      <node id="requires_[VBZ]" label="requires_[VBZ]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="total_[NN]" label="total_[NN]" />
+      <node id="messages_[NNS]" label="messages_[NNS]" />
+      <node id="only_[RB]" label="only_[RB]" />
+      <node id="four_[CD]" label="four_[CD]" />
+      <node id="exchanged_[VBN]" label="exchanged_[VBN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="be_[VB]" label="be_[VB]" />
+      <node id="between_[IN]" label="between_[IN]" />
+      <node id="three_[CD]" label="three_[CD]" />
+      <node id="concerned_[VBN]" label="concerned_[VBN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="describes_[VBZ]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="describes_[VBZ]" target="protocol_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="paper_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="protocol_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="protocol_[NN]" target="authentication_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="protocol_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="authentication_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="authentication_[NN]" target="efficient_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="authentication_[NN]" target="mutual_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="authentication_[NN]" target="party_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="authentication_[NN]" target="assures_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="party_[NN]" target="via_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="party_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="party_[NN]" target="trusted_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="party_[NN]" target="third_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="trusted_[VBN]" target="mutually_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="assures_[VBZ]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="assures_[VBZ]" target="parties_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="assures_[VBZ]" target="use_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="parties_[NNS]" target="both_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="parties_[NNS]" target="principal_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="parties_[NNS]" target="timeliness_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="parties_[NNS]" target="between_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="parties_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="parties_[NNS]" target="three_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="parties_[NNS]" target="concerned_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="timeliness_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="timeliness_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="timeliness_[NNS]" target="interaction_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="interaction_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="interaction_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="use_[NN]" target="without_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="use_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="use_[NN]" target="clocks_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="clocks_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="clocks_[NNS]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="clocks_[NNS]" target="encipherment_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="encipherment_[NN]" target="double_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="requires_[VBZ]" target="protocol_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="requires_[VBZ]" target="total_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="requires_[VBZ]" target="exchanged_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="total_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="total_[NN]" target="messages_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="messages_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="messages_[NNS]" target="only_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="messages_[NNS]" target="four_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="exchanged_[VBN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="exchanged_[VBN]" target="be_[VB]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="exchanged_[VBN]" target="parties_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

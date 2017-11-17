@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="supported_[VBD]" label="supported_[VBD]" />
+      <node id="program_[NN]" label="program_[NN]" />
+      <node id="Essence_[NN]" label="Essence_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="Objects_[NNP]" label="Objects_[NNP]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="ongoing_[JJ]" label="ongoing_[JJ]" />
+      <node id="research_[NN]" label="research_[NN]" />
+      <node id="languages_[NNS]" label="languages_[NNS]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="programming_[NN]" label="programming_[NN]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="type_[NN]" label="type_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="distributed_[VBN]" label="distributed_[VBN]" />
+      <node id="University_[NNP]" label="University_[NNP]" />
+      <node id="at_[IN]" label="at_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="Pennsylvania_[NNP]" label="Pennsylvania_[NNP]" />
+      <node id="Foundation_[NNP]" label="Foundation_[NNP]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="National_[NNP]" label="National_[NNP]" />
+      <node id="Science_[NNP]" label="Science_[NNP]" />
+      <node id="Career_[NNP]" label="Career_[NNP]" />
+      <node id="under_[IN]" label="under_[IN]" />
+      <node id="CCR-9701826_[NN]" label="CCR-9701826_[NN]" />
+      <node id="grant_[NN]" label="grant_[NN]" />
+      <node id="Foundations_[NNP]" label="Foundations_[NNP]" />
+      <node id="Principled_[NNP]" label="Principled_[NNP]" />
+      <node id="Programming_[NNP]" label="Programming_[NNP]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="found_[VBN]" label="found_[VBN]" />
+      <node id="Papers_[NNP]" label="Papers_[NNP]" />
+      <node id="most_[JJS]" label="most_[JJS]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="topics_[NNS]" label="topics_[NNS]" />
+      <node id="discussed_[VBN]" label="discussed_[VBN]" />
+      <node id="outline_[NN]" label="outline_[NN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="can_[MD]" label="can_[MD]" />
+      <node id="be_[VB]" label="be_[VB]" />
+      <node id="http://www.cis.upenn.edu/bcpierce/papers_[NNS]" label="http://www.cis.upenn.edu/bcpierce/papers_[NNS]" />
+      <node id="via_[IN]" label="via_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="supported_[VBD]" target="program_[NN]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="supported_[VBD]" target="Foundation_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="supported_[VBD]" target="Career_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="supported_[VBD]" target="CCR-9701826_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="program_[NN]" target="Essence_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="program_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="program_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="program_[NN]" target="ongoing_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="program_[NN]" target="research_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="program_[NN]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="program_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="program_[NN]" target="programming_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Essence_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Essence_[NN]" target="Objects_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Objects_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="Objects_[NNP]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="research_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="research_[NN]" target="languages_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="languages_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="languages_[NNS]" target="programming_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="programming_[NN]" target="distributed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="programming_[NN]" target="University_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="programming_[NN]" target="Pennsylvania_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="systems_[NNS]" target="type_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="University_[NNP]" target="at_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="University_[NNP]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="Pennsylvania_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="Foundation_[NNP]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="Foundation_[NNP]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="Foundation_[NNP]" target="National_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="Foundation_[NNP]" target="Science_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="Career_[NNP]" target="under_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="CCR-9701826_[NN]" target="grant_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="CCR-9701826_[NN]" target="Foundations_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="Foundations_[NNP]" target="Principled_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="Foundations_[NNP]" target="Programming_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="Programming_[NNP]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="Programming_[NNP]" target="Objects_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="found_[VBN]" target="Papers_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="found_[VBN]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="found_[VBN]" target="be_[VB]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="found_[VBN]" target="http://www.cis.upenn.edu/bcpierce/papers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="Papers_[NNP]" target="most_[JJS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="most_[JJS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="most_[JJS]" target="topics_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="topics_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="topics_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="topics_[NNS]" target="discussed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="discussed_[VBN]" target="outline_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="outline_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="outline_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="http://www.cis.upenn.edu/bcpierce/papers_[NNS]" target="via_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="present_[VBP]" label="present_[VBP]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="Intercom_[NNP]" label="Intercom_[NNP]" />
+      <node id="framework_[NN]" label="framework_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="simulator_[NN]" label="simulator_[NN]" />
+      <node id="provides_[VBZ]" label="provides_[VBZ]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="components_[NNS]" label="components_[NNS]" />
+      <node id="separate_[JJ]" label="separate_[JJ]" />
+      <node id="address_[VB]" label="address_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="aspects_[NNS]" label="aspects_[NNS]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="interdependent_[JJ]" label="interdependent_[JJ]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="IoT_[NNP]" label="IoT_[NNP]" />
+      <node id="sensing_[NNP]" label="sensing_[NNP]" />
+      <node id="such_[JJ]" label="such_[JJ]" />
+      <node id="as_[IN]" label="as_[IN]" />
+      <node id="interaction_[NN]" label="interaction_[NN]" />
+      <node id="physical_[JJ]" label="physical_[JJ]" />
+      <node id="communication_[NN]" label="communication_[NN]" />
+      <node id="wireless_[JJ]" label="wireless_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="computation_[NN]" label="computation_[NN]" />
+      <node id="evaluate_[VB]" label="evaluate_[VB]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="initially_[RB]" label="initially_[RB]" />
+      <node id="sensing_[NN]" label="sensing_[NN]" />
+      <node id="scalable_[JJ]" label="scalable_[JJ]" />
+      <node id="model_[NN]" label="model_[NN]" />
+      <node id="simulates_[VBZ]" label="simulates_[VBZ]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="measurements_[NNS]" label="measurements_[NNS]" />
+      <node id="signal_[NN]" label="signal_[NN]" />
+      <node id="strength_[NN]" label="strength_[NN]" />
+      <node id="error_[NN]" label="error_[NN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="average_[JJ]" label="average_[JJ]" />
+      <node id="dBm_[NN]" label="dBm_[NN]" />
+      <node id="6.1_[CD]" label="6.1_[CD]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="present_[VBP]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="present_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="present_[VBP]" target="Intercom_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="paper_[NN]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="paper_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Intercom_[NNP]" target="framework_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Intercom_[NNP]" target="sensing_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="framework_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="framework_[NN]" target="simulator_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="framework_[NN]" target="provides_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="provides_[VBZ]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="provides_[VBZ]" target="components_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="provides_[VBZ]" target="address_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="components_[NNS]" target="separate_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="address_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="address_[VB]" target="aspects_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="aspects_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="aspects_[NNS]" target="interdependent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="aspects_[NNS]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="systems_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="systems_[NNS]" target="IoT_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="sensing_[NNP]" target="such_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="sensing_[NNP]" target="interaction_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="sensing_[NNP]" target="communication_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="sensing_[NNP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="sensing_[NNP]" target="computation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="such_[JJ]" target="as_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mwe" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="interaction_[NN]" target="physical_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="communication_[NN]" target="wireless_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="evaluate_[VB]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="evaluate_[VB]" target="initially_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="evaluate_[VB]" target="sensing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="sensing_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="sensing_[NN]" target="scalable_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="sensing_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="sensing_[NN]" target="model_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="sensing_[NN]" target="simulates_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="model_[NN]" target="communication_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="simulates_[VBZ]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="simulates_[VBZ]" target="measurements_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="simulates_[VBZ]" target="error_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="measurements_[NNS]" target="wireless_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="measurements_[NNS]" target="signal_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="measurements_[NNS]" target="strength_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="error_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="error_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="error_[NN]" target="average_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="error_[NN]" target="dBm_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="dBm_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="dBm_[NN]" target="6.1_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

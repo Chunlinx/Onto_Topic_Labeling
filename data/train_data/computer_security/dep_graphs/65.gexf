@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Software_[NNP]" label="Software_[NNP]" />
+      <node id="Type80_[NNP]" label="Type80_[NNP]" />
+      <node id="Security_[NNP]" label="Security_[NNP]" />
+      <node id="Inc._[NNP]" label="Inc._[NNP]" />
+      <node id="reflects_[VBZ]" label="reflects_[VBZ]" />
+      <node id="Harding_[NNP]" label="Harding_[NNP]" />
+      <node id="Managing_[NNP]" label="Managing_[NNP]" />
+      <node id="Director_[NNP]" label="Director_[NNP]" />
+      <node id="Jerry_[NNP]" label="Jerry_[NNP]" />
+      <node id="decades_[NNS]" label="decades_[NNS]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="three_[CD]" label="three_[CD]" />
+      <node id="involvement_[NN]" label="involvement_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="computers_[NNS]" label="computers_[NNS]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="mainframe_[NN]" label="mainframe_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Software_[NNP]" target="Type80_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Software_[NNP]" target="Security_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="Software_[NNP]" target="Inc._[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="reflects_[VBZ]" target="Harding_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="reflects_[VBZ]" target="decades_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="reflects_[VBZ]" target="computers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Harding_[NNP]" target="Managing_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Harding_[NNP]" target="Director_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Harding_[NNP]" target="Jerry_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="decades_[NNS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="decades_[NNS]" target="three_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="decades_[NNS]" target="involvement_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="involvement_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="computers_[NNS]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="computers_[NNS]" target="mainframe_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

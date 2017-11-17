@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="technologies_[NNS]" label="technologies_[NNS]" />
+      <node id="computing_[NN]" label="computing_[NN]" />
+      <node id="Quantum_[NNP]" label="Quantum_[NNP]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="machine_[NN]" label="machine_[NN]" />
+      <node id="learning_[VBG]" label="learning_[VBG]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="two_[CD]" label="two_[CD]" />
+      <node id="generated_[VBN]" label="generated_[VBN]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="have_[VBP]" label="have_[VBP]" />
+      <node id="amounts_[NNS]" label="amounts_[NNS]" />
+      <node id="unparalleled_[JJ]" label="unparalleled_[JJ]" />
+      <node id="hype_[NN]" label="hype_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="community_[NN]" label="community_[NN]" />
+      <node id="among_[IN]" label="among_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="scientific_[JJ]" label="scientific_[JJ]" />
+      <node id="press_[NN]" label="press_[NN]" />
+      <node id="popular_[JJ]" label="popular_[JJ]" />
+      <node id="powerful_[JJ]" label="powerful_[JJ]" />
+      <node id="Both_[DT]" label="Both_[DT]" />
+      <node id="mysterious_[JJ]" label="mysterious_[JJ]" />
+      <node id="immensely_[RB]" label="immensely_[RB]" />
+      <node id="course_[NN]" label="course_[NN]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="collision_[NN]" label="collision_[NN]" />
+      <node id="other_[JJ]" label="other_[JJ]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="each_[DT]" label="each_[DT]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="technologies_[NNS]" target="computing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="technologies_[NNS]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="technologies_[NNS]" target="two_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="technologies_[NNS]" target="generated_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="computing_[NN]" target="Quantum_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="computing_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="computing_[NN]" target="machine_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="computing_[NN]" target="learning_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="generated_[VBN]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="generated_[VBN]" target="have_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="generated_[VBN]" target="amounts_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="generated_[VBN]" target="community_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="amounts_[NNS]" target="unparalleled_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="amounts_[NNS]" target="hype_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="hype_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="community_[NN]" target="among_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="community_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="community_[NN]" target="scientific_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="community_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="community_[NN]" target="press_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="press_[NN]" target="popular_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="powerful_[JJ]" target="Both_[DT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="powerful_[JJ]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="powerful_[JJ]" target="mysterious_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="powerful_[JJ]" target="immensely_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="powerful_[JJ]" target="course_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="powerful_[JJ]" target="other_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="course_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="course_[NN]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="course_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="course_[NN]" target="collision_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="other_[JJ]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="other_[JJ]" target="each_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

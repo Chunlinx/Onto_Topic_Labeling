@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>07/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="allows_[VBZ]" label="allows_[VBZ]" />
+      <node id="Quantification_[NNP]" label="Quantification_[NNP]" />
+      <node id="Bounded_[NNP]" label="Bounded_[NNP]" />
+      <node id="types_[NNS]" label="types_[NNS]" />
+      <node id="Quantified_[NNP]" label="Quantified_[NNP]" />
+      <node id="specify_[VB]" label="specify_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="bounds_[NNS]" label="bounds_[NNS]" />
+      <node id="subtyping_[VBG]" label="subtyping_[VBG]" />
+      <node id="variables_[NNS]" label="variables_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="type_[NN]" label="type_[NN]" />
+      <node id="introduce_[VB]" label="introduce_[VB]" />
+      <node id="they_[PRP]" label="they_[PRP]" />
+      <node id="has_[VBZ]" label="has_[VBZ]" />
+      <node id="It_[PRP]" label="It_[PRP]" />
+      <node id="subtyping_[NN]" label="subtyping_[NN]" />
+      <node id="undecidable_[JJ]" label="undecidable_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="checking_[VBG]" label="checking_[VBG]" />
+      <node id="shows_[VBZ]" label="shows_[VBZ]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="Quantification_[NN]" label="Quantification_[NN]" />
+      <node id="subclassing-bounded_[JJ]" label="subclassing-bounded_[JJ]" />
+      <node id="have_[VBP]" label="have_[VBP]" />
+      <node id="subclassing_[VBG]" label="subclassing_[VBG]" />
+      <node id="checking_[NN]" label="checking_[NN]" />
+      <node id="decidable_[JJ]" label="decidable_[JJ]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="difficulty_[NN]" label="difficulty_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="main_[JJ]" label="main_[JJ]" />
+      <node id="have_[VB]" label="have_[VB]" />
+      <node id="can_[MD]" label="can_[MD]" />
+      <node id="either_[DT]" label="either_[DT]" />
+      <node id="upper_[JJ]" label="upper_[JJ]" />
+      <node id="or_[CC]" label="or_[CC]" />
+      <node id="lower_[JJR]" label="lower_[JJR]" />
+      <node id="complicates_[VBZ]" label="complicates_[VBZ]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="property_[NN]" label="property_[NN]" />
+      <node id="minimal_[JJ]" label="minimal_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="allows_[VBZ]" target="Quantification_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="allows_[VBZ]" target="types_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="allows_[VBZ]" target="specify_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="allows_[VBZ]" target="introduce_[VB]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Quantification_[NNP]" target="Bounded_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="types_[NNS]" target="Quantified_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="specify_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="specify_[VB]" target="bounds_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="bounds_[NNS]" target="subtyping_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="bounds_[NNS]" target="variables_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="bounds_[NNS]" target="either_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="bounds_[NNS]" target="upper_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="bounds_[NNS]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="bounds_[NNS]" target="bounds_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="bounds_[NNS]" target="lower_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="bounds_[NNS]" target="complicates_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="variables_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="variables_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="variables_[NNS]" target="type_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="type_[NN]" target="checking_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="introduce_[VB]" target="they_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="has_[VBZ]" target="It_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="has_[VBZ]" target="subtyping_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="has_[VBZ]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="has_[VBZ]" target="Quantification_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="has_[VBZ]" target="checking_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="subtyping_[NN]" target="undecidable_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="subtyping_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="subtyping_[NN]" target="type_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="shows_[VBZ]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="shows_[VBZ]" target="has_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="paper_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="Quantification_[NN]" target="subclassing-bounded_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="Quantification_[NN]" target="have_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="have_[VBP]" target="variables_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="have_[VBP]" target="subclassing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="subclassing_[VBG]" target="bounds_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="checking_[NN]" target="decidable_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="checking_[NN]" target="type_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="is_[VBZ]" target="difficulty_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="is_[VBZ]" target="have_[VB]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="difficulty_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="difficulty_[NN]" target="main_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="have_[VB]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="have_[VB]" target="variables_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="have_[VB]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="have_[VB]" target="bounds_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="complicates_[VBZ]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="complicates_[VBZ]" target="property_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="property_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="property_[NN]" target="minimal_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="property_[NN]" target="type_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

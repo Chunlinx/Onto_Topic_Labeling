@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="builds_[VBZ]" label="builds_[VBZ]" />
+      <node id="2011_[NNP]" label="2011_[NNP]" />
+      <node id="CARS_[NNP]" label="CARS_[NNP]" />
+      <node id="success_[NN]" label="success_[NN]" />
+      <node id="upon_[IN]" label="upon_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="editions_[NNS]" label="editions_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="two_[CD]" label="two_[CD]" />
+      <node id="previous_[JJ]" label="previous_[JJ]" />
+      <node id="held_[VBN]" label="held_[VBN]" />
+      <node id="conjunction_[NN]" label="conjunction_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="Conferences_[NNP]" label="Conferences_[NNP]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="3rd_[JJ]" label="3rd_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="4th_[JJ]" label="4th_[JJ]" />
+      <node id="ACM_[NNP]" label="ACM_[NNP]" />
+      <node id="Systems_[NNPS]" label="Systems_[NNPS]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="Recommender_[NNP]" label="Recommender_[NNP]" />
+      <node id="2009_[CD]" label="2009_[CD]" />
+      <node id="2010_[CD]" label="2010_[CD]" />
+      <node id="Workshop_[NNP]" label="Workshop_[NNP]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="first_[JJ]" label="first_[JJ]" />
+      <node id="was_[VBD]" label="was_[VBD]" />
+      <node id="USA_[NNP]" label="USA_[NNP]" />
+      <node id="New_[NNP]" label="New_[NNP]" />
+      <node id="York_[NNP]" label="York_[NNP]" />
+      <node id="NY_[NNP]" label="NY_[NNP]" />
+      <node id="home_[NN]" label="home_[NN]" />
+      <node id="Barcelona_[NNP]" label="Barcelona_[NNP]" />
+      <node id="Spain_[NNP]" label="Spain_[NNP]" />
+      <node id="second_[JJ]" label="second_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="builds_[VBZ]" target="2011_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="builds_[VBZ]" target="success_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="2011_[NNP]" target="CARS_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="success_[NN]" target="upon_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="success_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="success_[NN]" target="editions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="editions_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="editions_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="editions_[NNS]" target="two_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="editions_[NNS]" target="previous_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="editions_[NNS]" target="held_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="held_[VBN]" target="conjunction_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="held_[VBN]" target="Conferences_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="held_[VBN]" target="Workshop_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="held_[VBN]" target="was_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="held_[VBN]" target="USA_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="held_[VBN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="held_[VBN]" target="home_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="conjunction_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="Conferences_[NNP]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="Conferences_[NNP]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="Conferences_[NNP]" target="3rd_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="Conferences_[NNP]" target="ACM_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="Conferences_[NNP]" target="Systems_[NNPS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="3rd_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="3rd_[JJ]" target="4th_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="Systems_[NNPS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="Systems_[NNPS]" target="Recommender_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="Systems_[NNPS]" target="2009_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="2009_[CD]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="2009_[CD]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="2009_[CD]" target="2010_[CD]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="2010_[CD]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="Workshop_[NNP]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="Workshop_[NNP]" target="first_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="Workshop_[NNP]" target="CARS_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="Workshop_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="Workshop_[NNP]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="Workshop_[NNP]" target="second_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="Workshop_[NNP]" target="2010_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="USA_[NNP]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="USA_[NNP]" target="New_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="USA_[NNP]" target="York_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="USA_[NNP]" target="NY_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="USA_[NNP]" target="2009_[CD]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="home_[NN]" target="Barcelona_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="home_[NN]" target="was_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="home_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="home_[NN]" target="Workshop_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="Barcelona_[NNP]" target="Spain_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="Greendicator_[NNP]" label="Greendicator_[NNP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="indicator_[NN]" label="indicator_[NN]" />
+      <node id="enables_[VBZ]" label="enables_[VBZ]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="embedded_[VBN]" label="embedded_[VBN]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="text_[NN]" label="text_[NN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="output_[NN]" label="output_[NN]" />
+      <node id="smartphones_[NNS]" label="smartphones_[NNS]" />
+      <node id="camera-equipped_[JJ]" label="camera-equipped_[JJ]" />
+      <node id="blinking_[VBG]" label="blinking_[VBG]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="LED_[NNP]" label="LED_[NNP]" />
+      <node id="modulated_[VBD]" label="modulated_[VBD]" />
+      <node id="emits_[NNS]" label="emits_[NNS]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="transmitter_[NN]" label="transmitter_[NN]" />
+      <node id="pulses_[NNS]" label="pulses_[NNS]" />
+      <node id="light_[JJ]" label="light_[JJ]" />
+      <node id="using_[VBG]" label="using_[VBG]" />
+      <node id="LED_[NN]" label="LED_[NN]" />
+      <node id="existing_[VBG]" label="existing_[VBG]" />
+      <node id="visible-light_[JJ]" label="visible-light_[JJ]" />
+      <node id="or_[CC]" label="or_[CC]" />
+      <node id="diode_[NN]" label="diode_[NN]" />
+      <node id="IR_[NNP]" label="IR_[NNP]" />
+      <node id="laser_[NN]" label="laser_[NN]" />
+      <node id="reflector_[NN]" label="reflector_[NN]" />
+      <node id="uses_[VBZ]" label="uses_[VBZ]" />
+      <node id="receiver_[NN]" label="receiver_[NN]" />
+      <node id="smartphone_[NN]" label="smartphone_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="sense_[VB]" label="sense_[VB]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="GPU_[NNP]" label="GPU_[NNP]" />
+      <node id="decode_[VB]" label="decode_[VB]" />
+      <node id="message_[NN]" label="message_[NN]" />
+      <node id="original_[JJ]" label="original_[JJ]" />
+      <node id="demonstrate_[VBP]" label="demonstrate_[VBP]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="use_[NN]" label="use_[NN]" />
+      <node id="its_[PRP$]" label="its_[PRP$]" />
+      <node id="supporting_[VBG]" label="supporting_[VBG]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="networks_[NNS]" label="networks_[NNS]" />
+      <node id="RF-based_[JJ]" label="RF-based_[JJ]" />
+      <node id="aid_[NN]" label="aid_[NN]" />
+      <node id="pairing_[VBG]" label="pairing_[VBG]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="configuration_[NN]" label="configuration_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="wireless_[JJ]" label="wireless_[JJ]" />
+      <node id="occupying_[VBG]" label="occupying_[VBG]" />
+      <node id="while_[IN]" label="while_[IN]" />
+      <node id="footprint_[NN]" label="footprint_[NN]" />
+      <node id="only_[RB]" label="only_[RB]" />
+      <node id="small_[JJ]" label="small_[JJ]" />
+      <node id="memory_[NN]" label="memory_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="system_[NN]" target="Greendicator_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="system_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="system_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="system_[NN]" target="indicator_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="system_[NN]" target="enables_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="enables_[VBZ]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="enables_[VBZ]" target="embedded_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="embedded_[VBN]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="embedded_[VBN]" target="text_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="embedded_[VBN]" target="smartphones_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="embedded_[VBN]" target="blinking_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="systems_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="systems_[NNS]" target="wireless_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="text_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="text_[NN]" target="output_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="smartphones_[NNS]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="smartphones_[NNS]" target="camera-equipped_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="blinking_[VBG]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="blinking_[VBG]" target="LED_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="LED_[NNP]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="modulated_[VBD]" target="emits_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="modulated_[VBD]" target="pulses_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="modulated_[VBD]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="emits_[NNS]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="emits_[NNS]" target="transmitter_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="pulses_[NNS]" target="light_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="pulses_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="pulses_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="pulses_[NNS]" target="GPU_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="using_[VBG]" target="LED_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="LED_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="LED_[NN]" target="existing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="LED_[NN]" target="visible-light_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="LED_[NN]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="LED_[NN]" target="diode_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="diode_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="diode_[NN]" target="IR_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="diode_[NN]" target="laser_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="diode_[NN]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="diode_[NN]" target="reflector_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="reflector_[NN]" target="light_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="uses_[VBZ]" target="receiver_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="uses_[VBZ]" target="smartphone_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="receiver_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="smartphone_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="smartphone_[NN]" target="camera-equipped_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="smartphone_[NN]" target="sense_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="sense_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="sense_[VB]" target="pulses_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="sense_[VB]" target="decode_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="decode_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="decode_[VB]" target="message_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="message_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="message_[NN]" target="original_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="demonstrate_[VBP]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="demonstrate_[VBP]" target="use_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="demonstrate_[VBP]" target="supporting_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="use_[NN]" target="its_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="supporting_[VBG]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="supporting_[VBG]" target="networks_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="supporting_[VBG]" target="occupying_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="networks_[NNS]" target="existing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="networks_[NNS]" target="RF-based_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="networks_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="networks_[NNS]" target="aid_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="aid_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="aid_[NN]" target="pairing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="pairing_[VBG]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="pairing_[VBG]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="pairing_[VBG]" target="configuration_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="pairing_[VBG]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="occupying_[VBG]" target="while_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="occupying_[VBG]" target="footprint_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="footprint_[NN]" target="only_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="footprint_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="footprint_[NN]" target="small_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="footprint_[NN]" target="memory_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

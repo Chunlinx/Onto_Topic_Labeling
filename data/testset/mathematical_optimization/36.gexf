@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="presented_[VBN]" label="presented_[VBN]" />
+      <node id="method_[NN]" label="method_[NN]" />
+      <node id="A_[DT]" label="A_[DT]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="generation_[NN]" label="generation_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="problems_[NNS]" label="problems_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="test_[NN]" label="test_[NN]" />
+      <node id="algorithms_[NNS]" label="algorithms_[NNS]" />
+      <node id="global_[JJ]" label="global_[JJ]" />
+      <node id="optimization_[NN]" label="optimization_[NN]" />
+      <node id="constructs_[VBZ]" label="constructs_[VBZ]" />
+      <node id="polyhedron_[NN]" label="polyhedron_[NN]" />
+      <node id="Given_[VBN]" label="Given_[VBN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="bounded_[JJ]" label="bounded_[JJ]" />
+      <node id="R_[NN]" label="R_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="vertex_[NN]" label="vertex_[NN]" />
+      <node id="functions_[NNS]" label="functions_[NNS]" />
+      <node id="nonconvex_[JJ]" label="nonconvex_[JJ]" />
+      <node id="quadratic_[JJ]" label="quadratic_[JJ]" />
+      <node id="concave_[JJ]" label="concave_[JJ]" />
+      <node id="or_[CC]" label="or_[CC]" />
+      <node id="indefinite_[JJ]" label="indefinite_[JJ]" />
+      <node id="attained_[VBN]" label="attained_[VBN]" />
+      <node id="whose_[WP$]" label="whose_[WP$]" />
+      <node id="minimum_[NN]" label="minimum_[NN]" />
+      <node id="at_[IN]" label="at_[IN]" />
+      <node id="selected_[VBN]" label="selected_[VBN]" />
+      <node id="requires_[VBZ]" label="requires_[VBZ]" />
+      <node id="construction_[NN]" label="construction_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="use_[NN]" label="use_[NN]" />
+      <node id="only_[RB]" label="only_[RB]" />
+      <node id="programming_[NN]" label="programming_[NN]" />
+      <node id="linear_[JJ]" label="linear_[JJ]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="equations_[NNS]" label="equations_[NNS]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="presented_[VBN]" target="method_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="presented_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="presented_[VBN]" target="generation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="method_[NN]" target="A_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="method_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="generation_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="generation_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="generation_[NN]" target="problems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="problems_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="problems_[NNS]" target="test_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="problems_[NNS]" target="algorithms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="algorithms_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="algorithms_[NNS]" target="global_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="algorithms_[NNS]" target="optimization_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="constructs_[VBZ]" target="polyhedron_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="constructs_[VBZ]" target="method_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="constructs_[VBZ]" target="functions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="polyhedron_[NN]" target="Given_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="polyhedron_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="polyhedron_[NN]" target="bounded_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="polyhedron_[NN]" target="R_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="R_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="R_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="R_[NN]" target="vertex_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="vertex_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="vertex_[NN]" target="at_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="vertex_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="vertex_[NN]" target="selected_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="functions_[NNS]" target="nonconvex_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="functions_[NNS]" target="quadratic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="functions_[NNS]" target="concave_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="functions_[NNS]" target="attained_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="concave_[JJ]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="concave_[JJ]" target="indefinite_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="attained_[VBN]" target="whose_[WP$]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="attained_[VBN]" target="minimum_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="attained_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="attained_[VBN]" target="vertex_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="minimum_[NN]" target="global_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="requires_[VBZ]" target="construction_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="requires_[VBZ]" target="use_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="construction_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="use_[NN]" target="only_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="use_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="use_[NN]" target="programming_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="use_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="use_[NN]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="programming_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="programming_[NN]" target="linear_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="systems_[NNS]" target="linear_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="systems_[NNS]" target="equations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="equations_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

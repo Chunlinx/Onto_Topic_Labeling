@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="present_[VBP]" label="present_[VBP]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="MARS_[NNS]" label="MARS_[NNS]" />
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="muscle_[NN]" label="muscle_[NN]" />
+      <node id="activity_[NN]" label="activity_[NN]" />
+      <node id="recognition_[NN]" label="recognition_[NN]" />
+      <node id="uses_[VBZ]" label="uses_[VBZ]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="sensors_[NNS]" label="sensors_[NNS]" />
+      <node id="inertial_[JJ]" label="inertial_[JJ]" />
+      <node id="capture_[VB]" label="capture_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="vibrations_[NNS]" label="vibrations_[NNS]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="active_[JJ]" label="active_[JJ]" />
+      <node id="demonstrate_[VBP]" label="demonstrate_[VBP]" />
+      <node id="Specifically_[RB]" label="Specifically_[RB]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="leveraged_[JJ]" label="leveraged_[JJ]" />
+      <node id="how_[WRB]" label="how_[WRB]" />
+      <node id="data_[NNS]" label="data_[NNS]" />
+      <node id="accelerometer_[NN]" label="accelerometer_[NN]" />
+      <node id="capturing_[VBG]" label="capturing_[VBG]" />
+      <node id="these_[DT]" label="these_[DT]" />
+      <node id="hamstrings_[NNS]" label="hamstrings_[NNS]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="quadriceps_[NNS]" label="quadriceps_[NNS]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="muscles_[NNS]" label="muscles_[NNS]" />
+      <node id="calf_[NN]" label="calf_[NN]" />
+      <node id="leg_[NN]" label="leg_[NN]" />
+      <node id="human_[JJ]" label="human_[JJ]" />
+      <node id="can_[MD]" label="can_[MD]" />
+      <node id="be_[VB]" label="be_[VB]" />
+      <node id="create_[VB]" label="create_[VB]" />
+      <node id="signatures_[NNS]" label="signatures_[NNS]" />
+      <node id="vibration_[NN]" label="vibration_[NN]" />
+      <node id="show_[VBP]" label="show_[VBP]" />
+      <node id="finally_[RB]" label="finally_[RB]" />
+      <node id="used_[VBN]" label="used_[VBN]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="distinguish_[VB]" label="distinguish_[VB]" />
+      <node id="precision_[NN]" label="precision_[NN]" />
+      <node id="from_[IN]" label="from_[IN]" />
+      <node id="each_[DT]" label="each_[DT]" />
+      <node id="other_[JJ]" label="other_[JJ]" />
+      <node id="%_[NN]" label="%_[NN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="85_[CD]" label="85_[CD]" />
+      <node id="greater_[JJR]" label="greater_[JJR]" />
+      <node id="than_[IN]" label="than_[IN]" />
+      <node id="recall_[VB]" label="recall_[VB]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="present_[VBP]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="present_[VBP]" target="MARS_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="MARS_[NNS]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="system_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="system_[NN]" target="muscle_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="system_[NN]" target="activity_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="system_[NN]" target="recognition_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="system_[NN]" target="uses_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="muscle_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="muscle_[NN]" target="active_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="uses_[VBZ]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="uses_[VBZ]" target="sensors_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="uses_[VBZ]" target="capture_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="sensors_[NNS]" target="inertial_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="capture_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="capture_[VB]" target="vibrations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="vibrations_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="vibrations_[NNS]" target="muscle_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="vibrations_[NNS]" target="these_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="demonstrate_[VBP]" target="Specifically_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="demonstrate_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="demonstrate_[VBP]" target="leveraged_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="leveraged_[JJ]" target="how_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="leveraged_[JJ]" target="data_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="leveraged_[JJ]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="leveraged_[JJ]" target="be_[VB]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="leveraged_[JJ]" target="create_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="data_[NNS]" target="accelerometer_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="data_[NNS]" target="capturing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="capturing_[VBG]" target="vibrations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="capturing_[VBG]" target="hamstrings_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="hamstrings_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="hamstrings_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="hamstrings_[NNS]" target="quadriceps_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="hamstrings_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="hamstrings_[NNS]" target="muscles_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="hamstrings_[NNS]" target="leg_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="muscles_[NNS]" target="calf_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="muscles_[NNS]" target="these_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="leg_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="leg_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="leg_[NN]" target="human_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="create_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="create_[VB]" target="signatures_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="signatures_[NNS]" target="muscle_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="signatures_[NNS]" target="vibration_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="signatures_[NNS]" target="these_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="show_[VBP]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="show_[VBP]" target="finally_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="show_[VBP]" target="used_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="used_[VBN]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="used_[VBN]" target="signatures_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="used_[VBN]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="used_[VBN]" target="be_[VB]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="used_[VBN]" target="distinguish_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="distinguish_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="distinguish_[VB]" target="muscles_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="distinguish_[VB]" target="precision_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="distinguish_[VB]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="distinguish_[VB]" target="recall_[VB]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="precision_[NN]" target="from_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="precision_[NN]" target="each_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="precision_[NN]" target="other_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="other_[JJ]" target="%_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="%_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="%_[NN]" target="85_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="85_[CD]" target="greater_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="85_[CD]" target="than_[IN]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Unmanned_[VB]" label="Unmanned_[VB]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="aircraft_[NN]" label="aircraft_[NN]" />
+      <node id="Aerial_[VB]" label="Aerial_[VB]" />
+      <node id="robots_[NNS]" label="robots_[NNS]" />
+      <node id="developed_[VBN]" label="developed_[VBN]" />
+      <node id="Regardless_[RB]" label="Regardless_[RB]" />
+      <node id="name_[NN]" label="name_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="technology_[NN]" label="technology_[NN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="new_[JJ]" label="new_[JJ]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="being_[VBG]" label="being_[VBG]" />
+      <node id="revolutionize_[VB]" label="revolutionize_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="sampling_[NN]" label="sampling_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="understanding_[NN]" label="understanding_[NN]" />
+      <node id="phenomena_[NNS]" label="phenomena_[NNS]" />
+      <node id="complex_[JJ]" label="complex_[JJ]" />
+      <node id="atmospheric_[JJ]" label="atmospheric_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Unmanned_[VB]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="systems_[NNS]" target="aircraft_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="Aerial_[VB]" target="robots_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="developed_[VBN]" target="Regardless_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="developed_[VBN]" target="technology_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="developed_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="developed_[VBN]" target="being_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="developed_[VBN]" target="revolutionize_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Regardless_[RB]" target="name_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="name_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="name_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="technology_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="technology_[NN]" target="new_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="revolutionize_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="revolutionize_[VB]" target="sampling_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="sampling_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="sampling_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="sampling_[NN]" target="understanding_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="sampling_[NN]" target="phenomena_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="phenomena_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="phenomena_[NNS]" target="complex_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="phenomena_[NNS]" target="atmospheric_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

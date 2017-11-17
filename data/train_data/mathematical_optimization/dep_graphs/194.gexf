@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="integrals_[VBZ]" label="integrals_[VBZ]" />
+      <node id="computation_[NN]" label="computation_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="Fermi-Dirac_[NNP]" label="Fermi-Dirac_[NNP]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="discussed_[VBN]" label="discussed_[VBN]" />
+      <node id="***_[NNP]" label="***_[NNP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="values_[NNS]" label="values_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="=_[NNP]" label="=_[NNP]" />
+      <node id="-1_[CD]" label="-1_[CD]" />
+      <node id="1/2_[CD]" label="1/2_[CD]" />
+      <node id="3/2_[CD]" label="3/2_[CD]" />
+      <node id="5/2_[CD]" label="5/2_[CD]" />
+      <node id="derive_[VBP]" label="derive_[VBP]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="expansions_[NNS]" label="expansions_[NNS]" />
+      <node id="Chebyshev_[NNP]" label="Chebyshev_[NNP]" />
+      <node id="polynomial_[JJ]" label="polynomial_[JJ]" />
+      <node id="allow_[VBP]" label="allow_[VBP]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="functions_[NNS]" label="functions_[NNS]" />
+      <node id="these_[DT]" label="these_[DT]" />
+      <node id="double_[VB]" label="double_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="accuracy_[NN]" label="accuracy_[NN]" />
+      <node id="precision_[NN]" label="precision_[NN]" />
+      <node id="IEEE_[NN]" label="IEEE_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="integrals_[VBZ]" target="computation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="integrals_[VBZ]" target="discussed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="computation_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="computation_[NN]" target="Fermi-Dirac_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="computation_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="computation_[NN]" target="functions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Fermi-Dirac_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="discussed_[VBN]" target="***_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="discussed_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="discussed_[VBN]" target="values_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="values_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="values_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="values_[NNS]" target="=_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="=_[NNP]" target="***_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="=_[NNP]" target="-1_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="=_[NNP]" target="1/2_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="=_[NNP]" target="3/2_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="=_[NNP]" target="5/2_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="derive_[VBP]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="derive_[VBP]" target="expansions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="expansions_[NNS]" target="Chebyshev_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="expansions_[NNS]" target="polynomial_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="expansions_[NNS]" target="allow_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="allow_[VBP]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="allow_[VBP]" target="computation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="allow_[VBP]" target="double_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="functions_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="functions_[NNS]" target="these_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="double_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="double_[VB]" target="accuracy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="accuracy_[NN]" target="precision_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="accuracy_[NN]" target="IEEE_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

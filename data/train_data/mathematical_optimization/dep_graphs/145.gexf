@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="recipe_[NN]" label="recipe_[NN]" />
+      <node id="computing_[NN]" label="computing_[NN]" />
+      <node id="Quantum_[NNP]" label="Quantum_[NNP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="merely_[RB]" label="merely_[RB]" />
+      <node id="not_[RB]" label="not_[RB]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="devices_[NNS]" label="devices_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="new_[JJ]" label="new_[JJ]" />
+      <node id="but_[CC]" label="but_[CC]" />
+      <node id="way_[NN]" label="way_[NN]" />
+      <node id="looking_[VBG]" label="looking_[VBG]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="world_[NN]" label="world_[NN]" />
+      <node id="at_[IN]" label="at_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="recipe_[NN]" target="computing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="recipe_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="recipe_[NN]" target="merely_[RB]">
+        <attvalues>
+          <attvalue for="0" value="cc:preconj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="recipe_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="recipe_[NN]" target="devices_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="recipe_[NN]" target="but_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="recipe_[NN]" target="way_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="computing_[NN]" target="Quantum_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="merely_[RB]" target="not_[RB]">
+        <attvalues>
+          <attvalue for="0" value="neg" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="devices_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="devices_[NNS]" target="new_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="devices_[NNS]" target="computing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="way_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="way_[NN]" target="new_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="way_[NN]" target="looking_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="looking_[VBG]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="looking_[VBG]" target="world_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="world_[NN]" target="at_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="world_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,517 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="developed_[VBN]" label="developed_[VBN]" />
+      <node id="model_[NN]" label="model_[NN]" />
+      <node id="A_[DT]" label="A_[DT]" />
+      <node id="computational_[JJ]" label="computational_[JJ]" />
+      <node id="was_[VBD]" label="was_[VBD]" />
+      <node id="studying_[VBG]" label="studying_[VBG]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="field_[NN]" label="field_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="flow_[NN]" label="flow_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="deposition_[NN]" label="deposition_[NN]" />
+      <node id="particle_[NN]" label="particle_[NN]" />
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="human_[JJ]" label="human_[JJ]" />
+      <node id="upper_[JJ]" label="upper_[JJ]" />
+      <node id="airway_[NN]" label="airway_[NN]" />
+      <node id="cavity_[NN]" label="cavity_[NN]" />
+      <node id="including_[VBG]" label="including_[VBG]" />
+      <node id="nasal_[JJ]" label="nasal_[JJ]" />
+      <node id="nasopharynx_[NN]" label="nasopharynx_[NN]" />
+      <node id="oropharynx_[NN]" label="oropharynx_[NN]" />
+      <node id="larynx_[NN]" label="larynx_[NN]" />
+      <node id="trachea_[NN]" label="trachea_[NN]" />
+      <node id="used_[VBN]" label="used_[VBN]" />
+      <node id="series_[NN]" label="series_[NN]" />
+      <node id="images_[NNS]" label="images_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="coronal_[JJ]" label="coronal_[JJ]" />
+      <node id="CT_[NNP]" label="CT_[NNP]" />
+      <node id="scan_[NN]" label="scan_[NN]" />
+      <node id="woman_[NN]" label="woman_[NN]" />
+      <node id="old_[JJ]" label="old_[JJ]" />
+      <node id="24_[CD]" label="24_[CD]" />
+      <node id="year_[NN]" label="year_[NN]" />
+      <node id="construct_[VB]" label="construct_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="3D_[CD]" label="3D_[CD]" />
+      <node id="approaches_[NNS]" label="approaches_[NNS]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="Lagrangian_[NNP]" label="Lagrangian_[NNP]" />
+      <node id="Eulerian_[NNP]" label="Eulerian_[NNP]" />
+      <node id="were_[VBD]" label="were_[VBD]" />
+      <node id="respectively_[RB]" label="respectively_[RB]" />
+      <node id="find_[VB]" label="find_[VB]" />
+      <node id="trajectories_[NNS]" label="trajectories_[NNS]" />
+      <node id="micro-particles_[NNS]" label="micro-particles_[NNS]" />
+      <node id="concentration_[NN]" label="concentration_[NN]" />
+      <node id="nano-particles_[NNS]" label="nano-particles_[NNS]" />
+      <node id="evaluated_[VBN]" label="evaluated_[VBN]" />
+      <node id="total_[JJ]" label="total_[JJ]" />
+      <node id="fractions_[NNS]" label="fractions_[NNS]" />
+      <node id="regional_[JJ]" label="regional_[JJ]" />
+      <node id="micro/nanoparticles_[NNS]" label="micro/nanoparticles_[NNS]" />
+      <node id="found_[VBN]" label="found_[VBN]" />
+      <node id="spots_[NNS]" label="spots_[NNS]" />
+      <node id="major_[JJ]" label="major_[JJ]" />
+      <node id="hot_[JJ]" label="hot_[JJ]" />
+      <node id="particles_[NNS]" label="particles_[NNS]" />
+      <node id="inhaled_[JJ]" label="inhaled_[JJ]" />
+      <node id="Ltd._[NNP]" label="Ltd._[NNP]" />
+      <node id="©_[NNP]" label="©_[NNP]" />
+      <node id="2011_[NNP]" label="2011_[NNP]" />
+      <node id="Elsevier_[NNP]" label="Elsevier_[NNP]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="developed_[VBN]" target="model_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="developed_[VBN]" target="was_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="developed_[VBN]" target="studying_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="model_[NN]" target="A_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="model_[NN]" target="computational_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="model_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="model_[NN]" target="3D_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="studying_[VBG]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="studying_[VBG]" target="field_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="studying_[VBG]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="studying_[VBG]" target="cavity_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="field_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="field_[NN]" target="flow_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="field_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="field_[NN]" target="deposition_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="deposition_[NN]" target="particle_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="deposition_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="deposition_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="deposition_[NN]" target="particles_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="system_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="system_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="system_[NN]" target="human_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="system_[NN]" target="upper_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="system_[NN]" target="airway_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="cavity_[NN]" target="including_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="cavity_[NN]" target="nasal_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="cavity_[NN]" target="nasopharynx_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="nasopharynx_[NN]" target="oropharynx_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="nasopharynx_[NN]" target="larynx_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="nasopharynx_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="nasopharynx_[NN]" target="trachea_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="used_[VBN]" target="series_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="used_[VBN]" target="was_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="used_[VBN]" target="construct_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="used_[VBN]" target="approaches_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="used_[VBN]" target="were_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="used_[VBN]" target="respectively_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="used_[VBN]" target="find_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="series_[NN]" target="A_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="series_[NN]" target="images_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="images_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="images_[NNS]" target="coronal_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="images_[NNS]" target="CT_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="images_[NNS]" target="scan_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="images_[NNS]" target="woman_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="woman_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="woman_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="woman_[NN]" target="old_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="old_[JJ]" target="24_[CD]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="old_[JJ]" target="year_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod:npmod" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="construct_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="construct_[VB]" target="model_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="approaches_[NNS]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="approaches_[NNS]" target="Lagrangian_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="Lagrangian_[NNP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="Lagrangian_[NNP]" target="Eulerian_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="find_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="find_[VB]" target="trajectories_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="trajectories_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="trajectories_[NNS]" target="micro-particles_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="trajectories_[NNS]" target="nano-particles_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="micro-particles_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="micro-particles_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="micro-particles_[NNS]" target="concentration_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="nano-particles_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="evaluated_[VBN]" target="total_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="evaluated_[VBN]" target="were_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="evaluated_[VBN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="evaluated_[VBN]" target="found_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="total_[JJ]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="total_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="total_[JJ]" target="fractions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="total_[JJ]" target="micro/nanoparticles_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="fractions_[NNS]" target="regional_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="fractions_[NNS]" target="deposition_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="micro/nanoparticles_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="found_[VBN]" target="spots_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="found_[VBN]" target="were_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="spots_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="spots_[NNS]" target="major_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="spots_[NNS]" target="hot_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="spots_[NNS]" target="deposition_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="particles_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="particles_[NNS]" target="inhaled_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="Ltd._[NNP]" target="©_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="Ltd._[NNP]" target="2011_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="Ltd._[NNP]" target="Elsevier_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

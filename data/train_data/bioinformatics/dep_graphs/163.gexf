@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="highlights_[VBZ]" label="highlights_[VBZ]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="observations_[NNS]" label="observations_[NNS]" />
+      <node id="initial_[JJ]" label="initial_[JJ]" />
+      <node id="study_[NN]" label="study_[NN]" />
+      <node id="from_[IN]" label="from_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="user_[NN]" label="user_[NN]" />
+      <node id="performed_[VBN]" label="performed_[VBN]" />
+      <node id="facility_[NN]" label="facility_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="assisted_[JJ]" label="assisted_[JJ]" />
+      <node id="living_[VBG]" label="living_[VBG]" />
+      <node id="Spain_[NNP]" label="Spain_[NNP]" />
+      <node id="introduced_[VBD]" label="introduced_[VBD]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="robot_[NN]" label="robot_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="NAO_[NNP]" label="NAO_[NNP]" />
+      <node id="assist_[VB]" label="assist_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="rehabilitation_[NN]" label="rehabilitation_[NN]" />
+      <node id="geriatric_[JJ]" label="geriatric_[JJ]" />
+      <node id="physiotherapy_[JJ]" label="physiotherapy_[JJ]" />
+      <node id="introduced_[VBN]" label="introduced_[VBN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="order_[NN]" label="order_[NN]" />
+      <node id="take_[VB]" label="take_[VB]" />
+      <node id="over_[RP]" label="over_[RP]" />
+      <node id="one_[CD]" label="one_[CD]" />
+      <node id="roles_[NNS]" label="roles_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="usual_[JJ]" label="usual_[JJ]" />
+      <node id="physiotherapist_[NN]" label="physiotherapist_[NN]" />
+      <node id="movements_[NNS]" label="movements_[NNS]" />
+      <node id="modeling_[NN]" label="modeling_[NN]" />
+      <node id="inpatients_[NNS]" label="inpatients_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="also_[RB]" label="also_[RB]" />
+      <node id="version_[NN]" label="version_[NN]" />
+      <node id="virtual_[JJ]" label="virtual_[JJ]" />
+      <node id="see_[VB]" label="see_[VB]" />
+      <node id="effective_[JJ]" label="effective_[JJ]" />
+      <node id="whether_[IN]" label="whether_[IN]" />
+      <node id="role_[NN]" label="role_[NN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="equally_[RB]" label="equally_[RB]" />
+      <node id="modality_[NN]" label="modality_[NN]" />
+      <node id="screen-based_[JJ]" label="screen-based_[JJ]" />
+      <node id="show_[VBP]" label="show_[VBP]" />
+      <node id="results_[NNS]" label="results_[NNS]" />
+      <node id="Preliminary_[JJ]" label="Preliminary_[JJ]" />
+      <node id="adjust_[VB]" label="adjust_[VB]" />
+      <node id="their_[PRP$]" label="their_[PRP$]" />
+      <node id="react_[VBP]" label="react_[VBP]" />
+      <node id="although_[IN]" label="although_[IN]" />
+      <node id="they_[PRP]" label="they_[PRP]" />
+      <node id="differently_[RB]" label="differently_[RB]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="physical_[JJ]" label="physical_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="highlights_[VBZ]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="highlights_[VBZ]" target="observations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="highlights_[VBZ]" target="study_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="paper_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="observations_[NNS]" target="initial_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="study_[NN]" target="from_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="study_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="study_[NN]" target="user_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="study_[NN]" target="performed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="performed_[VBN]" target="facility_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="facility_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="facility_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="facility_[NN]" target="assisted_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="facility_[NN]" target="living_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="facility_[NN]" target="Spain_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="in_[IN]" target="order_[NN]">
+        <attvalues>
+          <attvalue for="0" value="mwe" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="Spain_[NNP]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="introduced_[VBD]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="introduced_[VBD]" target="robot_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="introduced_[VBD]" target="assist_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="introduced_[VBD]" target="also_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="introduced_[VBD]" target="version_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="introduced_[VBD]" target="see_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="robot_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="robot_[NN]" target="NAO_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="robot_[NN]" target="physical_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="NAO_[NNP]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="NAO_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="NAO_[NNP]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="NAO_[NNP]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="assist_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="assist_[VB]" target="rehabilitation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="rehabilitation_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="rehabilitation_[NN]" target="geriatric_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="rehabilitation_[NN]" target="physiotherapy_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="introduced_[VBN]" target="NAO_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="introduced_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="introduced_[VBN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="introduced_[VBN]" target="take_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="take_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="take_[VB]" target="over_[RP]">
+        <attvalues>
+          <attvalue for="0" value="compound:prt" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="take_[VB]" target="one_[CD]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="one_[CD]" target="roles_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="one_[CD]" target="movements_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="roles_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="roles_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="roles_[NNS]" target="usual_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="roles_[NNS]" target="physiotherapist_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="physiotherapist_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="physiotherapist_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="movements_[NNS]" target="modeling_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="movements_[NNS]" target="inpatients_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="movements_[NNS]" target="their_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="modeling_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="inpatients_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="inpatients_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="version_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="version_[NN]" target="virtual_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="version_[NN]" target="NAO_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="virtual_[JJ]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="virtual_[JJ]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="virtual_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="virtual_[JJ]" target="robot_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="see_[VB]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="see_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="see_[VB]" target="effective_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="effective_[JJ]" target="whether_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="effective_[JJ]" target="role_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="effective_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="effective_[JJ]" target="equally_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="effective_[JJ]" target="modality_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="role_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="role_[NN]" target="modeling_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="modality_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="modality_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="modality_[NN]" target="screen-based_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="show_[VBP]" target="results_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="show_[VBP]" target="adjust_[VB]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="show_[VBP]" target="react_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="results_[NNS]" target="Preliminary_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="adjust_[VB]" target="inpatients_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="adjust_[VB]" target="movements_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="adjust_[VB]" target="NAO_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="react_[VBP]" target="although_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="react_[VBP]" target="they_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="react_[VBP]" target="differently_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="react_[VBP]" target="virtual_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

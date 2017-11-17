@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="important_[JJ]" label="important_[JJ]" />
+      <node id="Security_[NNP]" label="Security_[NNP]" />
+      <node id="Computer_[NNP]" label="Computer_[NNP]" />
+      <node id="&amp;_[CC]" label="&amp;_[CC]" />
+      <node id="Internet_[NNP]" label="Internet_[NNP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="very_[RB]" label="very_[RB]" />
+      <node id="confusing_[JJ]" label="confusing_[JJ]" />
+      <node id="but_[CC]" label="but_[CC]" />
+      <node id="sometimes_[RB]" label="sometimes_[RB]" />
+      <node id="it_[PRP]" label="it_[PRP]" />
+      <node id="so_[RB]" label="so_[RB]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="frustrating_[JJ]" label="frustrating_[JJ]" />
+      <node id="makes_[VBZ]" label="makes_[VBZ]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="secure_[JJ]" label="secure_[JJ]" />
+      <node id="users_[NNS]" label="users_[NNS]" />
+      <node id="unhappy_[JJ]" label="unhappy_[JJ]" />
+      <node id="point_[NN]" label="point_[NN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="where_[WRB]" label="where_[WRB]" />
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="used_[VBN]" label="used_[VBN]" />
+      <node id="can_[MD]" label="can_[MD]" />
+      <node id="not_[RB]" label="not_[RB]" />
+      <node id="be_[VB]" label="be_[VB]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="its_[PRP$]" label="its_[PRP$]" />
+      <node id="most_[RBS]" label="most_[RBS]" />
+      <node id="legitimate_[JJ]" label="legitimate_[JJ]" />
+      <node id="administrators_[NNS]" label="administrators_[NNS]" />
+      <node id="like_[IN]" label="like_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="important_[JJ]" target="Security_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="important_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="important_[JJ]" target="very_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="important_[JJ]" target="confusing_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Security_[NNP]" target="Computer_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Computer_[NNP]" target="&amp;_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Computer_[NNP]" target="Internet_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="confusing_[JJ]" target="but_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="confusing_[JJ]" target="sometimes_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="confusing_[JJ]" target="it_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="confusing_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="confusing_[JJ]" target="so_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="confusing_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="confusing_[JJ]" target="frustrating_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="confusing_[JJ]" target="makes_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="confusing_[JJ]" target="administrators_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="makes_[VBZ]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="makes_[VBZ]" target="it_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="makes_[VBZ]" target="secure_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="secure_[JJ]" target="users_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="secure_[JJ]" target="unhappy_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="secure_[JJ]" target="where_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="secure_[JJ]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="secure_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="secure_[JJ]" target="so_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="secure_[JJ]" target="used_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="users_[NNS]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="users_[NNS]" target="its_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="users_[NNS]" target="most_[RBS]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="users_[NNS]" target="legitimate_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="unhappy_[JJ]" target="very_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="unhappy_[JJ]" target="point_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="point_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="point_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="system_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="used_[VBN]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="used_[VBN]" target="it_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="used_[VBN]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="used_[VBN]" target="not_[RB]">
+        <attvalues>
+          <attvalue for="0" value="neg" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="used_[VBN]" target="be_[VB]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="used_[VBN]" target="users_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="administrators_[NNS]" target="like_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="administrators_[NNS]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

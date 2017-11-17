@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="use_[VBP]" label="use_[VBP]" />
+      <node id="-RSB-_[NNS]" label="-RSB-_[NNS]" />
+      <node id="Following_[VBG]" label="Following_[VBG]" />
+      <node id="Baryshnikov-Coffman-Kwak_[NNP]" label="Baryshnikov-Coffman-Kwak_[NNP]" />
+      <node id="-LSB-_[NNP]" label="-LSB-_[NNP]" />
+      <node id="1_[CD]" label="1_[CD]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="automata_[NN]" label="automata_[NN]" />
+      <node id="network_[NN]" label="network_[NN]" />
+      <node id="cyclic_[JJ]" label="cyclic_[JJ]" />
+      <node id="cellular_[JJ]" label="cellular_[JJ]" />
+      <node id="generate_[VB]" label="generate_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="protocol_[NN]" label="protocol_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="decentralized_[JJ]" label="decentralized_[JJ]" />
+      <node id="awake_[RB]" label="awake_[RB]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="fraction_[NN]" label="fraction_[NN]" />
+      <node id="only_[RB]" label="only_[RB]" />
+      <node id="small_[JJ]" label="small_[JJ]" />
+      <node id="sensors_[NNS]" label="sensors_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="shows_[VBZ]" label="shows_[VBZ]" />
+      <node id="work_[NN]" label="work_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="here_[RB]" label="here_[RB]" />
+      <node id="turn_[VB]" label="turn_[VB]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="waves_[NNS]" label="waves_[NNS]" />
+      <node id="nodes_[NNS]" label="nodes_[NNS]" />
+      <node id="awake-state_[JJ]" label="awake-state_[JJ]" />
+      <node id="corners_[NNS]" label="corners_[NNS]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="solve_[VB]" label="solve_[VB]" />
+      <node id="automatically_[RB]" label="automatically_[RB]" />
+      <node id="problems_[NNS]" label="problems_[NNS]" />
+      <node id="pusuit/evasion-type_[JJ]" label="pusuit/evasion-type_[JJ]" />
+      <node id="coordination_[NN]" label="coordination_[NN]" />
+      <node id="without_[IN]" label="without_[IN]" />
+      <node id="centralized_[JJ]" label="centralized_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="use_[VBP]" target="-RSB-_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="use_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="use_[VBP]" target="automata_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="use_[VBP]" target="awake_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="-RSB-_[NNS]" target="Following_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="-RSB-_[NNS]" target="Baryshnikov-Coffman-Kwak_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="-RSB-_[NNS]" target="-LSB-_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="-RSB-_[NNS]" target="1_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="automata_[NN]" target="network_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="automata_[NN]" target="cyclic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="automata_[NN]" target="cellular_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="automata_[NN]" target="generate_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="generate_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="generate_[VB]" target="protocol_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="protocol_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="protocol_[NN]" target="decentralized_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="awake_[RB]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="awake_[RB]" target="fraction_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="fraction_[NN]" target="only_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="fraction_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="fraction_[NN]" target="small_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="fraction_[NN]" target="sensors_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="sensors_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="shows_[VBZ]" target="work_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="shows_[VBZ]" target="here_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="shows_[VBZ]" target="turn_[VB]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="work_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="turn_[VB]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="turn_[VB]" target="waves_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="turn_[VB]" target="corners_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="turn_[VB]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="turn_[VB]" target="solve_[VB]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="waves_[NNS]" target="nodes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="nodes_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="nodes_[NNS]" target="awake-state_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="solve_[VB]" target="automatically_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="solve_[VB]" target="problems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="solve_[VB]" target="coordination_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="problems_[NNS]" target="pusuit/evasion-type_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="coordination_[NN]" target="without_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="coordination_[NN]" target="centralized_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

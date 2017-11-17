@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="provided_[VBD]" label="provided_[VBD]" />
+      <node id="usual_[JJ]" label="usual_[JJ]" />
+      <node id="As_[IN]" label="As_[IN]" />
+      <node id="workshop_[NN]" label="workshop_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="SIGOPS_[NNP]" label="SIGOPS_[NNP]" />
+      <node id="platform_[NN]" label="platform_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="great_[JJ]" label="great_[JJ]" />
+      <node id="discussion_[NN]" label="discussion_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="interesting_[JJ]" label="interesting_[JJ]" />
+      <node id="arose_[VBD]" label="arose_[VBD]" />
+      <node id="things_[NNS]" label="things_[NNS]" />
+      <node id="Among_[IN]" label="Among_[IN]" />
+      <node id="other_[JJ]" label="other_[JJ]" />
+      <node id="controversy_[NN]" label="controversy_[NN]" />
+      <node id="usefulness_[NN]" label="usefulness_[NN]" />
+      <node id="around_[IN]" label="around_[IN]" />
+      <node id="causal_[NN]" label="causal_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="ordering_[VBG]" label="ordering_[VBG]" />
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="distributed_[VBN]" label="distributed_[VBN]" />
+      <node id="explain_[VBP]" label="explain_[VBP]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="I_[PRP]" label="I_[PRP]" />
+      <node id="causality_[JJ]" label="causality_[JJ]" />
+      <node id="terms_[NNS]" label="terms_[NNS]" />
+      <node id="non-technical_[JJ]" label="non-technical_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="enumerate_[VBP]" label="enumerate_[VBP]" />
+      <node id="some_[DT]" label="some_[DT]" />
+      <node id="misconceptions_[NNS]" label="misconceptions_[NNS]" />
+      <node id="prevalent_[JJ]" label="prevalent_[JJ]" />
+      <node id="most_[RBS]" label="most_[RBS]" />
+      <node id="surrounded_[VBN]" label="surrounded_[VBN]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="causality_[RB]" label="causality_[RB]" />
+      <node id="present_[VBP]" label="present_[VBP]" />
+      <node id="Next_[RB]" label="Next_[RB]" />
+      <node id="examples_[NNS]" label="examples_[NNS]" />
+      <node id="important_[JJ]" label="important_[JJ]" />
+      <node id="necessary_[JJ]" label="necessary_[JJ]" />
+      <node id="where_[WRB]" label="where_[WRB]" />
+      <node id="delivery_[NN]" label="delivery_[NN]" />
+      <node id="causal_[JJ]" label="causal_[JJ]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="sufficient_[JJ]" label="sufficient_[JJ]" />
+      <node id="events_[NNS]" label="events_[NNS]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="provided_[VBD]" target="usual_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="provided_[VBD]" target="workshop_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="provided_[VBD]" target="platform_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="provided_[VBD]" target="discussion_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="usual_[JJ]" target="As_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="workshop_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="workshop_[NN]" target="SIGOPS_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="platform_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="platform_[NN]" target="great_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="discussion_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="discussion_[NN]" target="interesting_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="arose_[VBD]" target="things_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="arose_[VBD]" target="controversy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="arose_[VBD]" target="usefulness_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="arose_[VBD]" target="ordering_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="things_[NNS]" target="Among_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="things_[NNS]" target="other_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="controversy_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="usefulness_[NN]" target="around_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="usefulness_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="usefulness_[NN]" target="causal_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="causal_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="ordering_[VBG]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="ordering_[VBG]" target="events_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="system_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="system_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="system_[NN]" target="distributed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="explain_[VBP]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="explain_[VBP]" target="I_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="explain_[VBP]" target="causality_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="explain_[VBP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="explain_[VBP]" target="enumerate_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="explain_[VBP]" target="some_[DT]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="paper_[NN]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="paper_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="causality_[JJ]" target="terms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="terms_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="terms_[NNS]" target="non-technical_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="some_[DT]" target="misconceptions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="misconceptions_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="misconceptions_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="misconceptions_[NNS]" target="prevalent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="misconceptions_[NNS]" target="surrounded_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="prevalent_[JJ]" target="most_[RBS]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="surrounded_[VBN]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="surrounded_[VBN]" target="causality_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="present_[VBP]" target="Next_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="present_[VBP]" target="I_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="present_[VBP]" target="examples_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="examples_[NNS]" target="some_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="examples_[NNS]" target="important_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="examples_[NNS]" target="necessary_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="necessary_[JJ]" target="where_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="necessary_[JJ]" target="delivery_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="necessary_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="necessary_[JJ]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="necessary_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="necessary_[JJ]" target="sufficient_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="necessary_[JJ]" target="ordering_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="delivery_[NN]" target="causal_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="events_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

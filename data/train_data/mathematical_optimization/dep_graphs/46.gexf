@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>04/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="emerged_[VBN]" label="emerged_[VBN]" />
+      <node id="Multiplexing_[NNP]" label="Multiplexing_[NNP]" />
+      <node id="Orthogonal_[NNP]" label="Orthogonal_[NNP]" />
+      <node id="Frequency_[NNP]" label="Frequency_[NNP]" />
+      <node id="Division_[NNP]" label="Division_[NNP]" />
+      <node id="OFDM_[NNP]" label="OFDM_[NNP]" />
+      <node id="has_[VBZ]" label="has_[VBZ]" />
+      <node id="recently_[RB]" label="recently_[RB]" />
+      <node id="technology_[NN]" label="technology_[NN]" />
+      <node id="as_[IN]" label="as_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="promising_[JJ]" label="promising_[JJ]" />
+      <node id="network_[NN]" label="network_[NN]" />
+      <node id="A_[DT]" label="A_[DT]" />
+      <node id="using_[VBG]" label="using_[VBG]" />
+      <node id="based_[VBN]" label="based_[VBN]" />
+      <node id="Path_[NNP]" label="Path_[NNP]" />
+      <node id="Spectrum-sliced_[NNP]" label="Spectrum-sliced_[NNP]" />
+      <node id="Elastic_[NNP]" label="Elastic_[NNP]" />
+      <node id="Optical_[NNP]" label="Optical_[NNP]" />
+      <node id="SLICE_[NNP]" label="SLICE_[NNP]" />
+      <node id="efficiency_[NN]" label="efficiency_[NN]" />
+      <node id="higher_[JJR]" label="higher_[JJR]" />
+      <node id="spectrum_[NN]" label="spectrum_[NN]" />
+      <node id="due_[JJ]" label="due_[JJ]" />
+      <node id="granularity_[NN]" label="granularity_[NN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="fine_[JJ]" label="fine_[JJ]" />
+      <node id="frequencies_[NNS]" label="frequencies_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="subcarrier_[NN]" label="subcarrier_[NN]" />
+      <node id="used_[VBN]" label="used_[VBN]" />
+      <node id="minimize_[VB]" label="minimize_[VB]" />
+      <node id="To_[TO]" label="To_[TO]" />
+      <node id="utilized_[JJ]" label="utilized_[JJ]" />
+      <node id="networks_[NNS]" label="networks_[NNS]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="SLICE_[JJ]" label="SLICE_[JJ]" />
+      <node id="routing_[NN]" label="routing_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="problem_[NN]" label="problem_[NN]" />
+      <node id="allocation_[NN]" label="allocation_[NN]" />
+      <node id="RSA_[NNP]" label="RSA_[NNP]" />
+      <node id="be_[VB]" label="be_[VB]" />
+      <node id="efficiently_[RB]" label="efficiently_[RB]" />
+      <node id="solved_[VBN]" label="solved_[VBN]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="have_[VBP]" label="have_[VBP]" />
+      <node id="formulation_[VBZ]" label="formulation_[VBZ]" />
+      <node id="Programming_[NNP]" label="Programming_[NNP]" />
+      <node id="Mixed_[NNP]" label="Mixed_[NNP]" />
+      <node id="Integer_[NNP]" label="Integer_[NNP]" />
+      <node id="Linear_[NNP]" label="Linear_[NNP]" />
+      <node id="MILP_[NNP]" label="MILP_[NNP]" />
+      <node id="compared_[VBN]" label="compared_[VBN]" />
+      <node id="approaches_[NNS]" label="approaches_[NNS]" />
+      <node id="our_[PRP$]" label="our_[PRP$]" />
+      <node id="formulation_[NN]" label="formulation_[NN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="another_[DT]" label="another_[DT]" />
+      <node id="recent_[JJ]" label="recent_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="emerged_[VBN]" target="Multiplexing_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="emerged_[VBN]" target="has_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="emerged_[VBN]" target="recently_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="emerged_[VBN]" target="technology_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Multiplexing_[NNP]" target="Orthogonal_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Multiplexing_[NNP]" target="Frequency_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Multiplexing_[NNP]" target="Division_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Multiplexing_[NNP]" target="OFDM_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="OFDM_[NNP]" target="based_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="has_[VBZ]" target="network_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="has_[VBZ]" target="efficiency_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="has_[VBZ]" target="minimize_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="has_[VBZ]" target="routing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="has_[VBZ]" target="be_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="technology_[NN]" target="as_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="technology_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="technology_[NN]" target="promising_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="network_[NN]" target="A_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="network_[NN]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="using_[VBG]" target="OFDM_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="using_[VBG]" target="formulation_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="based_[VBN]" target="Path_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="Path_[NNP]" target="Spectrum-sliced_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="Path_[NNP]" target="Elastic_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="Path_[NNP]" target="Optical_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="Path_[NNP]" target="SLICE_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="efficiency_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="efficiency_[NN]" target="higher_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="efficiency_[NN]" target="spectrum_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="efficiency_[NN]" target="due_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="spectrum_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="spectrum_[NN]" target="utilized_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="due_[JJ]" target="granularity_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="granularity_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="granularity_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="granularity_[NN]" target="fine_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="granularity_[NN]" target="frequencies_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="frequencies_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="frequencies_[NNS]" target="subcarrier_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="frequencies_[NNS]" target="used_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="minimize_[VB]" target="To_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="minimize_[VB]" target="spectrum_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="minimize_[VB]" target="networks_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="networks_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="networks_[NNS]" target="SLICE_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="routing_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="routing_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="routing_[NN]" target="problem_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="routing_[NN]" target="RSA_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="problem_[NN]" target="spectrum_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="problem_[NN]" target="allocation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="problem_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="problem_[NN]" target="RSA_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="be_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="be_[VB]" target="efficiently_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="efficiently_[RB]" target="solved_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="solved_[VBN]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="solved_[VBN]" target="have_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="solved_[VBN]" target="problem_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="solved_[VBN]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="formulation_[VBZ]" target="Programming_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="formulation_[VBZ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="formulation_[VBZ]" target="compared_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="Programming_[NNP]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="Programming_[NNP]" target="Mixed_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="Programming_[NNP]" target="Integer_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="Programming_[NNP]" target="Linear_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="Programming_[NNP]" target="MILP_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="compared_[VBN]" target="have_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="compared_[VBN]" target="approaches_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="compared_[VBN]" target="formulation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="approaches_[NNS]" target="our_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="formulation_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="formulation_[NN]" target="another_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="formulation_[NN]" target="recent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

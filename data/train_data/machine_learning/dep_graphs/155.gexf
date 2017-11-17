@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>04/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="identification_[NN]" label="identification_[NN]" />
+      <node id="Recognition_[NNP]" label="Recognition_[NNP]" />
+      <node id="Named_[NNP]" label="Named_[NNP]" />
+      <node id="Entity_[NNP]" label="Entity_[NNP]" />
+      <node id="NER_[NNP]" label="NER_[NNP]" />
+      <node id="has_[VBZ]" label="has_[VBZ]" />
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="sub-tasks_[NNS]" label="sub-tasks_[NNS]" />
+      <node id="two_[CD]" label="two_[CD]" />
+      <node id="first_[RB]" label="first_[RB]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="second_[NN]" label="second_[NN]" />
+      <node id="classification_[NN]" label="classification_[NN]" />
+      <node id="identifies_[VBZ]" label="identifies_[VBZ]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="first_[JJ]" label="first_[JJ]" />
+      <node id="words_[NNS]" label="words_[NNS]" />
+      <node id="texts_[NNS]" label="texts_[NNS]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="represent_[VBP]" label="represent_[VBP]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="names_[NNS]" label="names_[NNS]" />
+      <node id="proper_[JJ]" label="proper_[JJ]" />
+      <node id="etc._[NN]" label="etc._[NN]" />
+      <node id="like_[IN]" label="like_[IN]" />
+      <node id="location_[NN]" label="location_[NN]" />
+      <node id="person-name_[NN]" label="person-name_[NN]" />
+      <node id="organization_[NN]" label="organization_[NN]" />
+      <node id="date_[NN]" label="date_[NN]" />
+      <node id="time_[NN]" label="time_[NN]" />
+      <node id="classifies_[VBZ]" label="classifies_[VBZ]" />
+      <node id="it_[PRP]" label="it_[PRP]" />
+      <node id="them_[PRP]" label="them_[PRP]" />
+      <node id="categories_[NNS]" label="categories_[NNS]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="predefined_[JJ]" label="predefined_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="identification_[NN]" target="Recognition_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="identification_[NN]" target="has_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="parataxis" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="identification_[NN]" target="first_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="identification_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="identification_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="identification_[NN]" target="second_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="identification_[NN]" target="classification_[NN]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Recognition_[NNP]" target="Named_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Recognition_[NNP]" target="Entity_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Recognition_[NNP]" target="NER_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="NER_[NNP]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="NER_[NNP]" target="first_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="has_[VBZ]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="has_[VBZ]" target="sub-tasks_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="sub-tasks_[NNS]" target="two_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="second_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="classification_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="identifies_[VBZ]" target="NER_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="identifies_[VBZ]" target="words_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="words_[NNS]" target="texts_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="texts_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="texts_[NNS]" target="represent_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="represent_[VBP]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="represent_[VBP]" target="names_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="represent_[VBP]" target="etc._[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="names_[NNS]" target="proper_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="etc._[NN]" target="like_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="etc._[NN]" target="location_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="etc._[NN]" target="person-name_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="etc._[NN]" target="organization_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="etc._[NN]" target="date_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="etc._[NN]" target="time_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="classifies_[VBZ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="classifies_[VBZ]" target="second_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="classifies_[VBZ]" target="it_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="classifies_[VBZ]" target="them_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="classifies_[VBZ]" target="categories_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="categories_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="categories_[NNS]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="categories_[NNS]" target="predefined_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="find_[VBP]" label="find_[VBP]" />
+      <node id="students_[NNS]" label="students_[NNS]" />
+      <node id="Undergraduate_[JJ]" label="Undergraduate_[JJ]" />
+      <node id="solve_[VB]" label="solve_[VB]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="machine_[NN]" label="machine_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="engineered_[VBN]" label="engineered_[VBN]" />
+      <node id="genetically_[RB]" label="genetically_[RB]" />
+      <node id="can_[MD]" label="can_[MD]" />
+      <node id="Problems_[NNS]" label="Problems_[NNS]" />
+      <node id="Hamiltonian_[JJ]" label="Hamiltonian_[JJ]" />
+      <node id="Path_[NN]" label="Path_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="find_[VBP]" target="students_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="find_[VBP]" target="solve_[VB]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="students_[NNS]" target="Undergraduate_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="solve_[VB]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="solve_[VB]" target="machine_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="solve_[VB]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="solve_[VB]" target="Problems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="machine_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="machine_[NN]" target="engineered_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="engineered_[VBN]" target="genetically_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Problems_[NNS]" target="Hamiltonian_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Problems_[NNS]" target="Path_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

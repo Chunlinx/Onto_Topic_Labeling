@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="essential_[JJ]" label="essential_[JJ]" />
+      <node id="networks_[NNS]" label="networks_[NNS]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="underwater_[JJ]" label="underwater_[JJ]" />
+      <node id="wireless_[JJ]" label="wireless_[JJ]" />
+      <node id="sensor_[NN]" label="sensor_[NN]" />
+      <node id="USWNs_[NNP]" label="USWNs_[NNP]" />
+      <node id="nodes_[NNS]" label="nodes_[NNS]" />
+      <node id="localizing_[VBG]" label="localizing_[VBG]" />
+      <node id="unknown_[JJ]" label="unknown_[JJ]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="applications_[NNS]" label="applications_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="most_[JJS]" label="most_[JJS]" />
+      <node id="complex_[JJ]" label="complex_[JJ]" />
+      <node id="while_[IN]" label="while_[IN]" />
+      <node id="more_[RBR]" label="more_[RBR]" />
+      <node id="that_[DT]" label="that_[DT]" />
+      <node id="than_[IN]" label="than_[IN]" />
+      <node id="WSNs_[NNS]" label="WSNs_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="terrestrial_[JJ]" label="terrestrial_[JJ]" />
+      <node id="propose_[VBP]" label="propose_[VBP]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="scheme_[NN]" label="scheme_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="range-based_[JJ]" label="range-based_[JJ]" />
+      <node id="localization_[NN]" label="localization_[NN]" />
+      <node id="using_[VBG]" label="using_[VBG]" />
+      <node id="network_[NN]" label="network_[NN]" />
+      <node id="neural_[JJ]" label="neural_[JJ]" />
+      <node id="deep_[RB]" label="deep_[RB]" />
+      <node id="DNN_[NNP]" label="DNN_[NNP]" />
+      <node id="suggest_[VBP]" label="suggest_[VBP]" />
+      <node id="results_[NNS]" label="results_[NNS]" />
+      <node id="Numerical_[JJ]" label="Numerical_[JJ]" />
+      <node id="outperforms_[VBZ]" label="outperforms_[VBZ]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="algorithm_[NN]" label="algorithm_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="proposed_[JJ]" label="proposed_[JJ]" />
+      <node id="schemes_[NNS]" label="schemes_[NNS]" />
+      <node id="traditional_[JJ]" label="traditional_[JJ]" />
+      <node id="support_[VB]" label="support_[VB]" />
+      <node id="squares_[NNS]" label="squares_[NNS]" />
+      <node id="least_[JJS]" label="least_[JJS]" />
+      <node id="machines_[NNS]" label="machines_[NNS]" />
+      <node id="vector_[NN]" label="vector_[NN]" />
+      <node id="LS-SVM_[NNP]" label="LS-SVM_[NNP]" />
+      <node id="or_[CC]" label="or_[CC]" />
+      <node id="generalized_[JJ]" label="generalized_[JJ]" />
+      <node id="GLS_[NNP]" label="GLS_[NNP]" />
+      <node id="terms_[NNS]" label="terms_[NNS]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="accuracy_[NN]" label="accuracy_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="efficiency_[NN]" label="efficiency_[NN]" />
+      <node id="requires_[VBZ]" label="requires_[VBZ]" />
+      <node id="Moreover_[RB]" label="Moreover_[RB]" />
+      <node id="proposed_[VBN]" label="proposed_[VBN]" />
+      <node id="number_[NN]" label="number_[NN]" />
+      <node id="small_[JJ]" label="small_[JJ]" />
+      <node id="anchor_[JJ]" label="anchor_[JJ]" />
+      <node id="plausible_[JJ]" label="plausible_[JJ]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="practical_[JJ]" label="practical_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="essential_[JJ]" target="networks_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="essential_[JJ]" target="nodes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="essential_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="essential_[JJ]" target="applications_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="essential_[JJ]" target="complex_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="networks_[NNS]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="networks_[NNS]" target="underwater_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="networks_[NNS]" target="wireless_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="networks_[NNS]" target="sensor_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="networks_[NNS]" target="USWNs_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="nodes_[NNS]" target="localizing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="nodes_[NNS]" target="unknown_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="nodes_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="nodes_[NNS]" target="anchor_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="nodes_[NNS]" target="plausible_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="applications_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="applications_[NNS]" target="most_[JJS]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="applications_[NNS]" target="practical_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="complex_[JJ]" target="while_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="complex_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="complex_[JJ]" target="more_[RBR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="complex_[JJ]" target="that_[DT]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="that_[DT]" target="than_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="that_[DT]" target="WSNs_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="WSNs_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="WSNs_[NNS]" target="terrestrial_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="propose_[VBP]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="propose_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="propose_[VBP]" target="scheme_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="paper_[NN]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="paper_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="scheme_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="scheme_[NN]" target="range-based_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="scheme_[NN]" target="localization_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="scheme_[NN]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="using_[VBG]" target="network_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="using_[VBG]" target="support_[VB]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="network_[NN]" target="neural_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="network_[NN]" target="DNN_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="neural_[JJ]" target="deep_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="suggest_[VBP]" target="results_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="suggest_[VBP]" target="outperforms_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="results_[NNS]" target="Numerical_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="outperforms_[VBZ]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="outperforms_[VBZ]" target="algorithm_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="outperforms_[VBZ]" target="schemes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="outperforms_[VBZ]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="algorithm_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="algorithm_[NN]" target="proposed_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="algorithm_[NN]" target="DNN_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="algorithm_[NN]" target="localization_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="algorithm_[NN]" target="proposed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="schemes_[NNS]" target="traditional_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="support_[VB]" target="squares_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="support_[VB]" target="machines_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="squares_[NNS]" target="least_[JJS]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="squares_[NNS]" target="generalized_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="squares_[NNS]" target="GLS_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="squares_[NNS]" target="terms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="machines_[NNS]" target="vector_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="machines_[NNS]" target="LS-SVM_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="machines_[NNS]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="machines_[NNS]" target="squares_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="generalized_[JJ]" target="least_[JJS]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="terms_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="terms_[NNS]" target="accuracy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="accuracy_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="accuracy_[NN]" target="localization_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="accuracy_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="accuracy_[NN]" target="efficiency_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="requires_[VBZ]" target="Moreover_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="requires_[VBZ]" target="algorithm_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="requires_[VBZ]" target="number_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="number_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="number_[NN]" target="small_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="number_[NN]" target="nodes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="plausible_[JJ]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="plausible_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="plausible_[JJ]" target="applications_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

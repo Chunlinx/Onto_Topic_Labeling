@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="digitized_[VBN]" label="digitized_[VBN]" />
+      <node id="Far_[RB]" label="Far_[RB]" />
+      <node id="beginnings_[NNS]" label="beginnings_[NNS]" />
+      <node id="from_[IN]" label="from_[IN]" />
+      <node id="its_[PRP$]" label="its_[PRP$]" />
+      <node id="symbols_[NNS]" label="symbols_[NNS]" />
+      <node id="as_[IN]" label="as_[IN]" />
+      <node id="pressed_[VBN]" label="pressed_[VBN]" />
+      <node id="tablets_[NNS]" label="tablets_[NNS]" />
+      <node id="into_[IN]" label="into_[IN]" />
+      <node id="clay_[NN]" label="clay_[NN]" />
+      <node id="Sumerian_[NNP]" label="Sumerian_[NNP]" />
+      <node id="Ancient_[NNP]" label="Ancient_[NNP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="now_[RB]" label="now_[RB]" />
+      <node id="being_[VBG]" label="being_[VBG]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="shared_[VBN]" label="shared_[VBN]" />
+      <node id="cutting_[VBG]" label="cutting_[VBG]" />
+      <node id="through_[IN]" label="through_[IN]" />
+      <node id="edge_[NN]" label="edge_[NN]" />
+      <node id="technologies_[NNS]" label="technologies_[NNS]" />
+      <node id="semantic_[JJ]" label="semantic_[JJ]" />
+      <node id="web_[NN]" label="web_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="digitized_[VBN]" target="Far_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="digitized_[VBN]" target="Sumerian_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="digitized_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="digitized_[VBN]" target="now_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="digitized_[VBN]" target="being_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="digitized_[VBN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="digitized_[VBN]" target="shared_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="digitized_[VBN]" target="cutting_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Far_[RB]" target="beginnings_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="beginnings_[NNS]" target="from_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="beginnings_[NNS]" target="its_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="beginnings_[NNS]" target="symbols_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="symbols_[NNS]" target="as_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="symbols_[NNS]" target="pressed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="pressed_[VBN]" target="tablets_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="tablets_[NNS]" target="into_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="tablets_[NNS]" target="clay_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="Sumerian_[NNP]" target="Ancient_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="cutting_[VBG]" target="through_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="cutting_[VBG]" target="edge_[NN]">
+        <attvalues>
+          <attvalue for="0" value="iobj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="cutting_[VBG]" target="technologies_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="technologies_[NNS]" target="semantic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="technologies_[NNS]" target="web_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

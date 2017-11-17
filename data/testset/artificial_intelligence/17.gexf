@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>17/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="concerns_[NNS]" label="concerns_[NNS]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="separation_[NN]" label="separation_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="blind_[JJ]" label="blind_[JJ]" />
+      <node id="mixtures_[NNS]" label="mixtures_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="P_[NNP]" label="P_[NNP]" />
+      <node id="complex_[JJ]" label="complex_[JJ]" />
+      <node id="convolutive_[NN]" label="convolutive_[NN]" />
+      <node id="i.e._[NNS]" label="i.e._[NNS]" />
+      <node id="N_[NNP]" label="N_[NNP]" />
+      <node id="statistically_[NNP]" label="statistically_[NNP]" />
+      <node id="independent_[JJ]" label="independent_[JJ]" />
+      <node id="sources_[NNS]" label="sources_[NNS]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="underdetermined_[JJ]" label="underdetermined_[JJ]" />
+      <node id="or_[CC]" label="or_[CC]" />
+      <node id="noisy_[JJ]" label="noisy_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="concerns_[NNS]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="concerns_[NNS]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="concerns_[NNS]" target="separation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="separation_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="separation_[NN]" target="blind_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="separation_[NN]" target="mixtures_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="separation_[NN]" target="i.e._[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="mixtures_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="mixtures_[NNS]" target="P_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="mixtures_[NNS]" target="complex_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="mixtures_[NNS]" target="convolutive_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="mixtures_[NNS]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="mixtures_[NNS]" target="underdetermined_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="i.e._[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="i.e._[NNS]" target="N_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="i.e._[NNS]" target="statistically_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="i.e._[NNS]" target="independent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="independent_[JJ]" target="sources_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="sources_[NNS]" target="complex_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="sources_[NNS]" target="mixtures_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="underdetermined_[JJ]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="underdetermined_[JJ]" target="noisy_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

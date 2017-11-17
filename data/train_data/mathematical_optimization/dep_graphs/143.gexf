@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="be_[VB]" label="be_[VB]" />
+      <node id="Should_[NNP]" label="Should_[NNP]" />
+      <node id="there_[EX]" label="there_[EX]" />
+      <node id="standard_[NN]" label="standard_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="way_[NN]" label="way_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="languages_[NNS]" label="languages_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="algorithms_[JJ]" label="algorithms_[JJ]" />
+      <node id="improve_[VB]" label="improve_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="productivity_[NN]" label="productivity_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="remove_[VB]" label="remove_[VB]" />
+      <node id="ambiguity_[NNS]" label="ambiguity_[NNS]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="be_[VB]" target="Should_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="be_[VB]" target="there_[EX]">
+        <attvalues>
+          <attvalue for="0" value="expl" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="be_[VB]" target="standard_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="standard_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="standard_[NN]" target="way_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="standard_[NN]" target="improve_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="way_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="way_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="way_[NN]" target="languages_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="languages_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="languages_[NNS]" target="algorithms_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="improve_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="improve_[VB]" target="productivity_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="improve_[VB]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="improve_[VB]" target="remove_[VB]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="remove_[VB]" target="ambiguity_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

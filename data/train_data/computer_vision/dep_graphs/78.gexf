@@ -1,0 +1,487 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="detects_[VBZ]" label="detects_[VBZ]" />
+      <node id="method_[NN]" label="method_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="proposed_[VBN]" label="proposed_[VBN]" />
+      <node id="location_[NN]" label="location_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="exact_[JJ]" label="exact_[JJ]" />
+      <node id="masses_[NNS]" label="masses_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="circumscribed_[VBD]" label="circumscribed_[VBD]" />
+      <node id="mammograms_[NNS]" label="mammograms_[NNS]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="based_[VBN]" label="based_[VBN]" />
+      <node id="RBFNN_[NNP]" label="RBFNN_[NNP]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="Network_[NNP]" label="Network_[NNP]" />
+      <node id="Redial_[NNP]" label="Redial_[NNP]" />
+      <node id="Basis_[NNP]" label="Basis_[NNP]" />
+      <node id="Function_[NNP]" label="Function_[NNP]" />
+      <node id="Neural_[NNP]" label="Neural_[NNP]" />
+      <node id="accuracy_[NN]" label="accuracy_[NN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="%_[NN]" label="%_[NN]" />
+      <node id="62_[CD]" label="62_[CD]" />
+      <node id="50_[CD]" label="50_[CD]" />
+      <node id="respectively_[RB]" label="respectively_[RB]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="containing_[VBG]" label="containing_[VBG]" />
+      <node id="reaches_[VBZ]" label="reaches_[VBZ]" />
+      <node id="rate_[NN]" label="rate_[NN]" />
+      <node id="recognition_[NN]" label="recognition_[NN]" />
+      <node id="one_[NN]" label="one_[NN]" />
+      <node id="normal_[JJ]" label="normal_[JJ]" />
+      <node id="94.89_[CD]" label="94.89_[CD]" />
+      <node id="database_[NN]" label="database_[NN]" />
+      <node id="MIAS_[NNP]" label="MIAS_[NNP]" />
+      <node id="Society_[NNP]" label="Society_[NNP]" />
+      <node id="Mammography_[NNP]" label="Mammography_[NNP]" />
+      <node id="Image_[NNP]" label="Image_[NNP]" />
+      <node id="Analysis_[NNP]" label="Analysis_[NNP]" />
+      <node id="independent_[JJ]" label="independent_[JJ]" />
+      <node id="Also_[RB]" label="Also_[RB]" />
+      <node id="results_[NNS]" label="results_[NNS]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="preprocessing_[VBG]" label="preprocessing_[VBG]" />
+      <node id="implemented_[VBN]" label="implemented_[VBN]" />
+      <node id="procedure_[NN]" label="procedure_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="analysis_[NN]" label="analysis_[NN]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="performing_[VBG]" label="performing_[VBG]" />
+      <node id="sub-image_[JJ]" label="sub-image_[JJ]" />
+      <node id="windowing_[VBG]" label="windowing_[VBG]" />
+      <node id="carried_[VBN]" label="carried_[VBN]" />
+      <node id="evaluation_[NN]" label="evaluation_[NN]" />
+      <node id="mass_[NN]" label="mass_[NN]" />
+      <node id="proposed_[JJ]" label="proposed_[JJ]" />
+      <node id="detection_[NN]" label="detection_[NN]" />
+      <node id="circumscribed_[JJ]" label="circumscribed_[JJ]" />
+      <node id="mass_[JJ]" label="mass_[JJ]" />
+      <node id="was_[VBD]" label="was_[VBD]" />
+      <node id="out_[RP]" label="out_[RP]" />
+      <node id="giving_[VBG]" label="giving_[VBG]" />
+      <node id="reliable_[JJ]" label="reliable_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="detects_[VBZ]" target="method_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="detects_[VBZ]" target="location_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="detects_[VBZ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="detects_[VBZ]" target="circumscribed_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="method_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="method_[NN]" target="proposed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="location_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="location_[NN]" target="exact_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="location_[NN]" target="masses_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="masses_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="circumscribed_[VBD]" target="masses_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="circumscribed_[VBD]" target="mammograms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="mammograms_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="mammograms_[NNS]" target="based_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="mammograms_[NNS]" target="respectively_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="mammograms_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="mammograms_[NNS]" target="containing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="based_[VBN]" target="RBFNN_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="based_[VBN]" target="mammograms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="RBFNN_[NNP]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="RBFNN_[NNP]" target="Network_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="RBFNN_[NNP]" target="accuracy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="Network_[NNP]" target="Redial_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="Network_[NNP]" target="Basis_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="Network_[NNP]" target="Function_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="Network_[NNP]" target="Neural_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="accuracy_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="accuracy_[NN]" target="%_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="%_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="%_[NN]" target="62_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="%_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="%_[NN]" target="%_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="%_[NN]" target="50_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="%_[NN]" target="94.89_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="containing_[VBG]" target="masses_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="reaches_[VBZ]" target="rate_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="reaches_[VBZ]" target="%_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="reaches_[VBZ]" target="database_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="rate_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="rate_[NN]" target="recognition_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="rate_[NN]" target="one_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="one_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="one_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="one_[NN]" target="normal_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="database_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="database_[NN]" target="MIAS_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="database_[NN]" target="Society_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="database_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="Society_[NNP]" target="Mammography_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="Society_[NNP]" target="Image_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="Society_[NNP]" target="Analysis_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="independent_[JJ]" target="Also_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="independent_[JJ]" target="results_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="independent_[JJ]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="independent_[JJ]" target="preprocessing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="results_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="preprocessing_[VBG]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="implemented_[VBN]" target="procedure_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="implemented_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="implemented_[VBN]" target="analysis_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="procedure_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="analysis_[NN]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="analysis_[NN]" target="performing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="analysis_[NN]" target="sub-image_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="analysis_[NN]" target="windowing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="carried_[VBN]" target="evaluation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="carried_[VBN]" target="was_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="carried_[VBN]" target="out_[RP]">
+        <attvalues>
+          <attvalue for="0" value="compound:prt" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="carried_[VBN]" target="database_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="carried_[VBN]" target="giving_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="evaluation_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="evaluation_[NN]" target="mass_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="mass_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="mass_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="mass_[NN]" target="proposed_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="mass_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="mass_[NN]" target="detection_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="detection_[NN]" target="circumscribed_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="detection_[NN]" target="mass_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="detection_[NN]" target="reliable_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="giving_[VBG]" target="detection_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

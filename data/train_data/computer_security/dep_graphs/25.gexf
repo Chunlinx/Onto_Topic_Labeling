@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="contributes_[VBZ]" label="contributes_[VBZ]" />
+      <node id="multitude_[NN]" label="multitude_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="devices_[NNS]" label="devices_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="IoT_[NNP]" label="IoT_[NNP]" />
+      <node id="amount_[NN]" label="amount_[NN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="enormous_[JJ]" label="enormous_[JJ]" />
+      <node id="data_[NNS]" label="data_[NNS]" />
+      <node id="stored_[VBN]" label="stored_[VBN]" />
+      <node id="clouds_[NNS]" label="clouds_[NNS]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="corporate_[JJ]" label="corporate_[JJ]" />
+      <node id="outpaced_[VBD]" label="outpaced_[VBD]" />
+      <node id="Yet_[CC]" label="Yet_[CC]" />
+      <node id="level_[NN]" label="level_[NN]" />
+      <node id="power_[NN]" label="power_[NN]" />
+      <node id="computing_[NN]" label="computing_[NN]" />
+      <node id="has_[VBZ]" label="has_[VBZ]" />
+      <node id="advances_[NNS]" label="advances_[NNS]" />
+      <node id="protection_[NN]" label="protection_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="privacy_[NN]" label="privacy_[NN]" />
+      <node id="preserve_[VB]" label="preserve_[VB]" />
+      <node id="Could_[MD]" label="Could_[MD]" />
+      <node id="search_[NN]" label="search_[NN]" />
+      <node id="encrypted_[JJ]" label="encrypted_[JJ]" />
+      <node id="utilizing_[VBG]" label="utilizing_[VBG]" />
+      <node id="while_[IN]" label="while_[IN]" />
+      <node id="computing_[VBG]" label="computing_[VBG]" />
+      <node id="cloud_[NN]" label="cloud_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="contributes_[VBZ]" target="multitude_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="contributes_[VBZ]" target="amount_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="multitude_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="multitude_[NN]" target="devices_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="devices_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="devices_[NNS]" target="IoT_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="amount_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="amount_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="amount_[NN]" target="enormous_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="amount_[NN]" target="data_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="data_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="data_[NNS]" target="stored_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="stored_[VBN]" target="clouds_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="clouds_[NNS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="clouds_[NNS]" target="corporate_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="outpaced_[VBD]" target="Yet_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="outpaced_[VBD]" target="level_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="outpaced_[VBD]" target="has_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="outpaced_[VBD]" target="advances_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="outpaced_[VBD]" target="protection_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="level_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="level_[NN]" target="power_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="power_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="power_[NN]" target="computing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="power_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="power_[NN]" target="computing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="power_[NN]" target="cloud_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="protection_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="protection_[NN]" target="privacy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="privacy_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="privacy_[NN]" target="data_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="preserve_[VB]" target="Could_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="preserve_[VB]" target="search_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="preserve_[VB]" target="privacy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="preserve_[VB]" target="utilizing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="search_[NN]" target="encrypted_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="utilizing_[VBG]" target="while_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="utilizing_[VBG]" target="power_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="cloud_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="cloud_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

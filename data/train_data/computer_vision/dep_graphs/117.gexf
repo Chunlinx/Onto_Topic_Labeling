@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Considered_[VBN]" label="Considered_[VBN]" />
+      <node id="Recognition_[NNP]" label="Recognition_[NNP]" />
+      <node id="Touch-Less_[NNP]" label="Touch-Less_[NNP]" />
+      <node id="Fingerprint_[NNP]" label="Fingerprint_[NNP]" />
+      <node id="Is_[VBZ]" label="Is_[VBZ]" />
+      <node id="Alternative_[NNP]" label="Alternative_[NNP]" />
+      <node id="As_[IN]" label="As_[IN]" />
+      <node id="A_[DT]" label="A_[DT]" />
+      <node id="Feasible_[NNP]" label="Feasible_[NNP]" />
+      <node id="Technology_[NNP]" label="Technology_[NNP]" />
+      <node id="To_[TO]" label="To_[TO]" />
+      <node id="Touch-Based_[NNP]" label="Touch-Based_[NNP]" />
+      <node id="Provides_[VBZ]" label="Provides_[VBZ]" />
+      <node id="Solution_[NN]" label="Solution_[NN]" />
+      <node id="Near_[NNP]" label="Near_[NNP]" />
+      <node id="Perfect_[NNP]" label="Perfect_[NNP]" />
+      <node id="Problems_[NNPS]" label="Problems_[NNPS]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="Terms_[NNS]" label="Terms_[NNS]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="Fingerprints_[NNP]" label="Fingerprints_[NNP]" />
+      <node id="Of_[IN]" label="Of_[IN]" />
+      <node id="Hygienic_[NNP]" label="Hygienic_[NNP]" />
+      <node id="Maintenance_[NNP]" label="Maintenance_[NNP]" />
+      <node id="And_[CC]" label="And_[CC]" />
+      <node id="Latent_[NNP]" label="Latent_[NNP]" />
+      <node id="Presents_[VBZ]" label="Presents_[VBZ]" />
+      <node id="Paper_[NNP]" label="Paper_[NNP]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="Introduction_[NNP]" label="Introduction_[NNP]" />
+      <node id="An_[DT]" label="An_[DT]" />
+      <node id="System_[NNP]" label="System_[NNP]" />
+      <node id="Using_[VBG]" label="Using_[VBG]" />
+      <node id="Camera_[NN]" label="Camera_[NN]" />
+      <node id="Digital_[NNP]" label="Digital_[NNP]" />
+      <node id="Discusses_[VBZ]" label="Discusses_[VBZ]" />
+      <node id="Also_[RB]" label="Also_[RB]" />
+      <node id="Disadvantages_[NNPS]" label="Disadvantages_[NNPS]" />
+      <node id="Both_[CC]" label="Both_[CC]" />
+      <node id="Advantages_[NNPS]" label="Advantages_[NNPS]" />
+      <node id="Systems_[NNPS]" label="Systems_[NNPS]" />
+      <node id="Approaches_[NNPS]" label="Approaches_[NNPS]" />
+      <node id="Along_[IN]" label="Along_[IN]" />
+      <node id="With_[IN]" label="With_[IN]" />
+      <node id="Capture_[NNP]" label="Capture_[NNP]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Considered_[VBN]" target="Recognition_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Considered_[VBN]" target="Is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="Considered_[VBN]" target="Alternative_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="Considered_[VBN]" target="Technology_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Recognition_[NNP]" target="Touch-Less_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Recognition_[NNP]" target="Fingerprint_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Fingerprint_[NNP]" target="To_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Fingerprint_[NNP]" target="Capture_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Fingerprint_[NNP]" target="Touch-Less_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Alternative_[NNP]" target="As_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Alternative_[NNP]" target="A_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Alternative_[NNP]" target="Feasible_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Technology_[NNP]" target="To_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Technology_[NNP]" target="Touch-Based_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Technology_[NNP]" target="Fingerprint_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="Technology_[NNP]" target="Recognition_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="Technology_[NNP]" target="Touch-Less_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="Provides_[VBZ]" target="Technology_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="Provides_[VBZ]" target="Solution_[NN]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="Solution_[NN]" target="A_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="Solution_[NN]" target="Near_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="Solution_[NN]" target="Perfect_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="Solution_[NN]" target="Problems_[NNPS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="Solution_[NN]" target="Terms_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="Solution_[NN]" target="Fingerprints_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="Problems_[NNPS]" target="To_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="Problems_[NNPS]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="Terms_[NNS]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="Fingerprints_[NNP]" target="Of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="Fingerprints_[NNP]" target="Hygienic_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="Hygienic_[NNP]" target="Maintenance_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="Hygienic_[NNP]" target="And_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="Hygienic_[NNP]" target="Latent_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="Presents_[VBZ]" target="Paper_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="Presents_[VBZ]" target="Introduction_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="Presents_[VBZ]" target="System_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="Paper_[NNP]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="Introduction_[NNP]" target="An_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="System_[NNP]" target="To_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="System_[NNP]" target="Touch-Less_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="System_[NNP]" target="Fingerprint_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="System_[NNP]" target="Recognition_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="System_[NNP]" target="Using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="Using_[VBG]" target="Camera_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="Camera_[NN]" target="A_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="Camera_[NN]" target="Digital_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="Discusses_[VBZ]" target="Paper_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="Discusses_[VBZ]" target="Also_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="Discusses_[VBZ]" target="Disadvantages_[NNPS]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="Disadvantages_[NNPS]" target="Both_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc:preconj" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="Disadvantages_[NNPS]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="Disadvantages_[NNPS]" target="And_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="Disadvantages_[NNPS]" target="Advantages_[NNPS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="Disadvantages_[NNPS]" target="Systems_[NNPS]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="Disadvantages_[NNPS]" target="Approaches_[NNPS]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="Advantages_[NNPS]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="Systems_[NNPS]" target="Of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="Systems_[NNPS]" target="Touch-Less_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="Systems_[NNPS]" target="Fingerprint_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="Approaches_[NNPS]" target="Along_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="Approaches_[NNPS]" target="With_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="Approaches_[NNPS]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="Approaches_[NNPS]" target="Fingerprint_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

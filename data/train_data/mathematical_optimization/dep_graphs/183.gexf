@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="caused_[VBD]" label="caused_[VBD]" />
+      <node id="overcome_[VB]" label="overcome_[VB]" />
+      <node id="To_[TO]" label="To_[TO]" />
+      <node id="difficulties_[NNS]" label="difficulties_[NNS]" />
+      <node id="evaluation_[NN]" label="evaluation_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="polynomial_[JJ]" label="polynomial_[JJ]" />
+      <node id="overflow_[NN]" label="overflow_[NN]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="or_[CC]" label="or_[CC]" />
+      <node id="underflow_[NN]" label="underflow_[NN]" />
+      <node id="unnecessary_[JJ]" label="unnecessary_[JJ]" />
+      <node id="introduce_[VB]" label="introduce_[VB]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="procedure_[NN]" label="procedure_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="simple_[JJ]" label="simple_[JJ]" />
+      <node id="scaling_[NN]" label="scaling_[NN]" />
+      <node id="method_[NN]" label="method_[NN]" />
+      <node id="into_[IN]" label="into_[IN]" />
+      <node id="Horner_[NNP]" label="Horner_[NNP]" />
+      <node id="'s_[POS]" label="'s_[POS]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="caused_[VBD]" target="overcome_[VB]">
+        <attvalues>
+          <attvalue for="0" value="csubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="caused_[VBD]" target="overflow_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="caused_[VBD]" target="introduce_[VB]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="overcome_[VB]" target="To_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="overcome_[VB]" target="difficulties_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="overcome_[VB]" target="evaluation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="evaluation_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="evaluation_[NN]" target="polynomial_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="overflow_[NN]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="overflow_[NN]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="overflow_[NN]" target="underflow_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="underflow_[NN]" target="unnecessary_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="introduce_[VB]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="introduce_[VB]" target="procedure_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="introduce_[VB]" target="method_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="procedure_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="procedure_[NN]" target="simple_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="procedure_[NN]" target="scaling_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="method_[NN]" target="into_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="method_[NN]" target="Horner_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="Horner_[NNP]" target="'s_[POS]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

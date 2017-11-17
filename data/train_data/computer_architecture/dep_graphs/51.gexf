@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="require_[VB]" label="require_[VB]" />
+      <node id="parallelism_[NN]" label="parallelism_[NN]" />
+      <node id="Exploiting_[VBG]" label="Exploiting_[VBG]" />
+      <node id="may_[MD]" label="may_[MD]" />
+      <node id="developers_[NNS]" label="developers_[NNS]" />
+      <node id="think_[VB]" label="think_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="differently_[RB]" label="differently_[RB]" />
+      <node id="written_[VBN]" label="written_[VBN]" />
+      <node id="about_[IN]" label="about_[IN]" />
+      <node id="how_[WRB]" label="how_[WRB]" />
+      <node id="programs_[NNS]" label="programs_[NNS]" />
+      <node id="their_[PRP$]" label="their_[PRP$]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="require_[VB]" target="parallelism_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="require_[VB]" target="may_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="require_[VB]" target="developers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="require_[VB]" target="think_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="parallelism_[NN]" target="Exploiting_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="think_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="think_[VB]" target="differently_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="think_[VB]" target="written_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="written_[VBN]" target="about_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="written_[VBN]" target="how_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="written_[VBN]" target="programs_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="written_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="programs_[NNS]" target="their_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

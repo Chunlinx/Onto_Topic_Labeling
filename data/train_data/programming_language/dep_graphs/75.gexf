@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="known_[JJ]" label="known_[JJ]" />
+      <node id="Programming_[NNP]" label="Programming_[NNP]" />
+      <node id="Extreme_[NNP]" label="Extreme_[NNP]" />
+      <node id="XP_[NNP]" label="XP_[NNP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="probably_[RB]" label="probably_[RB]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="best_[RBS]" label="best_[RBS]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="arguably_[NNP]" label="arguably_[NNP]" />
+      <node id="controversial_[JJ]" label="controversial_[JJ]" />
+      <node id="most_[RBS]" label="most_[RBS]" />
+      <node id="methodologies_[NNS]" label="methodologies_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="so-called_[JJ]" label="so-called_[JJ]" />
+      <node id="agile_[JJ]" label="agile_[JJ]" />
+      <node id="software_[NN]" label="software_[NN]" />
+      <node id="development_[NN]" label="development_[NN]" />
+      <node id="presents_[VBZ]" label="presents_[VBZ]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="findings_[NNS]" label="findings_[NNS]" />
+      <node id="main_[JJ]" label="main_[JJ]" />
+      <node id="survey_[NN]" label="survey_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="small_[JJ]" label="small_[JJ]" />
+      <node id="pilot_[NN]" label="pilot_[NN]" />
+      <node id="perceptions_[NNS]" label="perceptions_[NNS]" />
+      <node id="about_[IN]" label="about_[IN]" />
+      <node id="user_[NN]" label="user_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="known_[JJ]" target="Programming_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="known_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="known_[JJ]" target="probably_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="known_[JJ]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="known_[JJ]" target="best_[RBS]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="known_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="known_[JJ]" target="arguably_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="known_[JJ]" target="controversial_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="known_[JJ]" target="methodologies_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Programming_[NNP]" target="Extreme_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Programming_[NNP]" target="XP_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="XP_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="controversial_[JJ]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="controversial_[JJ]" target="most_[RBS]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="methodologies_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="methodologies_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="methodologies_[NNS]" target="so-called_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="methodologies_[NNS]" target="agile_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="methodologies_[NNS]" target="software_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="methodologies_[NNS]" target="development_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="presents_[VBZ]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="presents_[VBZ]" target="findings_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="paper_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="findings_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="findings_[NNS]" target="main_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="findings_[NNS]" target="survey_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="survey_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="survey_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="survey_[NN]" target="small_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="survey_[NN]" target="pilot_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="survey_[NN]" target="perceptions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="perceptions_[NNS]" target="about_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="perceptions_[NNS]" target="user_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="perceptions_[NNS]" target="XP_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

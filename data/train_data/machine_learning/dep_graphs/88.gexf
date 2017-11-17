@@ -1,0 +1,716 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>04/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="plays_[VBZ]" label="plays_[VBZ]" />
+      <node id="concentration_[NN]" label="concentration_[NN]" />
+      <node id="Blood_[NNP]" label="Blood_[NNP]" />
+      <node id="glucose_[NN]" label="glucose_[NN]" />
+      <node id="role_[NN]" label="role_[NN]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="important_[JJ]" label="important_[JJ]" />
+      <node id="health_[NN]" label="health_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="personal_[JJ]" label="personal_[JJ]" />
+      <node id="reduce_[VBP]" label="reduce_[VBP]" />
+      <node id="results_[NNS]" label="results_[NNS]" />
+      <node id="Hyperglycemia_[NNP]" label="Hyperglycemia_[NNP]" />
+      <node id="diabetes_[NN]" label="diabetes_[NN]" />
+      <node id="leading_[VBG]" label="leading_[VBG]" />
+      <node id="risks_[NNS]" label="risks_[NNS]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="failure_[NN]" label="failure_[NN]" />
+      <node id="such_[JJ]" label="such_[JJ]" />
+      <node id="as_[IN]" label="as_[IN]" />
+      <node id="pancreatic_[JJ]" label="pancreatic_[JJ]" />
+      <node id="function_[NN]" label="function_[NN]" />
+      <node id="immunity_[NN]" label="immunity_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="ocular_[VBP]" label="ocular_[VBP]" />
+      <node id="diseases_[NNS]" label="diseases_[NNS]" />
+      <node id="fundus_[JJ]" label="fundus_[JJ]" />
+      <node id="-LSB-_[VBG]" label="-LSB-_[VBG]" />
+      <node id="-RSB-_[NNS]" label="-RSB-_[NNS]" />
+      <node id="6_[CD]" label="6_[CD]" />
+      <node id="brings_[VBZ]" label="brings_[VBZ]" />
+      <node id="Meanwhile_[RB]" label="Meanwhile_[RB]" />
+      <node id="hypoglycemia_[NN]" label="hypoglycemia_[NN]" />
+      <node id="also_[RB]" label="also_[RB]" />
+      <node id="complications_[NNS]" label="complications_[NNS]" />
+      <node id="confusion_[NN]" label="confusion_[NN]" />
+      <node id="shakiness_[NNS]" label="shakiness_[NNS]" />
+      <node id="anxiety_[NN]" label="anxiety_[NN]" />
+      <node id="-LSB-_[VBZ]" label="-LSB-_[VBZ]" />
+      <node id="treated_[VBN]" label="treated_[VBN]" />
+      <node id="if_[IN]" label="if_[IN]" />
+      <node id="not_[RB]" label="not_[RB]" />
+      <node id="time_[NN]" label="time_[NN]" />
+      <node id="coma_[NN]" label="coma_[NN]" />
+      <node id="or_[CC]" label="or_[CC]" />
+      <node id="death_[NN]" label="death_[NN]" />
+      <node id="2_[CD]" label="2_[CD]" />
+      <node id="need_[VBP]" label="need_[VBP]" />
+      <node id="People_[NNS]" label="People_[NNS]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="control_[NN]" label="control_[NN]" />
+      <node id="tight_[JJ]" label="tight_[JJ]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="their_[PRP$]" label="their_[PRP$]" />
+      <node id="blood_[NN]" label="blood_[NN]" />
+      <node id="avoid_[VB]" label="avoid_[VB]" />
+      <node id="short-term_[JJ]" label="short-term_[JJ]" />
+      <node id="both_[DT]" label="both_[DT]" />
+      <node id="long-term_[JJ]" label="long-term_[JJ]" />
+      <node id="physiological_[NN]" label="physiological_[NN]" />
+      <node id="design_[VB]" label="design_[VB]" />
+      <node id="work_[NN]" label="work_[NN]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="BGMonitor_[NNP]" label="BGMonitor_[NNP]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="first_[JJ]" label="first_[JJ]" />
+      <node id="personalized_[VBN]" label="personalized_[VBN]" />
+      <node id="non-invasive_[JJ]" label="non-invasive_[JJ]" />
+      <node id="smartphone-based_[JJ]" label="smartphone-based_[JJ]" />
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="monitoring_[VBG]" label="monitoring_[VBG]" />
+      <node id="detects_[VBZ]" label="detects_[VBZ]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="events_[NNS]" label="events_[NNS]" />
+      <node id="abnormal_[JJ]" label="abnormal_[JJ]" />
+      <node id="tracking_[VBG]" label="tracking_[VBG]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="jointly_[RB]" label="jointly_[RB]" />
+      <node id="drugs_[NNS]" label="drugs_[NNS]" />
+      <node id="meal_[NN]" label="meal_[NN]" />
+      <node id="activity_[NN]" label="activity_[NN]" />
+      <node id="insulin_[NN]" label="insulin_[NN]" />
+      <node id="intake_[NN]" label="intake_[NN]" />
+      <node id="physical_[JJ]" label="physical_[JJ]" />
+      <node id="quality_[NN]" label="quality_[NN]" />
+      <node id="sleep_[NN]" label="sleep_[NN]" />
+      <node id="reminds_[VBZ]" label="reminds_[VBZ]" />
+      <node id="When_[WRB]" label="When_[WRB]" />
+      <node id="event_[NN]" label="event_[NN]" />
+      <node id="it_[PRP]" label="it_[PRP]" />
+      <node id="user_[NN]" label="user_[NN]" />
+      <node id="double-check_[VB]" label="double-check_[VB]" />
+      <node id="finger_[NN]" label="finger_[NN]" />
+      <node id="pricking_[VBG]" label="pricking_[VBG]" />
+      <node id="using_[VBG]" label="using_[VBG]" />
+      <node id="devices_[NNS]" label="devices_[NNS]" />
+      <node id="clinical_[JJ]" label="clinical_[JJ]" />
+      <node id="CGM_[NNP]" label="CGM_[NNP]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="plays_[VBZ]" target="concentration_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="plays_[VBZ]" target="role_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="concentration_[NN]" target="Blood_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="concentration_[NN]" target="glucose_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="concentration_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="concentration_[NN]" target="their_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="concentration_[NN]" target="blood_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="role_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="role_[NN]" target="important_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="role_[NN]" target="health_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="health_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="health_[NN]" target="personal_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="reduce_[VBP]" target="results_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="reduce_[VBP]" target="leading_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="reduce_[VBP]" target="immunity_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="reduce_[VBP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="reduce_[VBP]" target="ocular_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="reduce_[VBP]" target="diseases_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="results_[NNS]" target="Hyperglycemia_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="results_[NNS]" target="diabetes_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="diabetes_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="diabetes_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="leading_[VBG]" target="risks_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="risks_[NNS]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="risks_[NNS]" target="health_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="risks_[NNS]" target="failure_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="failure_[NN]" target="such_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="failure_[NN]" target="pancreatic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="failure_[NN]" target="function_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="such_[JJ]" target="as_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mwe" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="diseases_[NNS]" target="fundus_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="diseases_[NNS]" target="-LSB-_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="-LSB-_[VBG]" target="-RSB-_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="-RSB-_[NNS]" target="6_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="-RSB-_[NNS]" target="2_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="brings_[VBZ]" target="Meanwhile_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="brings_[VBZ]" target="hypoglycemia_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="brings_[VBZ]" target="also_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="brings_[VBZ]" target="complications_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="brings_[VBZ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="brings_[VBZ]" target="-LSB-_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="complications_[NNS]" target="confusion_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="complications_[NNS]" target="long-term_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="complications_[NNS]" target="physiological_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="confusion_[NN]" target="such_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="confusion_[NN]" target="shakiness_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="shakiness_[NNS]" target="anxiety_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="-LSB-_[VBZ]" target="treated_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="csubj" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="-LSB-_[VBZ]" target="-RSB-_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="treated_[VBN]" target="if_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="treated_[VBN]" target="not_[RB]">
+        <attvalues>
+          <attvalue for="0" value="neg" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="treated_[VBN]" target="time_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="time_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="time_[NN]" target="coma_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="time_[NN]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="time_[NN]" target="death_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="need_[VBP]" target="People_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="need_[VBP]" target="control_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="need_[VBP]" target="avoid_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="People_[NNS]" target="diabetes_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="control_[NN]" target="tight_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="control_[NN]" target="concentration_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="blood_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="blood_[NN]" target="first_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="blood_[NN]" target="personalized_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="blood_[NN]" target="non-invasive_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="blood_[NN]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="avoid_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="avoid_[VB]" target="short-term_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="short-term_[JJ]" target="both_[DT]">
+        <attvalues>
+          <attvalue for="0" value="cc:preconj" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="short-term_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="short-term_[JJ]" target="complications_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="design_[VB]" target="work_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="design_[VB]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="design_[VB]" target="BGMonitor_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="work_[NN]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="work_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="BGMonitor_[NNP]" target="blood_[NN]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="non-invasive_[JJ]" target="smartphone-based_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="system_[NN]" target="glucose_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="system_[NN]" target="monitoring_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="system_[NN]" target="detects_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="detects_[VBZ]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="detects_[VBZ]" target="events_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="detects_[VBZ]" target="tracking_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="detects_[VBZ]" target="When_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="detects_[VBZ]" target="BGMonitor_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="detects_[VBZ]" target="event_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="events_[NNS]" target="abnormal_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="events_[NNS]" target="blood_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="events_[NNS]" target="glucose_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="tracking_[VBG]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="tracking_[VBG]" target="jointly_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="tracking_[VBG]" target="drugs_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="drugs_[NNS]" target="meal_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="drugs_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="drugs_[NNS]" target="activity_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="drugs_[NNS]" target="quality_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="activity_[NN]" target="insulin_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="activity_[NN]" target="intake_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="activity_[NN]" target="physical_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="quality_[NN]" target="sleep_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="reminds_[VBZ]" target="detects_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="reminds_[VBZ]" target="it_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="reminds_[VBZ]" target="user_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="event_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="event_[NN]" target="abnormal_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="event_[NN]" target="blood_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="event_[NN]" target="glucose_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="user_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="user_[NN]" target="double-check_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="double-check_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="double-check_[VB]" target="finger_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="double-check_[VB]" target="pricking_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="finger_[NN]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="pricking_[VBG]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="pricking_[VBG]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="pricking_[VBG]" target="devices_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="devices_[NNS]" target="clinical_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="devices_[NNS]" target="CGM_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

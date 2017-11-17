@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="improve_[VB]" label="improve_[VB]" />
+      <node id="implementation_[NN]" label="implementation_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="current_[JJ]" label="current_[JJ]" />
+      <node id="lists_[NNS]" label="lists_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="do-not-fly_[JJ]" label="do-not-fly_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="use_[NN]" label="use_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="documents_[NNS]" label="documents_[NNS]" />
+      <node id="identity_[NN]" label="identity_[NN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="authenticate_[JJ]" label="authenticate_[JJ]" />
+      <node id="passenger_[NN]" label="passenger_[NN]" />
+      <node id="wo_[MD]" label="wo_[MD]" />
+      <node id="n't_[RB]" label="n't_[RB]" />
+      <node id="necessarily_[RB]" label="necessarily_[RB]" />
+      <node id="security_[NN]" label="security_[NN]" />
+      <node id="airport_[NN]" label="airport_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="improve_[VB]" target="implementation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="improve_[VB]" target="wo_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="improve_[VB]" target="n't_[RB]">
+        <attvalues>
+          <attvalue for="0" value="neg" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="improve_[VB]" target="necessarily_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="improve_[VB]" target="security_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="implementation_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="implementation_[NN]" target="current_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="implementation_[NN]" target="lists_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="implementation_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="implementation_[NN]" target="use_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="lists_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="lists_[NNS]" target="do-not-fly_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="use_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="use_[NN]" target="documents_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="documents_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="documents_[NNS]" target="identity_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="identity_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="identity_[NN]" target="authenticate_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="identity_[NN]" target="passenger_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="security_[NN]" target="airport_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

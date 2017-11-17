@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="used_[VBN]" label="used_[VBN]" />
+      <node id="models_[NNS]" label="models_[NNS]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="flexible_[JJ]" label="flexible_[JJ]" />
+      <node id="statistical_[JJ]" label="statistical_[JJ]" />
+      <node id="incorporating_[VBG]" label="incorporating_[VBG]" />
+      <node id="distribution_[NN]" label="distribution_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="log-F_[JJ]" label="log-F_[JJ]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="little_[RB]" label="little_[RB]" />
+      <node id="difficulties_[NNS]" label="difficulties_[NNS]" />
+      <node id="because_[RB]" label="because_[RB]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="numeric_[JJ]" label="numeric_[JJ]" />
+      <node id="describe_[VBP]" label="describe_[VBP]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="method_[NN]" label="method_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="calculating_[VBG]" label="calculating_[VBG]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="log-likelihood_[NN]" label="log-likelihood_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="derivatives_[NNS]" label="derivatives_[NNS]" />
+      <node id="two_[CD]" label="two_[CD]" />
+      <node id="respect_[NN]" label="respect_[NN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="argument_[NN]" label="argument_[NN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="data_[NN]" label="data_[NN]" />
+      <node id="subroutines_[VBZ]" label="subroutines_[VBZ]" />
+      <node id="Fortran_[NNP]" label="Fortran_[NNP]" />
+      <node id="provided_[VBN]" label="provided_[VBN]" />
+      <node id="calculations_[NNS]" label="calculations_[NNS]" />
+      <node id="these_[DT]" label="these_[DT]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="used_[VBN]" target="models_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="used_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="used_[VBN]" target="little_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="used_[VBN]" target="difficulties_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="models_[NNS]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="models_[NNS]" target="flexible_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="models_[NNS]" target="statistical_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="models_[NNS]" target="incorporating_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="incorporating_[VBG]" target="distribution_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="incorporating_[VBG]" target="provided_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="distribution_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="distribution_[NN]" target="log-F_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="difficulties_[NNS]" target="because_[RB]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="difficulties_[NNS]" target="numeric_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="because_[RB]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mwe" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="describe_[VBP]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="describe_[VBP]" target="method_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="describe_[VBP]" target="calculating_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="method_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="calculating_[VBG]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="calculating_[VBG]" target="log-likelihood_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="calculating_[VBG]" target="respect_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="calculating_[VBG]" target="argument_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="log-likelihood_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="log-likelihood_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="log-likelihood_[NN]" target="derivatives_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="derivatives_[NNS]" target="two_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="respect_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="argument_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="argument_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="argument_[NN]" target="data_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="subroutines_[VBZ]" target="Fortran_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="subroutines_[VBZ]" target="incorporating_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="provided_[VBN]" target="calculations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="provided_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="calculations_[NNS]" target="these_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

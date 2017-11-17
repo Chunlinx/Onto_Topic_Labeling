@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="introduces_[VBZ]" label="introduces_[VBZ]" />
+      <node id="demonstration_[NN]" label="demonstration_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="SiCi_[NNP]" label="SiCi_[NNP]" />
+      <node id="ideas_[NNS]" label="ideas_[NNS]" />
+      <node id="Smart_[NNP]" label="Smart_[NNP]" />
+      <node id="interplay_[NN]" label="interplay_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="Creative_[JJ]" label="Creative_[JJ]" />
+      <node id="brings_[VBZ]" label="brings_[VBZ]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="robot_[NN]" label="robot_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="single-body_[JJ]" label="single-body_[JJ]" />
+      <node id="life_[NN]" label="life_[NN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="delivering_[VBG]" label="delivering_[VBG]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="variety_[NN]" label="variety_[NN]" />
+      <node id="contents_[NNS]" label="contents_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="fosters_[VBZ]" label="fosters_[VBZ]" />
+      <node id="then_[RB]" label="then_[RB]" />
+      <node id="creativity_[NN]" label="creativity_[NN]" />
+      <node id="children_[NNS]" label="children_[NNS]" />
+      <node id="'s_[POS]" label="'s_[POS]" />
+      <node id="innovation_[NN]" label="innovation_[NN]" />
+      <node id="education_[NN]" label="education_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="introduces_[VBZ]" target="demonstration_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="introduces_[VBZ]" target="SiCi_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="demonstration_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="SiCi_[NNP]" target="ideas_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="SiCi_[NNP]" target="brings_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="ideas_[NNS]" target="Smart_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="ideas_[NNS]" target="interplay_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="interplay_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="interplay_[NN]" target="Creative_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="brings_[VBZ]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="brings_[VBZ]" target="robot_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="brings_[VBZ]" target="life_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="brings_[VBZ]" target="delivering_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="brings_[VBZ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="brings_[VBZ]" target="fosters_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="robot_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="robot_[NN]" target="single-body_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="life_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="delivering_[VBG]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="delivering_[VBG]" target="variety_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="variety_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="variety_[NN]" target="contents_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="contents_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="fosters_[VBZ]" target="then_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="fosters_[VBZ]" target="creativity_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="fosters_[VBZ]" target="education_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="creativity_[NN]" target="children_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="creativity_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="creativity_[NN]" target="innovation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="children_[NNS]" target="'s_[POS]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="education_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

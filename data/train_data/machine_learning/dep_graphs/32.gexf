@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>04/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Kuipers_[VBZ]" label="Kuipers_[VBZ]" />
+      <node id="Benjamin_[NNP]" label="Benjamin_[NNP]" />
+      <node id="using_[VBG]" label="using_[VBG]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="reasoning_[NN]" label="reasoning_[NN]" />
+      <node id="commonsense_[JJ]" label="commonsense_[JJ]" />
+      <node id="make_[VB]" label="make_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="conclusions_[NNS]" label="conclusions_[NNS]" />
+      <node id="useful_[JJ]" label="useful_[JJ]" />
+      <node id="or_[CC]" label="or_[CC]" />
+      <node id="finding_[VBG]" label="finding_[VBG]" />
+      <node id="nuggets_[NNS]" label="nuggets_[NNS]" />
+      <node id="gold_[JJ]" label="gold_[JJ]" />
+      <node id="pan_[NN]" label="pan_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="sand_[NN]" label="sand_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Kuipers_[VBZ]" target="Benjamin_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Kuipers_[VBZ]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="using_[VBG]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="using_[VBG]" target="reasoning_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="using_[VBG]" target="make_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="using_[VBG]" target="or_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="using_[VBG]" target="finding_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="reasoning_[NN]" target="commonsense_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="make_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="make_[VB]" target="conclusions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="conclusions_[NNS]" target="useful_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="finding_[VBG]" target="nuggets_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="finding_[VBG]" target="pan_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="nuggets_[NNS]" target="gold_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="pan_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="pan_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="pan_[NN]" target="sand_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="sand_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

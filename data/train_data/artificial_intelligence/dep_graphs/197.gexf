@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="say_[VB]" label="say_[VB]" />
+      <node id="working_[VBG]" label="working_[VBG]" />
+      <node id="If_[IN]" label="If_[IN]" />
+      <node id="you_[PRP]" label="you_[PRP]" />
+      <node id="'re_[VBP]" label="'re_[VBP]" />
+      <node id="products_[NNS]" label="products_[NNS]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="actual_[JJ]" label="actual_[JJ]" />
+      <node id="ca_[MD]" label="ca_[MD]" />
+      <node id="n't_[RB]" label="n't_[RB]" />
+      <node id="good_[JJ]" label="good_[JJ]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="percent_[NN]" label="percent_[NN]" />
+      <node id="90_[CD]" label="90_[CD]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="enough_[RB]" label="enough_[RB]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="move_[VB]" label="move_[VB]" />
+      <node id="just_[RB]" label="just_[RB]" />
+      <node id="something_[NN]" label="something_[NN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="else_[RB]" label="else_[RB]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="say_[VB]" target="working_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="say_[VB]" target="you_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="say_[VB]" target="ca_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="say_[VB]" target="n't_[RB]">
+        <attvalues>
+          <attvalue for="0" value="neg" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="say_[VB]" target="good_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="say_[VB]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="say_[VB]" target="move_[VB]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="working_[VBG]" target="If_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="working_[VBG]" target="you_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="working_[VBG]" target="'re_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="working_[VBG]" target="products_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="products_[NNS]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="products_[NNS]" target="actual_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="good_[JJ]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="good_[JJ]" target="percent_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="good_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="good_[JJ]" target="enough_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="percent_[NN]" target="90_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="move_[VB]" target="just_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="move_[VB]" target="something_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="something_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="something_[NN]" target="else_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

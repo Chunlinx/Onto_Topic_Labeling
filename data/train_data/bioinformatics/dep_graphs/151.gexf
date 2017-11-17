@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="watch_[VBP]" label="watch_[VBP]" />
+      <node id="wrist_[NN]" label="wrist_[NN]" />
+      <node id="A_[DT]" label="A_[DT]" />
+      <node id="presented_[VBN]" label="presented_[VBN]" />
+      <node id="based_[VBN]" label="based_[VBN]" />
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="measure_[VB]" label="measure_[VB]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="can_[MD]" label="can_[MD]" />
+      <node id="electrocardiogram_[NN]" label="electrocardiogram_[NN]" />
+      <node id="ECG_[NNP]" label="ECG_[NNP]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="photoplethysmogram_[NN]" label="photoplethysmogram_[NN]" />
+      <node id="PPG_[NNP]" label="PPG_[NNP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="work_[NN]" label="work_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="using_[VBG]" label="using_[VBG]" />
+      <node id="By_[IN]" label="By_[IN]" />
+      <node id="both_[CC]" label="both_[CC]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="time_[NN]" label="time_[NN]" />
+      <node id="pulse_[NN]" label="pulse_[NN]" />
+      <node id="transit_[NN]" label="transit_[NN]" />
+      <node id="PTT_[NNP]" label="PTT_[NNP]" />
+      <node id="known_[VBN]" label="known_[VBN]" />
+      <node id="correlate_[VB]" label="correlate_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="well_[RB]" label="well_[RB]" />
+      <node id="pressure_[NN]" label="pressure_[NN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="blood_[NN]" label="blood_[NN]" />
+      <node id="BP_[NNP]" label="BP_[NNP]" />
+      <node id="-RSB-_[NNS]" label="-RSB-_[NNS]" />
+      <node id="1_[CD]" label="1_[CD]" />
+      <node id="-LSB-_[CD]" label="-LSB-_[CD]" />
+      <node id="facilitate_[VB]" label="facilitate_[VB]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="called_[VBN]" label="called_[VBN]" />
+      <node id="BioWatch_[NNP]" label="BioWatch_[NNP]" />
+      <node id="potentially_[RB]" label="potentially_[RB]" />
+      <node id="monitoring_[NN]" label="monitoring_[NN]" />
+      <node id="continuous_[JJ]" label="continuous_[JJ]" />
+      <node id="ubiquitous_[JJ]" label="ubiquitous_[JJ]" />
+      <node id="of_[IN]" label="of_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="watch_[VBP]" target="wrist_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="watch_[VBP]" target="presented_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="wrist_[NN]" target="A_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="presented_[VBN]" target="based_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="presented_[VBN]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="presented_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="presented_[VBN]" target="work_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="system_[NN]" target="measure_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="system_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="system_[NN]" target="called_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="measure_[VB]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="measure_[VB]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="measure_[VB]" target="electrocardiogram_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="measure_[VB]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="measure_[VB]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="measure_[VB]" target="time_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="electrocardiogram_[NN]" target="ECG_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="electrocardiogram_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="electrocardiogram_[NN]" target="photoplethysmogram_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="ECG_[NNP]" target="both_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc:preconj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="ECG_[NNP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="ECG_[NNP]" target="PPG_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="ECG_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="ECG_[NNP]" target="BP_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="photoplethysmogram_[NN]" target="PPG_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="work_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="work_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="using_[VBG]" target="By_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="using_[VBG]" target="ECG_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="time_[NN]" target="pulse_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="time_[NN]" target="transit_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="time_[NN]" target="PTT_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="time_[NN]" target="known_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="known_[VBN]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="known_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="known_[VBN]" target="correlate_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="correlate_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="correlate_[VB]" target="well_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="correlate_[VB]" target="-RSB-_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="well_[RB]" target="pressure_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="pressure_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="pressure_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="pressure_[NN]" target="blood_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="pressure_[NN]" target="BP_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="-RSB-_[NNS]" target="1_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="1_[CD]" target="-LSB-_[CD]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="facilitate_[VB]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="facilitate_[VB]" target="can_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="facilitate_[VB]" target="potentially_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="facilitate_[VB]" target="monitoring_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="called_[VBN]" target="BioWatch_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="monitoring_[NN]" target="continuous_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="monitoring_[NN]" target="ECG_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="continuous_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="continuous_[JJ]" target="ubiquitous_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

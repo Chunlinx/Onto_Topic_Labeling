@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="explained_[VBN]" label="explained_[VBN]" />
+      <node id="method_[NN]" label="method_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="intermittent_[JJ]" label="intermittent_[JJ]" />
+      <node id="assertion_[NN]" label="assertion_[NN]" />
+      <node id="proving_[VBG]" label="proving_[VBG]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="correct_[JJ]" label="correct_[JJ]" />
+      <node id="programs_[NNS]" label="programs_[NNS]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="compared_[VBN]" label="compared_[VBN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="conventional_[JJ]" label="conventional_[JJ]" />
+      <node id="algorithms_[VBZ]" label="algorithms_[VBZ]" />
+      <node id="proofs_[NNS]" label="proofs_[NNS]" />
+      <node id="Simple_[JJ]" label="Simple_[JJ]" />
+      <node id="iterative_[NN]" label="iterative_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="defined_[VBD]" label="defined_[VBD]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="compute_[NNP]" label="compute_[NNP]" />
+      <node id="recursively_[RB]" label="recursively_[RB]" />
+      <node id="given_[VBN]" label="given_[VBN]" />
+      <node id="functions_[NNS]" label="functions_[NNS]" />
+      <node id="function_[NN]" label="function_[NN]" />
+      <node id="including_[VBG]" label="including_[VBG]" />
+      <node id="Ackermann_[NNP]" label="Ackermann_[NNP]" />
+      <node id="'s_[POS]" label="'s_[POS]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="explained_[VBN]" target="method_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="explained_[VBN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="explained_[VBN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="explained_[VBN]" target="compared_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="method_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="method_[NN]" target="intermittent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="method_[NN]" target="assertion_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="method_[NN]" target="proving_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="method_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="method_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="method_[NN]" target="conventional_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="proving_[VBG]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="proving_[VBG]" target="correct_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="correct_[JJ]" target="programs_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="algorithms_[VBZ]" target="proofs_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="algorithms_[VBZ]" target="defined_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="proofs_[NNS]" target="Simple_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="proofs_[NNS]" target="conventional_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="proofs_[NNS]" target="iterative_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="iterative_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="defined_[VBD]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="defined_[VBD]" target="compute_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="defined_[VBD]" target="recursively_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="defined_[VBD]" target="given_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="given_[VBN]" target="functions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="given_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="functions_[NNS]" target="function_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="function_[NN]" target="including_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="function_[NN]" target="Ackermann_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="Ackermann_[NNP]" target="'s_[POS]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

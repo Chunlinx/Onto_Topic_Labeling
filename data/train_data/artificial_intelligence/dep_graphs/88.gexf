@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="help_[VB]" label="help_[VB]" />
+      <node id="ladders_[NNS]" label="ladders_[NNS]" />
+      <node id="Skill_[JJ]" label="Skill_[JJ]" />
+      <node id="may_[MD]" label="may_[MD]" />
+      <node id="workers_[NNS]" label="workers_[NNS]" />
+      <node id="crowd_[NN]" label="crowd_[NN]" />
+      <node id="skill_[VB]" label="skill_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="up_[RP]" label="up_[RP]" />
+      <node id="work_[VBP]" label="work_[VBP]" />
+      <node id="as_[IN]" label="as_[IN]" />
+      <node id="they_[PRP]" label="they_[PRP]" />
+      <node id="lead_[VB]" label="lead_[VB]" />
+      <node id="But_[CC]" label="But_[CC]" />
+      <node id="what_[WP]" label="what_[WP]" />
+      <node id="innovations_[NNS]" label="innovations_[NNS]" />
+      <node id="other_[JJ]" label="other_[JJ]" />
+      <node id="technical_[JJ]" label="technical_[JJ]" />
+      <node id="will_[MD]" label="will_[MD]" />
+      <node id="opportunities_[NNS]" label="opportunities_[NNS]" />
+      <node id="better_[JJR]" label="better_[JJR]" />
+      <node id="work_[NN]" label="work_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="help_[VB]" target="ladders_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="help_[VB]" target="may_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="help_[VB]" target="workers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="help_[VB]" target="skill_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="ladders_[NNS]" target="Skill_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="workers_[NNS]" target="crowd_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="skill_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="skill_[VB]" target="up_[RP]">
+        <attvalues>
+          <attvalue for="0" value="compound:prt" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="skill_[VB]" target="work_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="work_[VBP]" target="as_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="work_[VBP]" target="they_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="lead_[VB]" target="But_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="lead_[VB]" target="what_[WP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="lead_[VB]" target="innovations_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="lead_[VB]" target="will_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="lead_[VB]" target="opportunities_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="innovations_[NNS]" target="other_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="innovations_[NNS]" target="technical_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="opportunities_[NNS]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="opportunities_[NNS]" target="better_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="opportunities_[NNS]" target="work_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="work_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="work_[NN]" target="crowd_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

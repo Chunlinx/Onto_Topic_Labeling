@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="There_[EX]" label="There_[EX]" />
+      <node id="challenges_[NNS]" label="challenges_[NNS]" />
+      <node id="unique_[JJ]" label="unique_[JJ]" />
+      <node id="posed_[VBN]" label="posed_[VBN]" />
+      <node id="research_[NN]" label="research_[NN]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="cryptography_[NN]" label="cryptography_[NN]" />
+      <node id="examines_[VBZ]" label="examines_[VBZ]" />
+      <node id="interview_[NN]" label="interview_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="threats_[NNS]" label="threats_[NNS]" />
+      <node id="potential_[JJ]" label="potential_[JJ]" />
+      <node id="techniques_[NNS]" label="techniques_[NNS]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="modern_[JJ]" label="modern_[JJ]" />
+      <node id="security_[NN]" label="security_[NN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="overcome_[VB]" label="overcome_[VB]" />
+      <node id="how_[WRB]" label="how_[WRB]" />
+      <node id="them_[PRP]" label="them_[PRP]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="are_[VBP]" target="There_[EX]">
+        <attvalues>
+          <attvalue for="0" value="expl" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="are_[VBP]" target="challenges_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="challenges_[NNS]" target="unique_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="challenges_[NNS]" target="posed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="posed_[VBN]" target="research_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="research_[NN]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="research_[NN]" target="cryptography_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="examines_[VBZ]" target="interview_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="examines_[VBZ]" target="threats_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="examines_[VBZ]" target="techniques_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="examines_[VBZ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="examines_[VBZ]" target="overcome_[VB]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="interview_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="threats_[NNS]" target="potential_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="techniques_[NNS]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="techniques_[NNS]" target="modern_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="techniques_[NNS]" target="security_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="overcome_[VB]" target="how_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="overcome_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="overcome_[VB]" target="them_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

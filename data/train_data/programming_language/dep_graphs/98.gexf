@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="explain_[VBP]" label="explain_[VBP]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="feel_[VBP]" label="feel_[VBP]" />
+      <node id="why_[WRB]" label="why_[WRB]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="Common_[VBD]" label="Common_[VBD]" />
+      <node id="that_[IN]" label="that_[IN]" />
+      <node id="betwen_[NN]" label="betwen_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="comparison_[NN]" label="comparison_[NN]" />
+      <node id="Lisp_[NNP]" label="Lisp_[NNP]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="Fortran_[NNP]" label="Fortran_[NNP]" />
+      <node id="article_[NN]" label="article_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="recent_[JJ]" label="recent_[JJ]" />
+      <node id="Fateman_[NNP]" label="Fateman_[NNP]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="et_[CC]" label="et_[CC]" />
+      <node id="al._[NNP]" label="al._[NNP]" />
+      <node id="fair_[JJ]" label="fair_[JJ]" />
+      <node id="in_[RB]" label="in_[RB]" />
+      <node id="journal_[NN]" label="journal_[NN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="not_[RB]" label="not_[RB]" />
+      <node id="entirely_[RB]" label="entirely_[RB]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="explain_[VBP]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="explain_[VBP]" target="feel_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="feel_[VBP]" target="why_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="feel_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="feel_[VBP]" target="Common_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Common_[VBD]" target="that_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Common_[VBD]" target="betwen_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Common_[VBD]" target="Lisp_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Common_[VBD]" target="article_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Common_[VBD]" target="Fateman_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="betwen_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="betwen_[NN]" target="comparison_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Lisp_[NNP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Lisp_[NNP]" target="Fortran_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="article_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="article_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="article_[NN]" target="recent_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="Fateman_[NNP]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="Fateman_[NNP]" target="et_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="Fateman_[NNP]" target="al._[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="fair_[JJ]" target="in_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="fair_[JJ]" target="journal_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="fair_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="fair_[JJ]" target="not_[RB]">
+        <attvalues>
+          <attvalue for="0" value="neg" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="fair_[JJ]" target="entirely_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="journal_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

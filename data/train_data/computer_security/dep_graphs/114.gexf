@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="framework_[NN]" label="framework_[NN]" />
+      <node id="ROS_[NNP]" label="ROS_[NNP]" />
+      <node id="System_[NNP]" label="System_[NNP]" />
+      <node id="Robot_[NNP]" label="Robot_[NNP]" />
+      <node id="Operating_[NNP]" label="Operating_[NNP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="open_[JJ]" label="open_[JJ]" />
+      <node id="source_[NN]" label="source_[NN]" />
+      <node id="software_[NN]" label="software_[NN]" />
+      <node id="used_[VBN]" label="used_[VBN]" />
+      <node id="control_[NN]" label="control_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="robot_[NN]" label="robot_[NN]" />
+      <node id="analyzed_[VBD]" label="analyzed_[VBD]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="tested_[VBD]" label="tested_[VBD]" />
+      <node id="vulnerabilities_[NNS]" label="vulnerabilities_[NNS]" />
+      <node id="4_[CD]" label="4_[CD]" />
+      <node id="related_[VBN]" label="related_[VBN]" />
+      <node id="insufficiency_[NN]" label="insufficiency_[NN]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="authentication_[NN]" label="authentication_[NN]" />
+      <node id="scheme_[NN]" label="scheme_[NN]" />
+      <node id="Bag_[NNP]" label="Bag_[NNP]" />
+      <node id="vulnerability_[NN]" label="vulnerability_[NN]" />
+      <node id="communication_[NN]" label="communication_[NN]" />
+      <node id="hijacking_[NN]" label="hijacking_[NN]" />
+      <node id="service_[NN]" label="service_[NN]" />
+      <node id="devised_[VBD]" label="devised_[VBD]" />
+      <node id="Then_[RB]" label="Then_[RB]" />
+      <node id="We_[PRP]" label="We_[PRP]" />
+      <node id="countermeasures_[NNS]" label="countermeasures_[NNS]" />
+      <node id="them_[PRP]" label="them_[PRP]" />
+      <node id="against_[IN]" label="against_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="framework_[NN]" target="ROS_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="framework_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="framework_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="framework_[NN]" target="open_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="framework_[NN]" target="source_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="framework_[NN]" target="software_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="framework_[NN]" target="used_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="ROS_[NNP]" target="System_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="System_[NNP]" target="Robot_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="System_[NNP]" target="Operating_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="used_[VBN]" target="control_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="control_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="control_[NN]" target="robot_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="analyzed_[VBD]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="analyzed_[VBD]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="analyzed_[VBD]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="analyzed_[VBD]" target="tested_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="analyzed_[VBD]" target="vulnerabilities_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="paper_[NN]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="paper_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="vulnerabilities_[NNS]" target="4_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="vulnerabilities_[NNS]" target="related_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="related_[VBN]" target="insufficiency_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="insufficiency_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="insufficiency_[NN]" target="ROS_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="insufficiency_[NN]" target="authentication_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="insufficiency_[NN]" target="scheme_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="insufficiency_[NN]" target="Bag_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="insufficiency_[NN]" target="vulnerability_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="insufficiency_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="insufficiency_[NN]" target="hijacking_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="Bag_[NNP]" target="ROS_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="vulnerability_[NN]" target="communication_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="hijacking_[NN]" target="service_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="devised_[VBD]" target="Then_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="devised_[VBD]" target="We_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="devised_[VBD]" target="countermeasures_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="devised_[VBD]" target="them_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="them_[PRP]" target="against_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

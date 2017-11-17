@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>04/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Pondering_[VBG]" label="Pondering_[VBG]" />
+      <node id="brain_[NN]" label="brain_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="help_[NN]" label="help_[NN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="Ng_[NNP]" label="Ng_[NNP]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="machine_[NN]" label="machine_[NN]" />
+      <node id="learning_[NN]" label="learning_[NN]" />
+      <node id="expert_[NN]" label="expert_[NN]" />
+      <node id="Andrew_[NNP]" label="Andrew_[NNP]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="Hawkins_[NNP]" label="Hawkins_[NNP]" />
+      <node id="researcher-turned-author-turned-entrepreneur_[NNP]" label="researcher-turned-author-turned-entrepreneur_[NNP]" />
+      <node id="Jeff_[NNP]" label="Jeff_[NNP]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="Pondering_[VBG]" target="brain_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Pondering_[VBG]" target="help_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="brain_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="help_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="help_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="help_[NN]" target="Ng_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Ng_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Ng_[NNP]" target="machine_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Ng_[NNP]" target="learning_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Ng_[NNP]" target="expert_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Ng_[NNP]" target="Andrew_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Ng_[NNP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Ng_[NNP]" target="Hawkins_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Hawkins_[NNP]" target="researcher-turned-author-turned-entrepreneur_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Hawkins_[NNP]" target="Jeff_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

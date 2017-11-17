@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="focuses_[VBZ]" label="focuses_[VBZ]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="using_[VBG]" label="using_[VBG]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="equipment_[NN]" label="equipment_[NN]" />
+      <node id="wearable_[JJ]" label="wearable_[JJ]" />
+      <node id="make_[VB]" label="make_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="participate_[VB]" label="participate_[VB]" />
+      <node id="workers_[NNS]" label="workers_[NNS]" />
+      <node id="constructing_[VBG]" label="constructing_[VBG]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="maps_[NNS]" label="maps_[NNS]" />
+      <node id="monitoring_[NN]" label="monitoring_[NN]" />
+      <node id="plants_[NNS]" label="plants_[NNS]" />
+      <node id="large-scale_[JJ]" label="large-scale_[JJ]" />
+      <node id="petrochemical_[NN]" label="petrochemical_[NN]" />
+      <node id="collaborates_[VBZ]" label="collaborates_[VBZ]" />
+      <node id="which_[WDT]" label="which_[WDT]" />
+      <node id="nodes_[NNS]" label="nodes_[NNS]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="static_[JJ]" label="static_[JJ]" />
+      <node id="sensor_[NN]" label="sensor_[NN]" />
+      <node id="areas_[NNS]" label="areas_[NNS]" />
+      <node id="given_[VBN]" label="given_[VBN]" />
+      <node id="provides_[VBZ]" label="provides_[VBZ]" />
+      <node id="Furthermore_[RB]" label="Furthermore_[RB]" />
+      <node id="study_[NN]" label="study_[NN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+      <node id="pattern_[NN]" label="pattern_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="sensing_[JJ]" label="sensing_[JJ]" />
+      <node id="cost_[NN]" label="cost_[NN]" />
+      <node id="less_[JJR]" label="less_[JJR]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="flexibility_[NN]" label="flexibility_[NN]" />
+      <node id="higher_[JJR]" label="higher_[JJR]" />
+      <node id="contribute_[VBP]" label="contribute_[VBP]" />
+      <node id="effectively_[RB]" label="effectively_[RB]" />
+      <node id="effort_[NN]" label="effort_[NN]" />
+      <node id="collective_[JJ]" label="collective_[JJ]" />
+      <node id="discussed_[VBN]" label="discussed_[VBN]" />
+      <node id="issues_[NNS]" label="issues_[NNS]" />
+      <node id="Several_[JJ]" label="Several_[JJ]" />
+      <node id="open_[JJ]" label="open_[JJ]" />
+      <node id="research_[NN]" label="research_[NN]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="focuses_[VBZ]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="focuses_[VBZ]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="paper_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="using_[VBG]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="using_[VBG]" target="equipment_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="using_[VBG]" target="make_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="equipment_[NN]" target="wearable_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="make_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="make_[VB]" target="participate_[VB]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="participate_[VB]" target="workers_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="participate_[VB]" target="constructing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="constructing_[VBG]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="constructing_[VBG]" target="maps_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="constructing_[VBG]" target="plants_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="maps_[NNS]" target="monitoring_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="plants_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="plants_[NNS]" target="large-scale_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="plants_[NNS]" target="petrochemical_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="plants_[NNS]" target="collaborates_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="collaborates_[VBZ]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="collaborates_[VBZ]" target="nodes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="nodes_[NNS]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="nodes_[NNS]" target="static_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="nodes_[NNS]" target="sensor_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="nodes_[NNS]" target="areas_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="areas_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="areas_[NNS]" target="given_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="provides_[VBZ]" target="Furthermore_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="provides_[VBZ]" target="study_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="provides_[VBZ]" target="pattern_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="provides_[VBZ]" target="cost_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="study_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="pattern_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="pattern_[NN]" target="sensing_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="cost_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="cost_[NN]" target="less_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="cost_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="cost_[NN]" target="flexibility_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="flexibility_[NN]" target="higher_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="flexibility_[NN]" target="contribute_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="contribute_[VBP]" target="which_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="contribute_[VBP]" target="effectively_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="contribute_[VBP]" target="effort_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="contribute_[VBP]" target="nodes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="effort_[NN]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="effort_[NN]" target="collective_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="discussed_[VBN]" target="issues_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="discussed_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="issues_[NNS]" target="Several_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="issues_[NNS]" target="open_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="issues_[NNS]" target="research_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

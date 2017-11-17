@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="computes_[VBZ]" label="computes_[VBZ]" />
+      <node id="644_[NNP]" label="644_[NNP]" />
+      <node id="Algorithm_[NNP]" label="Algorithm_[NNP]" />
+      <node id="functions_[NNS]" label="functions_[NNS]" />
+      <node id="all_[DT]" label="all_[DT]" />
+      <node id="major_[JJ]" label="major_[JJ]" />
+      <node id="Bessel_[NNP]" label="Bessel_[NNP]" />
+      <node id="argument_[NN]" label="argument_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="complex_[JJ]" label="complex_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="order_[NN]" label="order_[NN]" />
+      <node id="nonnegative_[JJ]" label="nonnegative_[JJ]" />
+      <node id="modified_[VBN]" label="modified_[VBN]" />
+      <node id="CBESY_[NN]" label="CBESY_[NN]" />
+      <node id="Single-precision_[JJ]" label="Single-precision_[JJ]" />
+      <node id="routine_[JJ]" label="routine_[JJ]" />
+      <node id="ZBESY_[NN]" label="ZBESY_[NN]" />
+      <node id="double-precision_[JJ]" label="double-precision_[JJ]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="reduce_[VB]" label="reduce_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="time_[NN]" label="time_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="computation_[NN]" label="computation_[NN]" />
+      <node id="function_[NN]" label="function_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="Y_[NNP]" label="Y_[NNP]" />
+      <node id="%_[NN]" label="%_[NN]" />
+      <node id="by_[IN]" label="by_[IN]" />
+      <node id="25_[CD]" label="25_[CD]" />
+      <node id="approximately_[RB]" label="approximately_[RB]" />
+      <node id="range_[NN]" label="range_[NN]" />
+      <node id="over_[IN]" label="over_[IN]" />
+      <node id="wide_[JJ]" label="wide_[JJ]" />
+      <node id="arguments_[NNS]" label="arguments_[NNS]" />
+      <node id="orders_[NNS]" label="orders_[NNS]" />
+      <node id="check_[VBP]" label="check_[VBP]" />
+      <node id="Quick_[NNP]" label="Quick_[NNP]" />
+      <node id="programs_[NNS]" label="programs_[NNS]" />
+      <node id="driver_[NN]" label="driver_[NN]" />
+      <node id="exercise_[VBP]" label="exercise_[VBP]" />
+      <node id="that_[WDT]" label="that_[WDT]" />
+      <node id="package_[NN]" label="package_[NN]" />
+      <node id="also_[RB]" label="also_[RB]" />
+      <node id="make_[VB]" label="make_[VB]" />
+      <node id="meaningful_[JJ]" label="meaningful_[JJ]" />
+      <node id="tests_[NNS]" label="tests_[NNS]" />
+      <node id="more_[RBR]" label="more_[RBR]" />
+      <node id="regions_[NNS]" label="regions_[NNS]" />
+      <node id="larger_[JJR]" label="larger_[JJR]" />
+      <node id="plane_[NN]" label="plane_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="computes_[VBZ]" target="644_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="computes_[VBZ]" target="functions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="computes_[VBZ]" target="argument_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="644_[NNP]" target="Algorithm_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="functions_[NNS]" target="all_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="functions_[NNS]" target="major_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="functions_[NNS]" target="Bessel_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="argument_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="argument_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="argument_[NN]" target="complex_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="argument_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="argument_[NN]" target="order_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="order_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="order_[NN]" target="nonnegative_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="modified_[VBN]" target="CBESY_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="modified_[VBN]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="modified_[VBN]" target="reduce_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="modified_[VBN]" target="package_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="modified_[VBN]" target="also_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="modified_[VBN]" target="make_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="CBESY_[NN]" target="Single-precision_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="CBESY_[NN]" target="routine_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="CBESY_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="CBESY_[NN]" target="ZBESY_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="ZBESY_[NN]" target="double-precision_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="ZBESY_[NN]" target="routine_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="reduce_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="reduce_[VB]" target="time_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="reduce_[VB]" target="%_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="time_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="time_[NN]" target="computation_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="time_[NN]" target="function_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="function_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="function_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="function_[NN]" target="Y_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="function_[NN]" target="Bessel_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="%_[NN]" target="by_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="%_[NN]" target="25_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="%_[NN]" target="range_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="25_[CD]" target="approximately_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="range_[NN]" target="over_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="range_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="range_[NN]" target="wide_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="range_[NN]" target="arguments_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="arguments_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="arguments_[NNS]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="arguments_[NNS]" target="orders_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="check_[VBP]" target="Quick_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="check_[VBP]" target="programs_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="programs_[NNS]" target="driver_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dep" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="programs_[NNS]" target="exercise_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="acl:relcl" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="exercise_[VBP]" target="that_[WDT]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="exercise_[VBP]" target="modified_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="ccomp" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="package_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="make_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="make_[VB]" target="meaningful_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="meaningful_[JJ]" target="tests_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="meaningful_[JJ]" target="more_[RBR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="meaningful_[JJ]" target="regions_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="regions_[NNS]" target="over_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="regions_[NNS]" target="larger_[JJR]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="regions_[NNS]" target="plane_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="plane_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="plane_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="plane_[NN]" target="complex_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="designed_[VBN]" label="designed_[VBN]" />
+      <node id="units_[NNS]" label="units_[NNS]" />
+      <node id="Early_[JJ]" label="Early_[JJ]" />
+      <node id="graphical_[JJ]" label="graphical_[JJ]" />
+      <node id="processing_[NN]" label="processing_[NN]" />
+      <node id="GPUs_[NNP]" label="GPUs_[NNP]" />
+      <node id="were_[VBD]" label="were_[VBD]" />
+      <node id="density_[NN]" label="density_[NN]" />
+      <node id="as_[IN]" label="as_[IN]" />
+      <node id="high_[JJ]" label="high_[JJ]" />
+      <node id="compute_[JJ]" label="compute_[JJ]" />
+      <node id="processors_[NNS]" label="processors_[NNS]" />
+      <node id="fixed-function_[JJ]" label="fixed-function_[JJ]" />
+      <node id="crafted_[VBN]" label="crafted_[VBN]" />
+      <node id="ideally_[RB]" label="ideally_[RB]" />
+      <node id="needs_[NNS]" label="needs_[NNS]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="workloads_[NNS]" label="workloads_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="computer_[NN]" label="computer_[NN]" />
+      <node id="graphics_[NNS]" label="graphics_[NNS]" />
+      <node id="becoming_[VBG]" label="becoming_[VBG]" />
+      <node id="Today_[NN]" label="Today_[NN]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="elements_[NNS]" label="elements_[NNS]" />
+      <node id="first-class_[JJ]" label="first-class_[JJ]" />
+      <node id="truly_[RB]" label="truly_[RB]" />
+      <node id="computing_[VBG]" label="computing_[VBG]" />
+      <node id="par_[NN]" label="par_[NN]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="CPUs_[NNP]" label="CPUs_[NNP]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="desirable_[JJ]" label="desirable_[JJ]" />
+      <node id="GPUs_[NNS]" label="GPUs_[NNS]" />
+      <node id="Programming_[VBG]" label="Programming_[VBG]" />
+      <node id="general-purpose_[JJ]" label="general-purpose_[JJ]" />
+      <node id="self-sufficient_[JJ]" label="self-sufficient_[JJ]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="not_[RB]" label="not_[RB]" />
+      <node id="only_[RB]" label="only_[RB]" />
+      <node id="hypothetically_[RB]" label="hypothetically_[RB]" />
+      <node id="but_[CC]" label="but_[CC]" />
+      <node id="feasible_[JJ]" label="feasible_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="efficient_[JJ]" label="efficient_[JJ]" />
+      <node id="practice_[NN]" label="practice_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="opening_[VBG]" label="opening_[VBG]" />
+      <node id="opportunities_[NNS]" label="opportunities_[NNS]" />
+      <node id="new_[JJ]" label="new_[JJ]" />
+      <node id="integration_[NN]" label="integration_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="complex_[JJ]" label="complex_[JJ]" />
+      <node id="software_[NN]" label="software_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="designed_[VBN]" target="units_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="designed_[VBN]" target="were_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="designed_[VBN]" target="density_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="units_[NNS]" target="Early_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="units_[NNS]" target="graphical_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="units_[NNS]" target="processing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="units_[NNS]" target="GPUs_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="GPUs_[NNP]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="density_[NN]" target="as_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="density_[NN]" target="high_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="density_[NN]" target="compute_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="density_[NN]" target="processors_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="processors_[NNS]" target="fixed-function_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="processors_[NNS]" target="crafted_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="processors_[NNS]" target="as_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="processors_[NNS]" target="general-purpose_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="crafted_[VBN]" target="ideally_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="crafted_[VBN]" target="needs_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="needs_[NNS]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="needs_[NNS]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="needs_[NNS]" target="workloads_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="workloads_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="workloads_[NNS]" target="computer_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="workloads_[NNS]" target="graphics_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="becoming_[VBG]" target="Today_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod:tmod" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="becoming_[VBG]" target="GPUs_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="becoming_[VBG]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="becoming_[VBG]" target="elements_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="becoming_[VBG]" target="par_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="elements_[NNS]" target="first-class_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="elements_[NNS]" target="computing_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="first-class_[JJ]" target="truly_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="par_[NN]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="par_[NN]" target="CPUs_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="CPUs_[NNP]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="desirable_[JJ]" target="GPUs_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="desirable_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="desirable_[JJ]" target="not_[RB]">
+        <attvalues>
+          <attvalue for="0" value="neg" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="desirable_[JJ]" target="only_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="desirable_[JJ]" target="hypothetically_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="desirable_[JJ]" target="but_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="desirable_[JJ]" target="feasible_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="desirable_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="desirable_[JJ]" target="efficient_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="desirable_[JJ]" target="opening_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="GPUs_[NNS]" target="Programming_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="GPUs_[NNS]" target="processors_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="general-purpose_[JJ]" target="self-sufficient_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="efficient_[JJ]" target="practice_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="practice_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="opening_[VBG]" target="opportunities_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="opening_[VBG]" target="integration_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="opening_[VBG]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="opportunities_[NNS]" target="new_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="integration_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="integration_[NN]" target="GPUs_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="systems_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="systems_[NNS]" target="complex_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="systems_[NNS]" target="software_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

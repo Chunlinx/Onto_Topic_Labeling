@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>03/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="matter_[NN]" label="matter_[NN]" />
+      <node id="On_[IN]" label="On_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="memory_[NN]" label="memory_[NN]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="there_[EX]" label="there_[EX]" />
+      <node id="comparision_[NN]" label="comparision_[NN]" />
+      <node id="no_[DT]" label="no_[DT]" />
+      <node id="faster_[JJR]" label="faster_[JJR]" />
+      <node id="networks_[NNS]" label="networks_[NNS]" />
+      <node id="Neural_[JJ]" label="Neural_[JJ]" />
+      <node id="are_[VBP]" label="are_[VBP]" />
+      <node id="potentially_[RB]" label="potentially_[RB]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="accurate_[JJ]" label="accurate_[JJ]" />
+      <node id="more_[RBR]" label="more_[RBR]" />
+      <node id="humans_[NNS]" label="humans_[NNS]" />
+      <node id="than_[IN]" label="than_[IN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="is_[VBZ]" target="matter_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="is_[VBZ]" target="there_[EX]">
+        <attvalues>
+          <attvalue for="0" value="expl" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="is_[VBZ]" target="comparision_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="matter_[NN]" target="On_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="matter_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="matter_[NN]" target="memory_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="memory_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="comparision_[NN]" target="no_[DT]">
+        <attvalues>
+          <attvalue for="0" value="neg" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="faster_[JJR]" target="networks_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="faster_[JJR]" target="are_[VBP]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="faster_[JJR]" target="potentially_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="faster_[JJR]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="faster_[JJR]" target="accurate_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="faster_[JJR]" target="humans_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="networks_[NNS]" target="Neural_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="accurate_[JJ]" target="more_[RBR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="humans_[NNS]" target="than_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

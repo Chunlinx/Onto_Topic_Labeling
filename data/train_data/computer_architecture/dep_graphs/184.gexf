@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="presents_[VBZ]" label="presents_[VBZ]" />
+      <node id="demo_[NN]" label="demo_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="platform_[NN]" label="platform_[NN]" />
+      <node id="world_[NN]" label="world_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="'s_[POS]" label="'s_[POS]" />
+      <node id="smallest_[JJS]" label="smallest_[JJS]" />
+      <node id="wireless_[JJ]" label="wireless_[JJ]" />
+      <node id="motion-sensing_[NN]" label="motion-sensing_[NN]" />
+      <node id="Technology_[NNP]" label="Technology_[NNP]" />
+      <node id="based_[VBN]" label="based_[VBN]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="Bluetooth_[NNP]" label="Bluetooth_[NNP]" />
+      <node id="4.0_[NNP]" label="4.0_[NNP]" />
+      <node id="Low_[NNP]" label="Low_[NNP]" />
+      <node id="Energy_[NNP]" label="Energy_[NNP]" />
+      <node id="BLE_[NNP]" label="BLE_[NNP]" />
+      <node id="mm2_[NNS]" label="mm2_[NNS]" />
+      <node id="It_[PRP]" label="It_[PRP]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="merely_[RB]" label="merely_[RB]" />
+      <node id="8_[CD]" label="8_[CD]" />
+      <node id="x_[JJ]" label="x_[JJ]" />
+      <node id="area_[NN]" label="area_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="but_[CC]" label="but_[CC]" />
+      <node id="complete_[JJ]" label="complete_[JJ]" />
+      <node id="microcontroller_[NN]" label="microcontroller_[NN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="user-programmable_[JJ]" label="user-programmable_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="RF_[NN]" label="RF_[NN]" />
+      <node id="integrated_[VBN]" label="integrated_[VBN]" />
+      <node id="accelerometer_[NN]" label="accelerometer_[NN]" />
+      <node id="digital_[JJ]" label="digital_[JJ]" />
+      <node id="triaxial_[JJ]" label="triaxial_[JJ]" />
+      <node id="detection_[NN]" label="detection_[NN]" />
+      <node id="programmable_[JJ]" label="programmable_[JJ]" />
+      <node id="threshold_[NN]" label="threshold_[NN]" />
+      <node id="clock_[NN]" label="clock_[NN]" />
+      <node id="real-time_[JJ]" label="real-time_[JJ]" />
+      <node id="chip_[NN]" label="chip_[NN]" />
+      <node id="calendar_[NN]" label="calendar_[NN]" />
+      <node id="sensor/switch_[NN]" label="sensor/switch_[NN]" />
+      <node id="magnetic_[JJ]" label="magnetic_[JJ]" />
+      <node id="used_[VBN]" label="used_[VBN]" />
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="has_[VBZ]" label="has_[VBZ]" />
+      <node id="been_[VBN]" label="been_[VBN]" />
+      <node id="number_[NN]" label="number_[NN]" />
+      <node id="applications_[NNS]" label="applications_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="tag_[NN]" label="tag_[NN]" />
+      <node id="including_[VBG]" label="including_[VBG]" />
+      <node id="proximity_[JJ]" label="proximity_[JJ]" />
+      <node id="pedometer_[NN]" label="pedometer_[NN]" />
+      <node id="mouse_[NN]" label="mouse_[NN]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="air_[NN]" label="air_[NN]" />
+      <node id="recognition_[NN]" label="recognition_[NN]" />
+      <node id="gesture_[NN]" label="gesture_[NN]" />
+      <node id="controller_[NN]" label="controller_[NN]" />
+      <node id="BLE-to-IR_[JJ]" label="BLE-to-IR_[JJ]" />
+      <node id="remote_[JJ]" label="remote_[JJ]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="presents_[VBZ]" target="demo_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="presents_[VBZ]" target="platform_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="presents_[VBZ]" target="Technology_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="demo_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="platform_[NN]" target="world_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="platform_[NN]" target="smallest_[JJS]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="platform_[NN]" target="wireless_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="platform_[NN]" target="motion-sensing_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="world_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="world_[NN]" target="'s_[POS]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Technology_[NNP]" target="based_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Technology_[NNP]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Technology_[NNP]" target="Bluetooth_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Technology_[NNP]" target="4.0_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Technology_[NNP]" target="Low_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="Technology_[NNP]" target="Energy_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="Technology_[NNP]" target="BLE_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="mm2_[NNS]" target="It_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="mm2_[NNS]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="mm2_[NNS]" target="merely_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="mm2_[NNS]" target="8_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nummod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="mm2_[NNS]" target="x_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="mm2_[NNS]" target="area_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="mm2_[NNS]" target="but_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="mm2_[NNS]" target="complete_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="area_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="complete_[JJ]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="complete_[JJ]" target="microcontroller_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="microcontroller_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="microcontroller_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="microcontroller_[NN]" target="user-programmable_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="microcontroller_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="microcontroller_[NN]" target="RF_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="microcontroller_[NN]" target="accelerometer_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="microcontroller_[NN]" target="sensor/switch_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="RF_[NN]" target="integrated_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="accelerometer_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="accelerometer_[NN]" target="digital_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="accelerometer_[NN]" target="triaxial_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="accelerometer_[NN]" target="detection_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="accelerometer_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="accelerometer_[NN]" target="clock_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="detection_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="detection_[NN]" target="programmable_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="detection_[NN]" target="threshold_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="clock_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="clock_[NN]" target="real-time_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="clock_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="clock_[NN]" target="chip_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="chip_[NN]" target="calendar_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="sensor/switch_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="sensor/switch_[NN]" target="magnetic_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="used_[VBN]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="used_[VBN]" target="has_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="used_[VBN]" target="been_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="used_[VBN]" target="number_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="system_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="number_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="number_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="number_[NN]" target="applications_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="number_[NN]" target="tag_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="applications_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="tag_[NN]" target="including_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="tag_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="tag_[NN]" target="proximity_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="tag_[NN]" target="pedometer_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="tag_[NN]" target="mouse_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="tag_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="tag_[NN]" target="controller_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="pedometer_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="mouse_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="mouse_[NN]" target="air_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="mouse_[NN]" target="recognition_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="recognition_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="recognition_[NN]" target="gesture_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="controller_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="controller_[NN]" target="BLE-to-IR_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="controller_[NN]" target="remote_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

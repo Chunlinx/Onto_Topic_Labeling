@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="proposes_[VBZ]" label="proposes_[VBZ]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="This_[DT]" label="This_[DT]" />
+      <node id="scheme_[NN]" label="scheme_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="novel_[JJ]" label="novel_[JJ]" />
+      <node id="Frequency_[NNP]" label="Frequency_[NNP]" />
+      <node id="Quorum_[NNP]" label="Quorum_[NNP]" />
+      <node id="Rendezvous_[NNP]" label="Rendezvous_[NNP]" />
+      <node id="FQR_[NNP]" label="FQR_[NNP]" />
+      <node id="establishment_[NN]" label="establishment_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="fast_[JJ]" label="fast_[JJ]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="resilient_[JJ]" label="resilient_[JJ]" />
+      <node id="pre-key_[JJ]" label="pre-key_[JJ]" />
+      <node id="techniques_[NNS]" label="techniques_[NNS]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="anti-jamming_[JJ]" label="anti-jamming_[JJ]" />
+      <node id="spread_[NN]" label="spread_[NN]" />
+      <node id="spectrum_[NN]" label="spectrum_[NN]" />
+      <node id="improves_[VBZ]" label="improves_[VBZ]" />
+      <node id="hop_[VBD]" label="hop_[VBD]" />
+      <node id="While_[IN]" label="While_[IN]" />
+      <node id="nodes_[NNS]" label="nodes_[NNS]" />
+      <node id="frequencies_[NNS]" label="frequencies_[NNS]" />
+      <node id="over_[IN]" label="over_[IN]" />
+      <node id="own_[JJ]" label="own_[JJ]" />
+      <node id="phase_[NN]" label="phase_[NN]" />
+      <node id="during_[IN]" label="during_[IN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="key_[JJ]" label="key_[JJ]" />
+      <node id="using_[VBG]" label="using_[VBG]" />
+      <node id="system_[NN]" label="system_[NN]" />
+      <node id="quorum_[NN]" label="quorum_[NN]" />
+      <node id="probability_[NN]" label="probability_[NN]" />
+      <node id="their_[PRP$]" label="their_[PRP$]" />
+      <node id="rendezvous_[NN]" label="rendezvous_[NN]" />
+      <node id="reduces_[VBZ]" label="reduces_[VBZ]" />
+      <node id="latency_[NN]" label="latency_[NN]" />
+      <node id="time_[NN]" label="time_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="proposes_[VBZ]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="proposes_[VBZ]" target="scheme_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="paper_[NN]" target="This_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="scheme_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="scheme_[NN]" target="novel_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="scheme_[NN]" target="Frequency_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="scheme_[NN]" target="Quorum_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="scheme_[NN]" target="Rendezvous_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="scheme_[NN]" target="FQR_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="appos" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="scheme_[NN]" target="establishment_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="establishment_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="establishment_[NN]" target="fast_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="establishment_[NN]" target="pre-key_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="establishment_[NN]" target="techniques_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="fast_[JJ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="fast_[JJ]" target="resilient_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="techniques_[NNS]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="techniques_[NNS]" target="anti-jamming_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="techniques_[NNS]" target="spread_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="techniques_[NNS]" target="spectrum_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="improves_[VBZ]" target="hop_[VBD]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="improves_[VBZ]" target="using_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="csubj" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="improves_[VBZ]" target="probability_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="improves_[VBZ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="improves_[VBZ]" target="reduces_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="hop_[VBD]" target="While_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="hop_[VBD]" target="nodes_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="hop_[VBD]" target="frequencies_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="hop_[VBD]" target="phase_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="frequencies_[NNS]" target="over_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="frequencies_[NNS]" target="own_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="phase_[NN]" target="during_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="phase_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="phase_[NN]" target="key_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="phase_[NN]" target="establishment_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="using_[VBG]" target="system_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="system_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="system_[NN]" target="quorum_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="probability_[NN]" target="their_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="probability_[NN]" target="rendezvous_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="reduces_[VBZ]" target="latency_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="latency_[NN]" target="time_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

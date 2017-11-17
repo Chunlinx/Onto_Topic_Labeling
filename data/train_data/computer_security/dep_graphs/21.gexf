@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="highlights_[VBZ]" label="highlights_[VBZ]" />
+      <node id="blog_[NN]" label="blog_[NN]" />
+      <node id="The_[DT]" label="The_[DT]" />
+      <node id="XRDS_[NNP]" label="XRDS_[NNP]" />
+      <node id="range_[NN]" label="range_[NN]" />
+      <node id="a_[DT]" label="a_[DT]" />
+      <node id="topics_[NNS]" label="topics_[NNS]" />
+      <node id="of_[IN]" label="of_[IN]" />
+      <node id="security_[NN]" label="security_[NN]" />
+      <node id="from_[IN]" label="from_[IN]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="privacy_[NN]" label="privacy_[NN]" />
+      <node id="neuroscience_[VB]" label="neuroscience_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="featured_[VBN]" label="featured_[VBN]" />
+      <node id="posts_[NNS]" label="posts_[NNS]" />
+      <node id="Selected_[JJ]" label="Selected_[JJ]" />
+      <node id="edited_[VBN]" label="edited_[VBN]" />
+      <node id="print_[NN]" label="print_[NN]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="will_[MD]" label="will_[MD]" />
+      <node id="be_[VB]" label="be_[VB]" />
+      <node id="issue_[NN]" label="issue_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="every_[DT]" label="every_[DT]" />
+      <node id="visit_[VB]" label="visit_[VB]" />
+      <node id="Please_[UH]" label="Please_[UH]" />
+      <node id="xrds.acm.org/blog_[VBG]" label="xrds.acm.org/blog_[VBG]" />
+      <node id="read_[VB]" label="read_[VB]" />
+      <node id="post_[NN]" label="post_[NN]" />
+      <node id="each_[DT]" label="each_[DT]" />
+      <node id="entirety_[NN]" label="entirety_[NN]" />
+      <node id="its_[PRP$]" label="its_[PRP$]" />
+      <node id="Keeping_[VBG]" label="Keeping_[VBG]" />
+      <node id="theme_[NN]" label="theme_[NN]" />
+      <node id="with_[IN]" label="with_[IN]" />
+      <node id="our_[PRP$]" label="our_[PRP$]" />
+      <node id="development_[NN]" label="development_[NN]" />
+      <node id="professional_[JJ]" label="professional_[JJ]" />
+      <node id="included_[VBN]" label="included_[VBN]" />
+      <node id="is_[VBZ]" label="is_[VBZ]" />
+      <node id="guest_[JJ]" label="guest_[JJ]" />
+      <node id="craft_[VB]" label="craft_[VB]" />
+      <node id="on_[IN]" label="on_[IN]" />
+      <node id="how_[WRB]" label="how_[WRB]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="publishable_[JJ]" label="publishable_[JJ]" />
+      <node id="research_[NN]" label="research_[NN]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="highlights_[VBZ]" target="blog_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="highlights_[VBZ]" target="range_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="highlights_[VBZ]" target="neuroscience_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="blog_[NN]" target="The_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="blog_[NN]" target="XRDS_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="range_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="range_[NN]" target="topics_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="topics_[NNS]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="topics_[NNS]" target="security_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="security_[NN]" target="from_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="security_[NN]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="security_[NN]" target="privacy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="neuroscience_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="featured_[VBN]" target="posts_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nsubjpass" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="featured_[VBN]" target="will_[MD]">
+        <attvalues>
+          <attvalue for="0" value="aux" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="featured_[VBN]" target="be_[VB]">
+        <attvalues>
+          <attvalue for="0" value="auxpass" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="featured_[VBN]" target="issue_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="posts_[NNS]" target="Selected_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="posts_[NNS]" target="blog_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="posts_[NNS]" target="edited_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="edited_[VBN]" target="print_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="print_[NN]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="issue_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="issue_[NN]" target="every_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="visit_[VB]" target="Please_[UH]">
+        <attvalues>
+          <attvalue for="0" value="discourse" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="visit_[VB]" target="xrds.acm.org/blog_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="xrds.acm.org/blog_[VBG]" target="read_[VB]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="read_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="read_[VB]" target="post_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="post_[NN]" target="each_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="post_[NN]" target="entirety_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="post_[NN]" target="Keeping_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="csubj" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="post_[NN]" target="is_[VBZ]">
+        <attvalues>
+          <attvalue for="0" value="cop" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="post_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="post_[NN]" target="guest_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="post_[NN]" target="craft_[VB]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="entirety_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="entirety_[NN]" target="its_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="Keeping_[VBG]" target="theme_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="theme_[NN]" target="with_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="theme_[NN]" target="our_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="theme_[NN]" target="development_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="theme_[NN]" target="included_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="acl" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="development_[NN]" target="of_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="development_[NN]" target="professional_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="craft_[VB]" target="on_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="craft_[VB]" target="how_[WRB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="craft_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="craft_[VB]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="paper_[NN]" target="a_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="paper_[NN]" target="publishable_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="paper_[NN]" target="research_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

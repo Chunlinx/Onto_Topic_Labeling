@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="semantic_label" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>06/11/2017</lastmodified>
+    </meta>
+    <nodes>
+      <node id="becomes_[VBZ]" label="becomes_[VBZ]" />
+      <node id="Nowadays_[RB]" label="Nowadays_[RB]" />
+      <node id="communication_[NN]" label="communication_[NN]" />
+      <node id="wireless_[JJ]" label="wireless_[JJ]" />
+      <node id="popular_[JJ]" label="popular_[JJ]" />
+      <node id="more_[RBR]" label="more_[RBR]" />
+      <node id="and_[CC]" label="and_[CC]" />
+      <node id="al._[VBP]" label="al._[VBP]" />
+      <node id="2003_[CD]" label="2003_[CD]" />
+      <node id="In_[IN]" label="In_[IN]" />
+      <node id="et_[NNP]" label="et_[NNP]" />
+      <node id="Hwang_[NNP]" label="Hwang_[NNP]" />
+      <node id="proposed_[VBN]" label="proposed_[VBN]" />
+      <node id="scheme_[NN]" label="scheme_[NN]" />
+      <node id="an_[DT]" label="an_[DT]" />
+      <node id="authentication_[NN]" label="authentication_[NN]" />
+      <node id="systems_[NNS]" label="systems_[NNS]" />
+      <node id="for_[IN]" label="for_[IN]" />
+      <node id="mobile_[JJ]" label="mobile_[JJ]" />
+      <node id="satellite_[NN]" label="satellite_[NN]" />
+      <node id="lacks_[VBZ]" label="lacks_[VBZ]" />
+      <node id="However_[RB]" label="However_[RB]" />
+      <node id="their_[PRP$]" label="their_[PRP$]" />
+      <node id="efficiency_[NN]" label="efficiency_[NN]" />
+      <node id="perfect_[JJ]" label="perfect_[JJ]" />
+      <node id="forward_[RP]" label="forward_[RP]" />
+      <node id="secrecy_[NN]" label="secrecy_[NN]" />
+      <node id="propose_[VBP]" label="propose_[VBP]" />
+      <node id="Thus_[RB]" label="Thus_[RB]" />
+      <node id="we_[PRP]" label="we_[PRP]" />
+      <node id="protocol_[NN]" label="protocol_[NN]" />
+      <node id="efficient_[JJ]" label="efficient_[JJ]" />
+      <node id="present_[VB]" label="present_[VB]" />
+      <node id="also_[RB]" label="also_[RB]" />
+      <node id="version_[NN]" label="version_[NN]" />
+      <node id="another_[DT]" label="another_[DT]" />
+      <node id="updating_[VBG]" label="updating_[VBG]" />
+      <node id="key_[NN]" label="key_[NN]" />
+      <node id="the_[DT]" label="the_[DT]" />
+      <node id="session_[NN]" label="session_[NN]" />
+      <node id="provide_[VB]" label="provide_[VB]" />
+      <node id="to_[TO]" label="to_[TO]" />
+      <node id="forward_[JJ]" label="forward_[JJ]" />
+      <node id="paper_[NN]" label="paper_[NN]" />
+      <node id="in_[IN]" label="in_[IN]" />
+      <node id="this_[DT]" label="this_[DT]" />
+    </nodes>
+    <edges>
+      <edge id="0" source="becomes_[VBZ]" target="Nowadays_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="becomes_[VBZ]" target="communication_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="becomes_[VBZ]" target="popular_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="xcomp" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="communication_[NN]" target="wireless_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="popular_[JJ]" target="more_[RBR]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="more_[RBR]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="more_[RBR]" target="more_[RBR]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="al._[VBP]" target="2003_[CD]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="al._[VBP]" target="et_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="2003_[CD]" target="In_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="et_[NNP]" target="Hwang_[NNP]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="proposed_[VBN]" target="scheme_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="scheme_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="scheme_[NN]" target="authentication_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="scheme_[NN]" target="systems_[NNS]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="scheme_[NN]" target="their_[PRP$]">
+        <attvalues>
+          <attvalue for="0" value="nmod:poss" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="scheme_[NN]" target="proposed_[VBN]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="systems_[NNS]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="systems_[NNS]" target="mobile_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="systems_[NNS]" target="satellite_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="systems_[NNS]" target="communication_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="lacks_[VBZ]" target="However_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="lacks_[VBZ]" target="scheme_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="lacks_[VBZ]" target="efficiency_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="lacks_[VBZ]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="lacks_[VBZ]" target="perfect_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="perfect_[JJ]" target="forward_[RP]">
+        <attvalues>
+          <attvalue for="0" value="compound:prt" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="perfect_[JJ]" target="secrecy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="secrecy_[NN]" target="perfect_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="secrecy_[NN]" target="forward_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="propose_[VBP]" target="Thus_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="propose_[VBP]" target="we_[PRP]">
+        <attvalues>
+          <attvalue for="0" value="nsubj" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="propose_[VBP]" target="protocol_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="propose_[VBP]" target="and_[CC]">
+        <attvalues>
+          <attvalue for="0" value="cc" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="propose_[VBP]" target="present_[VB]">
+        <attvalues>
+          <attvalue for="0" value="conj" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="protocol_[NN]" target="an_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="protocol_[NN]" target="efficient_[JJ]">
+        <attvalues>
+          <attvalue for="0" value="amod" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="protocol_[NN]" target="authentication_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="present_[VB]" target="also_[RB]">
+        <attvalues>
+          <attvalue for="0" value="advmod" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="present_[VB]" target="version_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="present_[VB]" target="updating_[VBG]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="version_[NN]" target="another_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="updating_[VBG]" target="for_[IN]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="updating_[VBG]" target="key_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="updating_[VBG]" target="provide_[VB]">
+        <attvalues>
+          <attvalue for="0" value="advcl" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="key_[NN]" target="the_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="key_[NN]" target="session_[NN]">
+        <attvalues>
+          <attvalue for="0" value="compound" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="provide_[VB]" target="to_[TO]">
+        <attvalues>
+          <attvalue for="0" value="mark" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="provide_[VB]" target="secrecy_[NN]">
+        <attvalues>
+          <attvalue for="0" value="dobj" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="provide_[VB]" target="paper_[NN]">
+        <attvalues>
+          <attvalue for="0" value="nmod" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="paper_[NN]" target="in_[IN]">
+        <attvalues>
+          <attvalue for="0" value="case" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="paper_[NN]" target="this_[DT]">
+        <attvalues>
+          <attvalue for="0" value="det" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
