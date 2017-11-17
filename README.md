@@ -27,6 +27,9 @@ This is the demo source code for the paper submission to **[Statistical Analysis
 
 **Note**: this source code only contains the training data and extracted concepts of 9 ACM's topics, includes: *artificial_intelligence, bioinformatics, computer_architecture, computer_security, computer_vision, database, embedded_system, machine_learning, mathematical_optimization, programming_language*
 
+# Experiments
+- We conducted the experiment by running **"experiment.py"** for 9 topics - each topic contains 100 documents.
+
 # Methodology
 
 - **ACM topic computing classification ([CCS2012](https://www.acm.org/publications/class-2012)) driven ontology construction**:
