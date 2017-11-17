@@ -1,4 +1,4 @@
-# GOW_Onto
+# Onto_Topic_Labeling
 
 This is the demo source code for the paper submission to **[Statistical Analysis and Data Mining (SAM)](http://as.wiley.com/WileyCDA/WileyTitle/productCd-SAM2,subjectCd-STB0.html)**, paper's title: **Ontology-driven text document automatic topic labeling by applying dependency graph-based concept matching**
 
