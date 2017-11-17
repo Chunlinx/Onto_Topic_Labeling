@@ -1,6 +1,6 @@
 # GOW_Onto
 
-This is the demo source code for the paper submission to **[Statistical Analysis and Data Mining (SAM)](http://as.wiley.com/WileyCDA/WileyTitle/productCd-SAM2,subjectCd-STB0.html)**, paper's title: **Ontology-driven topic labeling via dependency graph-based concept matching**
+This is the demo source code for the paper submission to **[Statistical Analysis and Data Mining (SAM)](http://as.wiley.com/WileyCDA/WileyTitle/productCd-SAM2,subjectCd-STB0.html)**, paper's title: **Ontology-driven text document automatic topic labeling by applying dependency graph-based concept matching**
 
 # Requirements
 - The main source code is written in Python >= 3.x, required packages:
@@ -17,13 +17,9 @@ This is the demo source code for the paper submission to **[Statistical Analysis
 - Run the automatic topic labeling for new input documents:
   - The new input document's content is located at the **"data/test/test_doc.txt**, each document is separated single line.
   - Running the **"main.py"** file to start the topic labeling task of new input documents in **"data/test/test_doc.txt**, the outputs show the top *10 similar topics* results (descendant order by the similarity score). For example:
-    - artificial_intelligence -> 0.26851851851851855 
-    - hardware -> 0.26732673267326734 
-    - bioinformatics -> 0.2641509433962264
+    - machine_learning -> 0.14
+    - computer_vision -> 0.12
     - ...
-<p align="center">
-  <img width="auto" height="250" src="https://preview.ibb.co/iwjHTG/2017_11_07_16_49_06.png">
-</p>
 
 **Note**: this source code only contains the training data and extracted concepts of 18 ACM's topics, includes: *artificial_intelligence, bioinformatics, computer_architecture, computer_network, computer_security, computer_vision, data_mining, database, embedded_system, hardware, information_retrieval, machine_learning, mathematical_optimization, natural_language_processing, operating_system, parallel_computing, programming_language, real-time_computing*
 
